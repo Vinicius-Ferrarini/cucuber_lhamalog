@@ -1,0 +1,31 @@
+{
+  "name": "lhamalog-cucumber",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22 || 24 || >=26"
+  },
+  "scripts": {
+    "catalogo:atualizar": "node scripts/sync-catalog.mjs",
+    "test": "node --env-file-if-exists=.env scripts/run.mjs exemplo",
+    "test:exemplo": "node --env-file-if-exists=.env scripts/run.mjs exemplo",
+    "test:red": "node --env-file-if-exists=.env scripts/run.mjs exemplo-red",
+    "test:green": "node --env-file-if-exists=.env scripts/run.mjs exemplo",
+    "test:unit": "node --test tests/unit/*.test.mjs",
+    "test:planos": "node --env-file-if-exists=.env scripts/run.mjs planos",
+    "test:front": "node --env-file-if-exists=.env scripts/run.mjs front",
+    "test:integracao": "node --env-file-if-exists=.env scripts/run.mjs integracao",
+    "test:api": "node --env-file-if-exists=.env scripts/run.mjs api",
+    "validar": "node scripts/validate.mjs",
+    "inventario": "node scripts/status.mjs",
+    "dry-run": "node --env-file-if-exists=.env scripts/run.mjs inventario",
+    "browsers:install": "playwright install chromium --only-shell"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "13.3.0",
+    "@cucumber/gherkin": "42.0.1",
+    "@cucumber/messages": "34.2.1",
+    "playwright": "1.64.1"
+  }
+}

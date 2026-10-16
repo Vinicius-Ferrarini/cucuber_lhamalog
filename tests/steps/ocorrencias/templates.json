@@ -1,0 +1,1409 @@
+[
+  {
+    "id": "S_65f1aca6ef8f",
+    "template": "que Ana Exemplo abriu as Ocorrências do Produto Alfa autorizado",
+    "scenarios": [
+      "LLT84_C01"
+    ]
+  },
+  {
+    "id": "S_7c77d4fdb5fe",
+    "template": "a consulta ao Core ainda não terminou",
+    "scenarios": [
+      "LLT84_C01"
+    ]
+  },
+  {
+    "id": "S_ed847d9eeb86",
+    "template": "devo perceber que a lista está carregando",
+    "scenarios": [
+      "LLT84_C01"
+    ]
+  },
+  {
+    "id": "S_6bbd245bdbd4",
+    "template": "não devo visualizar um estado vazio ou uma confirmação de sucesso antes da resposta",
+    "scenarios": [
+      "LLT84_C01"
+    ]
+  },
+  {
+    "id": "S_beccf4b89a70",
+    "template": "dados do Produto anteriormente selecionado não devem aparecer como dados do Produto Alfa",
+    "scenarios": [
+      "LLT84_C01"
+    ]
+  },
+  {
+    "id": "S_0a9699e581ab",
+    "template": "que o Core retorna uma Ocorrência fictícia do Produto Alfa com <tipo> e recorrente <recorrente>",
+    "scenarios": [
+      "LLT84_C02"
+    ]
+  },
+  {
+    "id": "S_8743f97d3fa0",
+    "template": "a resposta inclui a gravidade já calculada pelo serviço de Ocorrência",
+    "scenarios": [
+      "LLT84_C02"
+    ]
+  },
+  {
+    "id": "S_5aa3e977fa20",
+    "template": "a listagem termina de carregar",
+    "scenarios": [
+      "LLT84_C02"
+    ]
+  },
+  {
+    "id": "S_59512dbaa536",
+    "template": "devo visualizar o registro com seu tipo e os atributos disponibilizados pelo contrato",
+    "scenarios": [
+      "LLT84_C02"
+    ]
+  },
+  {
+    "id": "S_c69f91ca2a25",
+    "template": "recorrência deve permanecer um atributo independente do tipo e do estado",
+    "scenarios": [
+      "LLT84_C02"
+    ]
+  },
+  {
+    "id": "S_69350280b7ba",
+    "template": "o Front não deve recalcular a gravidade nem criar Ocorrência para SPAM",
+    "scenarios": [
+      "LLT84_C02"
+    ]
+  },
+  {
+    "id": "S_4cd1514c0ce0",
+    "template": "que Ana Exemplo pode acessar o Produto Alfa",
+    "scenarios": [
+      "LLT84_C03"
+    ]
+  },
+  {
+    "id": "S_197de6cb6ab0",
+    "template": "o Core retorna uma consulta bem-sucedida sem Ocorrências",
+    "scenarios": [
+      "LLT84_C03"
+    ]
+  },
+  {
+    "id": "S_efd75a6c4aae",
+    "template": "devo visualizar uma indicação compreensível de ausência de registros",
+    "scenarios": [
+      "LLT84_C03"
+    ]
+  },
+  {
+    "id": "S_9e334ed55b6c",
+    "template": "não devo visualizar registros fictícios de preenchimento como se fossem reais",
+    "scenarios": [
+      "LLT84_C03"
+    ]
+  },
+  {
+    "id": "S_69309d9d938f",
+    "template": "não devo poder avançar para uma página de resultados inexistente",
+    "scenarios": [
+      "LLT84_C03"
+    ]
+  },
+  {
+    "id": "S_a1162e1488bd",
+    "template": "que a consulta da listagem está em andamento",
+    "scenarios": [
+      "LLT84_C04"
+    ]
+  },
+  {
+    "id": "S_c1c150c285f2",
+    "template": "ocorre <falha>",
+    "scenarios": [
+      "LLT84_C04"
+    ]
+  },
+  {
+    "id": "S_e8225335adbb",
+    "template": "devo visualizar que não foi possível carregar os dados e ter uma forma de tentar novamente",
+    "scenarios": [
+      "LLT84_C04"
+    ]
+  },
+  {
+    "id": "S_51bfd8912d5b",
+    "template": "a interface não deve confundir a falha com ausência de registros",
+    "scenarios": [
+      "LLT84_C04"
+    ]
+  },
+  {
+    "id": "S_b2d839e61bb8",
+    "template": "o carregamento não deve permanecer indefinido",
+    "scenarios": [
+      "LLT84_C04"
+    ]
+  },
+  {
+    "id": "S_06bf47a568a8",
+    "template": "que a consulta ao Produto Alfa ainda está em andamento",
+    "scenarios": [
+      "LLT84_C05"
+    ]
+  },
+  {
+    "id": "S_23896f873bc1",
+    "template": "Ana Exemplo possui acesso também ao Produto Gama da mesma Empresa",
+    "scenarios": [
+      "LLT84_C05"
+    ]
+  },
+  {
+    "id": "S_7a1f953104bd",
+    "template": "seleciono o Produto Gama e a resposta do Alfa chega por último",
+    "scenarios": [
+      "LLT84_C05"
+    ]
+  },
+  {
+    "id": "S_cdd844088ddf",
+    "template": "devo continuar vendo somente o contexto e os dados do Produto Gama",
+    "scenarios": [
+      "LLT84_C05"
+    ]
+  },
+  {
+    "id": "S_1e3b9217597b",
+    "template": "a resposta atrasada não deve repor dados ou contadores do Produto Alfa",
+    "scenarios": [
+      "LLT84_C05"
+    ]
+  },
+  {
+    "id": "S_27c020d3380f",
+    "template": "que a lista do Produto Alfa está carregada",
+    "scenarios": [
+      "LLT84_C06"
+    ]
+  },
+  {
+    "id": "S_3380c570a21c",
+    "template": "a fixture de consulta associa <entrada> à Ocorrência Exemplo 01",
+    "scenarios": [
+      "LLT84_C06"
+    ]
+  },
+  {
+    "id": "S_8a361d056a6f",
+    "template": "informo <entrada> na pesquisa e aciono a busca",
+    "scenarios": [
+      "LLT84_C06"
+    ]
+  },
+  {
+    "id": "S_6f04e29a03b5",
+    "template": "devo visualizar o resultado correspondente retornado pelo Core",
+    "scenarios": [
+      "LLT84_C06"
+    ]
+  },
+  {
+    "id": "S_1055d2a87e92",
+    "template": "a pesquisa deve permanecer limitada ao Produto e à Empresa autorizados",
+    "scenarios": [
+      "LLT84_C06"
+    ]
+  },
+  {
+    "id": "S_e51795a792b7",
+    "template": "que pesquiso um termo fictício inexistente no contexto autorizado",
+    "scenarios": [
+      "LLT84_C07"
+    ]
+  },
+  {
+    "id": "S_e7882a8adcfb",
+    "template": "o Core retorna sucesso sem correspondência",
+    "scenarios": [
+      "LLT84_C07"
+    ]
+  },
+  {
+    "id": "S_a76be3d357bb",
+    "template": "devo entender que nenhuma Ocorrência foi encontrada para a consulta",
+    "scenarios": [
+      "LLT84_C07"
+    ]
+  },
+  {
+    "id": "S_4b9e3efae742",
+    "template": "devo poder alterar ou limpar o termo para pesquisar novamente",
+    "scenarios": [
+      "LLT84_C07"
+    ]
+  },
+  {
+    "id": "S_61b315b154f8",
+    "template": "a interface não deve mostrar esse resultado como erro de comunicação",
+    "scenarios": [
+      "LLT84_C07"
+    ]
+  },
+  {
+    "id": "S_30bdb70a2f02",
+    "template": "que a listagem contém <ocorrencia> do Produto Alfa",
+    "scenarios": [
+      "LLT84_C08"
+    ]
+  },
+  {
+    "id": "S_50d60693931c",
+    "template": "a resposta controlada do detalhe pertence a esse mesmo registro",
+    "scenarios": [
+      "LLT84_C08"
+    ]
+  },
+  {
+    "id": "S_d9f4fae4977a",
+    "template": "seleciono <ocorrencia>",
+    "scenarios": [
+      "LLT84_C08"
+    ]
+  },
+  {
+    "id": "S_e484f520c9ed",
+    "template": "devo visualizar o detalhe correspondente ao identificador selecionado",
+    "scenarios": [
+      "LLT84_C08"
+    ]
+  },
+  {
+    "id": "S_c2b6c5eb5fbc",
+    "template": "não devo receber o detalhe de outra Ocorrência nem um resumo de Arquivo como substituto",
+    "scenarios": [
+      "LLT84_C08"
+    ]
+  },
+  {
+    "id": "S_90cff7c69237",
+    "template": "que o detalhe da Ocorrência Exemplo 01 foi carregado com dados fictícios",
+    "scenarios": [
+      "LLT84_C09"
+    ]
+  },
+  {
+    "id": "S_f5bdb0f91b77",
+    "template": "abro a aba <aba>",
+    "scenarios": [
+      "LLT84_C09"
+    ]
+  },
+  {
+    "id": "S_b25c6d0e7e2e",
+    "template": "devo visualizar <conteudo> do registro selecionado conforme o contrato",
+    "scenarios": [
+      "LLT84_C09"
+    ]
+  },
+  {
+    "id": "S_7d10eef36e6a",
+    "template": "a troca de aba não deve misturar dados de outra Ocorrência",
+    "scenarios": [
+      "LLT84_C09"
+    ]
+  },
+  {
+    "id": "S_c19709f85c68",
+    "template": "o texto técnico deve ser apresentado como dado sem executar HTML ou script contido na fixture",
+    "scenarios": [
+      "LLT84_C09"
+    ]
+  },
+  {
+    "id": "S_8488dd97ae3a",
+    "template": "que abri um detalhe a partir de uma pesquisa com filtros e página definidos",
+    "scenarios": [
+      "LLT84_C10"
+    ]
+  },
+  {
+    "id": "S_a4f61c1b0e29",
+    "template": "encerro a visualização do detalhe",
+    "scenarios": [
+      "LLT84_C10"
+    ]
+  },
+  {
+    "id": "S_672853a00490",
+    "template": "devo retornar à consulta com o termo os filtros e a página anteriores",
+    "scenarios": [
+      "LLT84_C10"
+    ]
+  },
+  {
+    "id": "S_3b025fe0b58f",
+    "template": "os registros devem continuar pertencendo ao mesmo contexto autorizado",
+    "scenarios": [
+      "LLT84_C10"
+    ]
+  },
+  {
+    "id": "S_45e7e16775b2",
+    "template": "que solicitei um detalhe autorizado",
+    "scenarios": [
+      "LLT84_C11"
+    ]
+  },
+  {
+    "id": "S_848695a49cb4",
+    "template": "o Core informa <resposta>",
+    "scenarios": [
+      "LLT84_C11"
+    ]
+  },
+  {
+    "id": "S_c9a65b978318",
+    "template": "devo visualizar uma orientação compatível com essa resposta sem dados de outro registro",
+    "scenarios": [
+      "LLT84_C11"
+    ]
+  },
+  {
+    "id": "S_e501916bd629",
+    "template": "devo poder retornar à consulta",
+    "scenarios": [
+      "LLT84_C11"
+    ]
+  },
+  {
+    "id": "S_73b8c3e31936",
+    "template": "não devo reutilizar um detalhe anterior como se fosse o solicitado",
+    "scenarios": [
+      "LLT84_C11"
+    ]
+  },
+  {
+    "id": "S_0865353a4c32",
+    "template": "que estou na listagem do Produto Alfa",
+    "scenarios": [
+      "LLT84_C12"
+    ]
+  },
+  {
+    "id": "S_0616072fb93a",
+    "template": "a fixture contém registros que atendem e que não atendem ao filtro <filtro>",
+    "scenarios": [
+      "LLT84_C12"
+    ]
+  },
+  {
+    "id": "S_9c8bdff56a38",
+    "template": "aplico <filtro>",
+    "scenarios": [
+      "LLT84_C12"
+    ]
+  },
+  {
+    "id": "S_f45b4b6fa534",
+    "template": "devo visualizar somente os resultados devolvidos para esse critério",
+    "scenarios": [
+      "LLT84_C12"
+    ]
+  },
+  {
+    "id": "S_1dce429add2d",
+    "template": "a consulta deve começar na primeira página com total e navegação coerentes com a resposta",
+    "scenarios": [
+      "LLT84_C12"
+    ]
+  },
+  {
+    "id": "S_5b337ec9e752",
+    "template": "que a fixture contém registros que atendem apenas parte dos critérios",
+    "scenarios": [
+      "LLT84_C13"
+    ]
+  },
+  {
+    "id": "S_3cad18a14228",
+    "template": "aplico a combinação <combinacao>",
+    "scenarios": [
+      "LLT84_C13"
+    ]
+  },
+  {
+    "id": "S_ba9320d593c9",
+    "template": "a consulta deve transmitir conjuntamente os critérios ao Core",
+    "scenarios": [
+      "LLT84_C13"
+    ]
+  },
+  {
+    "id": "S_6534253441f7",
+    "template": "devo visualizar apenas os resultados que a resposta identifica para essa combinação",
+    "scenarios": [
+      "LLT84_C13"
+    ]
+  },
+  {
+    "id": "S_c10ed92157e6",
+    "template": "o contexto autorizado de Empresa e Produto deve ser preservado",
+    "scenarios": [
+      "LLT84_C13"
+    ]
+  },
+  {
+    "id": "S_3176601e129e",
+    "template": "que apliquei filtros válidos no Produto Alfa",
+    "scenarios": [
+      "LLT84_C14"
+    ]
+  },
+  {
+    "id": "S_98d95d58a8e6",
+    "template": "o Core informa total zero",
+    "scenarios": [
+      "LLT84_C14"
+    ]
+  },
+  {
+    "id": "S_7992b119c345",
+    "template": "devo visualizar que não há Ocorrências para os filtros aplicados",
+    "scenarios": [
+      "LLT84_C14"
+    ]
+  },
+  {
+    "id": "S_252dd425764b",
+    "template": "os filtros devem continuar disponíveis para correção ou limpeza",
+    "scenarios": [
+      "LLT84_C14"
+    ]
+  },
+  {
+    "id": "S_629a238e8dfa",
+    "template": "os controles para avançar em resultados inexistentes devem estar ocultos ou indisponíveis",
+    "scenarios": [
+      "LLT84_C14"
+    ]
+  },
+  {
+    "id": "S_1d2845c56bd8",
+    "template": "que estou em outra página com uma pesquisa e filtros ativos",
+    "scenarios": [
+      "LLT84_C15"
+    ]
+  },
+  {
+    "id": "S_f39204611ea6",
+    "template": "aciono a limpeza dos filtros",
+    "scenarios": [
+      "LLT84_C15"
+    ]
+  },
+  {
+    "id": "S_18f43e64e0f0",
+    "template": "os critérios devem ser removidos e a lista sem filtros deve ser consultada na primeira página",
+    "scenarios": [
+      "LLT84_C15"
+    ]
+  },
+  {
+    "id": "S_4445dcfd0fd6",
+    "template": "a Empresa e o Produto autorizados devem permanecer selecionados",
+    "scenarios": [
+      "LLT84_C15"
+    ]
+  },
+  {
+    "id": "S_5c9be63e6f0e",
+    "template": "totais e navegação devem corresponder à nova resposta",
+    "scenarios": [
+      "LLT84_C15"
+    ]
+  },
+  {
+    "id": "S_e01612bad4b6",
+    "template": "que há várias páginas de resultados com filtros ativos",
+    "scenarios": [
+      "LLT84_C16"
+    ]
+  },
+  {
+    "id": "S_8c8f90852c83",
+    "template": "aciono <controle>",
+    "scenarios": [
+      "LLT84_C16"
+    ]
+  },
+  {
+    "id": "S_93cef48c1cd4",
+    "template": "a requisição da página solicitada deve manter os mesmos critérios e contexto autorizado",
+    "scenarios": [
+      "LLT84_C16"
+    ]
+  },
+  {
+    "id": "S_4b802d3d52b7",
+    "template": "devo visualizar os itens e a indicação de página retornados sem misturar páginas",
+    "scenarios": [
+      "LLT84_C16"
+    ]
+  },
+  {
+    "id": "S_aae327856fcf",
+    "template": "que a fixture do contrato disponibiliza as opções de quantidade 10 e 50",
+    "scenarios": [
+      "LLT84_C17"
+    ]
+  },
+  {
+    "id": "S_fecac2b86892",
+    "template": "estou em uma página posterior com filtros ativos",
+    "scenarios": [
+      "LLT84_C17"
+    ]
+  },
+  {
+    "id": "S_d89a6c064bd9",
+    "template": "escolho a quantidade <quantidade>",
+    "scenarios": [
+      "LLT84_C17"
+    ]
+  },
+  {
+    "id": "S_19fb36ac47f0",
+    "template": "a consulta deve retornar à primeira página usando essa quantidade e os filtros ativos",
+    "scenarios": [
+      "LLT84_C17"
+    ]
+  },
+  {
+    "id": "S_9cef44200983",
+    "template": "o total de páginas e o intervalo exibido devem refletir a resposta",
+    "scenarios": [
+      "LLT84_C17"
+    ]
+  },
+  {
+    "id": "S_4d7787b7fea6",
+    "template": "que o formulário recebe <entrada> inválida segundo o contrato da operação",
+    "scenarios": [
+      "LLT84_C18"
+    ]
+  },
+  {
+    "id": "S_b50967677981",
+    "template": "tento aplicar os filtros",
+    "scenarios": [
+      "LLT84_C18"
+    ]
+  },
+  {
+    "id": "S_fc2bd56ab26c",
+    "template": "devo visualizar uma orientação associada ao campo",
+    "scenarios": [
+      "LLT84_C18"
+    ]
+  },
+  {
+    "id": "S_9fa155c6cfb5",
+    "template": "a consulta inválida não deve ser enviada pelo caminho normal da interface",
+    "scenarios": [
+      "LLT84_C18"
+    ]
+  },
+  {
+    "id": "S_e79a07049fce",
+    "template": "devo poder corrigir o valor sem perder o contexto autorizado",
+    "scenarios": [
+      "LLT84_C18"
+    ]
+  },
+  {
+    "id": "S_cc559af1f5ec",
+    "template": "que solicitei uma busca e depois alterei o termo ou os filtros",
+    "scenarios": [
+      "LLT84_C19"
+    ]
+  },
+  {
+    "id": "S_bfcca9b249a6",
+    "template": "a resposta da consulta mais antiga chega após a resposta mais recente",
+    "scenarios": [
+      "LLT84_C19"
+    ]
+  },
+  {
+    "id": "S_2aaf4a1e10e4",
+    "template": "devo continuar vendo os critérios e resultados da última consulta solicitada",
+    "scenarios": [
+      "LLT84_C19"
+    ]
+  },
+  {
+    "id": "S_d117dbc8e34b",
+    "template": "totais e paginação antigos não devem sobrescrever o estado atual",
+    "scenarios": [
+      "LLT84_C19"
+    ]
+  },
+  {
+    "id": "S_8b20a361b497",
+    "template": "que o contexto de teste não possui recurso de IA e autoriza a mudança manual",
+    "scenarios": [
+      "LLT84_C20"
+    ]
+  },
+  {
+    "id": "S_f66f99f1bc3d",
+    "template": "a Ocorrência está em <origem>",
+    "scenarios": [
+      "LLT84_C20"
+    ]
+  },
+  {
+    "id": "S_425dda1baf30",
+    "template": "seleciono <destino> e confirmo a alteração",
+    "scenarios": [
+      "LLT84_C20"
+    ]
+  },
+  {
+    "id": "S_1081169795e1",
+    "template": "devo enviar a mudança do registro selecionado ao Core",
+    "scenarios": [
+      "LLT84_C20"
+    ]
+  },
+  {
+    "id": "S_821174a70132",
+    "template": "após confirmação de sucesso devo visualizar <destino> e uma indicação de conclusão",
+    "scenarios": [
+      "LLT84_C20"
+    ]
+  },
+  {
+    "id": "S_f01f170470af",
+    "template": "a interface não deve mudar a recorrência como consequência da marcação",
+    "scenarios": [
+      "LLT84_C20"
+    ]
+  },
+  {
+    "id": "S_03569ccfe4a6",
+    "template": "que abri a seleção de estado para uma Ocorrência",
+    "scenarios": [
+      "LLT84_C21"
+    ]
+  },
+  {
+    "id": "S_a1c66ab9bca0",
+    "template": "desisto da alteração antes de confirmar",
+    "scenarios": [
+      "LLT84_C21"
+    ]
+  },
+  {
+    "id": "S_5eafb43a1e9a",
+    "template": "o estado original deve permanecer na interface",
+    "scenarios": [
+      "LLT84_C21"
+    ]
+  },
+  {
+    "id": "S_b98d1af34ea7",
+    "template": "nenhuma requisição de mudança deve ser enviada",
+    "scenarios": [
+      "LLT84_C21"
+    ]
+  },
+  {
+    "id": "S_032a587e08a8",
+    "template": "devo continuar podendo consultar a Ocorrência",
+    "scenarios": [
+      "LLT84_C21"
+    ]
+  },
+  {
+    "id": "S_0621f0daed8c",
+    "template": "que a Ocorrência está EM_ANALISE com uma Sugestão válida não FECHADA",
+    "scenarios": [
+      "LLT84_C22"
+    ]
+  },
+  {
+    "id": "S_17144caebe7b",
+    "template": "o Core recusa a tentativa de fechamento por essa regra",
+    "scenarios": [
+      "LLT84_C22"
+    ]
+  },
+  {
+    "id": "S_ff48d2bda436",
+    "template": "devo visualizar que a alteração não foi concluída",
+    "scenarios": [
+      "LLT84_C22"
+    ]
+  },
+  {
+    "id": "S_9e27bc890923",
+    "template": "o estado EM_ANALISE deve permanecer sem confirmação falsa de fechamento",
+    "scenarios": [
+      "LLT84_C22"
+    ]
+  },
+  {
+    "id": "S_c09fabbc4377",
+    "template": "devo poder continuar consultando a Ocorrência e suas Sugestões",
+    "scenarios": [
+      "LLT84_C22"
+    ]
+  },
+  {
+    "id": "S_8b0c0b3c0767",
+    "template": "que consultei uma Ocorrência ABERTA no fluxo <fluxo>",
+    "scenarios": [
+      "LLT84_C23"
+    ]
+  },
+  {
+    "id": "S_beb8ac3adfa7",
+    "template": "o Core devolve <situacao> e o estado <estado>",
+    "scenarios": [
+      "LLT84_C23"
+    ]
+  },
+  {
+    "id": "S_d8c72e4a35f4",
+    "template": "devo visualizar <estado> sem antecipar transição por conta própria",
+    "scenarios": [
+      "LLT84_C23"
+    ]
+  },
+  {
+    "id": "S_ef15414cf400",
+    "template": "uma Sugestão manual em FALHA não deve ser exibida como item de Sugestão nem bloquear fechamento",
+    "scenarios": [
+      "LLT84_C23"
+    ]
+  },
+  {
+    "id": "S_7ff5d5f6410a",
+    "template": "que confirmei uma mudança de estado",
+    "scenarios": [
+      "LLT84_C24"
+    ]
+  },
+  {
+    "id": "S_3579179172d4",
+    "template": "ocorre <falha> sem confirmação de gravação",
+    "scenarios": [
+      "LLT84_C24"
+    ]
+  },
+  {
+    "id": "S_4320911f9371",
+    "template": "não devo visualizar sucesso nem assumir o novo estado como confirmado",
+    "scenarios": [
+      "LLT84_C24"
+    ]
+  },
+  {
+    "id": "S_0be250c1cccd",
+    "template": "devo receber orientação para recuperar a consulta ou tentar novamente",
+    "scenarios": [
+      "LLT84_C24"
+    ]
+  },
+  {
+    "id": "S_c4099a54d7f4",
+    "template": "uma nova leitura deve reconciliar o estado com o Core antes de tratá-lo como definitivo",
+    "scenarios": [
+      "LLT84_C24"
+    ]
+  },
+  {
+    "id": "S_e534d4c55d05",
+    "template": "que uma Ocorrência autorizada está acessível em <origem>",
+    "scenarios": [
+      "LLT84_C25"
+    ]
+  },
+  {
+    "id": "S_25c31a87a031",
+    "template": "aciono Arquivar",
+    "scenarios": [
+      "LLT84_C25"
+    ]
+  },
+  {
+    "id": "S_015cb20121ed",
+    "template": "devo visualizar uma confirmação que identifica a Ocorrência antes de enviar a mudança",
+    "scenarios": [
+      "LLT84_C25"
+    ]
+  },
+  {
+    "id": "S_d6599574aac9",
+    "template": "confirmo e o Core confirma o arquivamento",
+    "scenarios": [
+      "LLT84_C25"
+    ]
+  },
+  {
+    "id": "S_5ed202274de6",
+    "template": "a Ocorrência não deve permanecer na lista ativa",
+    "scenarios": [
+      "LLT84_C25"
+    ]
+  },
+  {
+    "id": "S_09db935fab43",
+    "template": "devo perceber a conclusão sem excluir definitivamente o registro nem criar um estado de ciclo de vida ARQUIVADA",
+    "scenarios": [
+      "LLT84_C25"
+    ]
+  },
+  {
+    "id": "S_9750a25ce13f",
+    "template": "que a confirmação de arquivamento está aberta para <alvo>",
+    "scenarios": [
+      "LLT84_C26"
+    ]
+  },
+  {
+    "id": "S_786e3ef0c926",
+    "template": "aciono Cancelar",
+    "scenarios": [
+      "LLT84_C26"
+    ]
+  },
+  {
+    "id": "S_d85eacecf610",
+    "template": "a confirmação deve fechar sem enviar a alteração",
+    "scenarios": [
+      "LLT84_C26"
+    ]
+  },
+  {
+    "id": "S_f4fc8c17920e",
+    "template": "os registros devem permanecer inalterados na lista ativa",
+    "scenarios": [
+      "LLT84_C26"
+    ]
+  },
+  {
+    "id": "S_dc614c7ebb6c",
+    "template": "que selecionei Ocorrências Exemplo 01 e 02 e deixei Exemplo 03 sem seleção",
+    "scenarios": [
+      "LLT84_C27"
+    ]
+  },
+  {
+    "id": "S_1627d1da41be",
+    "template": "aciono Arquivar Selecionadas",
+    "scenarios": [
+      "LLT84_C27"
+    ]
+  },
+  {
+    "id": "S_2629069e435c",
+    "template": "devo visualizar confirmação para os dois registros selecionados",
+    "scenarios": [
+      "LLT84_C27"
+    ]
+  },
+  {
+    "id": "S_0b0fff9623eb",
+    "template": "confirmo e o Core confirma os dois resultados",
+    "scenarios": [
+      "LLT84_C27"
+    ]
+  },
+  {
+    "id": "S_ce5b657fc4c7",
+    "template": "somente Exemplo 01 e 02 devem sair da lista ativa",
+    "scenarios": [
+      "LLT84_C27"
+    ]
+  },
+  {
+    "id": "S_b78118acadd3",
+    "template": "Exemplo 03 deve permanecer sem alteração",
+    "scenarios": [
+      "LLT84_C27"
+    ]
+  },
+  {
+    "id": "S_b19f9826f3e3",
+    "template": "o total e a página devem ser reconciliados com uma nova consulta válida",
+    "scenarios": [
+      "LLT84_C27"
+    ]
+  },
+  {
+    "id": "S_917a2732cd02",
+    "template": "que confirmei o arquivamento de <alvo>",
+    "scenarios": [
+      "LLT84_C28"
+    ]
+  },
+  {
+    "id": "S_20ae96a98c81",
+    "template": "o Core recusa a operação ou não confirma sua conclusão",
+    "scenarios": [
+      "LLT84_C28"
+    ]
+  },
+  {
+    "id": "S_c02fc2c1ffea",
+    "template": "não devo anunciar arquivamento concluído nem remover definitivamente os registros da interface",
+    "scenarios": [
+      "LLT84_C28"
+    ]
+  },
+  {
+    "id": "S_858c83fbd57f",
+    "template": "devo poder atualizar a consulta para conhecer o estado efetivo",
+    "scenarios": [
+      "LLT84_C28"
+    ]
+  },
+  {
+    "id": "S_251cdbd758e3",
+    "template": "resultados por item só devem ser usados se forem fornecidos pelo contrato real",
+    "scenarios": [
+      "LLT84_C28"
+    ]
+  },
+  {
+    "id": "S_b6fa6b40c3f8",
+    "template": "que uma solicitação de <operacao> aguarda resposta",
+    "scenarios": [
+      "LLT84_C29"
+    ]
+  },
+  {
+    "id": "S_3383d17829f6",
+    "template": "aciono novamente a confirmação na interface",
+    "scenarios": [
+      "LLT84_C29"
+    ]
+  },
+  {
+    "id": "S_4b4ddb841c39",
+    "template": "o Front não deve disparar outra solicitação simultânea idêntica pelo mesmo controle",
+    "scenarios": [
+      "LLT84_C29"
+    ]
+  },
+  {
+    "id": "S_ca2c754a4ba9",
+    "template": "devo perceber o processamento e conseguir recuperar a interface após a resposta",
+    "scenarios": [
+      "LLT84_C29"
+    ]
+  },
+  {
+    "id": "S_5a407b852fc2",
+    "template": "que Ana Exemplo possui sessão válida",
+    "scenarios": [
+      "LLT84_C30"
+    ]
+  },
+  {
+    "id": "S_5c5462e005a4",
+    "template": "o Core informa negação simples porque <motivo>",
+    "scenarios": [
+      "LLT84_C30"
+    ]
+  },
+  {
+    "id": "S_0196869e8034",
+    "template": "devo voltar à tela inicial e continuar logada",
+    "scenarios": [
+      "LLT84_C30"
+    ]
+  },
+  {
+    "id": "S_f8e878c985e3",
+    "template": "nenhum dado ou contador do contexto recusado deve permanecer visível",
+    "scenarios": [
+      "LLT84_C30"
+    ]
+  },
+  {
+    "id": "S_4a9ad6616801",
+    "template": "não devo aplicar o logout global da ADR_032 por essa negação",
+    "scenarios": [
+      "LLT84_C30"
+    ]
+  },
+  {
+    "id": "S_767d06c42885",
+    "template": "que a tela de Ocorrências está aberta",
+    "scenarios": [
+      "LLT84_C31"
+    ]
+  },
+  {
+    "id": "S_c495b346456b",
+    "template": "uma consulta ou mutação recebe HTTP 401 do Core",
+    "scenarios": [
+      "LLT84_C31"
+    ]
+  },
+  {
+    "id": "S_1ea9cc11aa25",
+    "template": "devo visualizar Você foi deslogado e retornar ao SignIn",
+    "scenarios": [
+      "LLT84_C31"
+    ]
+  },
+  {
+    "id": "S_7fc4c10fd6b2",
+    "template": "o conteúdo protegido da tela deve deixar de ficar acessível",
+    "scenarios": [
+      "LLT84_C31"
+    ]
+  },
+  {
+    "id": "S_20efeb461e44",
+    "template": "o tratamento não deve depender de uma mensagem no corpo da resposta",
+    "scenarios": [
+      "LLT84_C31"
+    ]
+  },
+  {
+    "id": "S_98884cfd609c",
+    "template": "que uma operação da tela aguarda resposta do Core",
+    "scenarios": [
+      "LLT84_C32"
+    ]
+  },
+  {
+    "id": "S_c527965ef349",
+    "template": "a fronteira consumida devolve <resposta> fora do contrato",
+    "scenarios": [
+      "LLT84_C32"
+    ]
+  },
+  {
+    "id": "S_41704cb0e079",
+    "template": "devo visualizar orientação geral sem travar nem mostrar null ou undefined",
+    "scenarios": [
+      "LLT84_C32"
+    ]
+  },
+  {
+    "id": "S_4001bba74f65",
+    "template": "não devo mostrar dados ou confirmar alterações sem comprovação válida",
+    "scenarios": [
+      "LLT84_C32"
+    ]
+  },
+  {
+    "id": "S_94f611de7f45",
+    "template": "devo poder recuperar a consulta ou corrigir a tentativa",
+    "scenarios": [
+      "LLT84_C32"
+    ]
+  },
+  {
+    "id": "S_618e0b5b8026",
+    "template": "que utilizo a tela somente pelo teclado",
+    "scenarios": [
+      "LLT84_C33"
+    ]
+  },
+  {
+    "id": "S_c587ce416bb5",
+    "template": "percorro os controles e realizo <acao>",
+    "scenarios": [
+      "LLT84_C33"
+    ]
+  },
+  {
+    "id": "S_1d5e7ea2f3c1",
+    "template": "devo conseguir executar a ação sem mouse com foco visível e ordem compreensível",
+    "scenarios": [
+      "LLT84_C33"
+    ]
+  },
+  {
+    "id": "S_198f25f29584",
+    "template": "uma confirmação modal deve manter foco útil e devolvê-lo ao controle de origem ao cancelar",
+    "scenarios": [
+      "LLT84_C33"
+    ]
+  },
+  {
+    "id": "S_60ef16962c8c",
+    "template": "nenhum foco deve permanecer preso em elemento oculto ou removido",
+    "scenarios": [
+      "LLT84_C33"
+    ]
+  },
+  {
+    "id": "S_53647230e601",
+    "template": "que verifico <controle> no componente do LhamaLog",
+    "scenarios": [
+      "LLT84_C34"
+    ]
+  },
+  {
+    "id": "S_f145e4992a23",
+    "template": "consulto os nomes acessíveis e a associação de estado ou erro",
+    "scenarios": [
+      "LLT84_C34"
+    ]
+  },
+  {
+    "id": "S_35a4b96213cb",
+    "template": "devo entender <informacao> sem depender somente de cor ícone ou placeholder",
+    "scenarios": [
+      "LLT84_C34"
+    ]
+  },
+  {
+    "id": "S_b72bf83ef825",
+    "template": "a verificação deve ser confirmada na página real com tecnologia assistiva",
+    "scenarios": [
+      "LLT84_C34"
+    ]
+  },
+  {
+    "id": "S_628841076031",
+    "template": "que abro <tela> nas condições <condicoes>",
+    "scenarios": [
+      "LLT84_C35"
+    ]
+  },
+  {
+    "id": "S_ca7ba6a3552c",
+    "template": "consulto os dados ou navego pelos controles",
+    "scenarios": [
+      "LLT84_C35"
+    ]
+  },
+  {
+    "id": "S_a2649be87f59",
+    "template": "textos campos botões e foco devem permanecer legíveis e alcançáveis",
+    "scenarios": [
+      "LLT84_C35"
+    ]
+  },
+  {
+    "id": "S_4fe082418e64",
+    "template": "detalhes técnicos extensos podem rolar em sua própria área sem encobrir as ações",
+    "scenarios": [
+      "LLT84_C35"
+    ]
+  },
+  {
+    "id": "S_40de61dc8cba",
+    "template": "nenhuma ação necessária deve ficar cortada ou coberta",
+    "scenarios": [
+      "LLT84_C35"
+    ]
+  },
+  {
+    "id": "S_c072e30174e6",
+    "template": "que o ambiente real de teste contém Ocorrências fictícias no Produto Alfa autorizado",
+    "scenarios": [
+      "LLT84_C36"
+    ]
+  },
+  {
+    "id": "S_74e8fa4e9774",
+    "template": "consulto <recorte> pela interface Web",
+    "scenarios": [
+      "LLT84_C36"
+    ]
+  },
+  {
+    "id": "S_e14026da5fd6",
+    "template": "as chamadas de negócio devem ir ao Core com a sessão e o contexto corretos",
+    "scenarios": [
+      "LLT84_C36"
+    ]
+  },
+  {
+    "id": "S_672a4e70ed9e",
+    "template": "a lista e o detalhe devem corresponder aos registros reais de teste e aos filtros aplicados",
+    "scenarios": [
+      "LLT84_C36"
+    ]
+  },
+  {
+    "id": "S_bc63fe31227b",
+    "template": "nenhum serviço interno nem banco deve ser acessado diretamente pelo navegador",
+    "scenarios": [
+      "LLT84_C36"
+    ]
+  },
+  {
+    "id": "S_1e5b81b5dd6b",
+    "template": "que o ambiente autoriza a mudança manual e a Ocorrência ABERTA não tem Sugestões que impeçam fechamento",
+    "scenarios": [
+      "LLT84_C37"
+    ]
+  },
+  {
+    "id": "S_8167c8f95c31",
+    "template": "altero para FECHADA pela interface e o Core confirma",
+    "scenarios": [
+      "LLT84_C37"
+    ]
+  },
+  {
+    "id": "S_e24f2abcffb9",
+    "template": "recarrego o detalhe por uma nova consulta",
+    "scenarios": [
+      "LLT84_C37"
+    ]
+  },
+  {
+    "id": "S_ecefdc6a44e2",
+    "template": "devo visualizar FECHADA persistida no mesmo registro",
+    "scenarios": [
+      "LLT84_C37"
+    ]
+  },
+  {
+    "id": "S_39db5103a380",
+    "template": "a evidência deve comprovar a gravação real sem usar a resposta simulada do teste de página",
+    "scenarios": [
+      "LLT84_C37"
+    ]
+  },
+  {
+    "id": "S_9a61084ce720",
+    "template": "que a operação real de arquivamento está disponibilizada pelo contrato do Core no ambiente de teste",
+    "scenarios": [
+      "LLT84_C38"
+    ]
+  },
+  {
+    "id": "S_afe0c6e11479",
+    "template": "existem registros fictícios autorizados que podem ser arquivados",
+    "scenarios": [
+      "LLT84_C38"
+    ]
+  },
+  {
+    "id": "S_7f31c8a79548",
+    "template": "confirmo o arquivamento pela tela e consulto novamente a lista ativa",
+    "scenarios": [
+      "LLT84_C38"
+    ]
+  },
+  {
+    "id": "S_1ceb423a02b0",
+    "template": "os registros confirmados como arquivados não devem integrar essa lista",
+    "scenarios": [
+      "LLT84_C38"
+    ]
+  },
+  {
+    "id": "S_e80f19245673",
+    "template": "registros não selecionados devem permanecer conforme a consulta",
+    "scenarios": [
+      "LLT84_C38"
+    ]
+  },
+  {
+    "id": "S_728f4dd17e05",
+    "template": "o teste não deve deduzir a representação interna do arquivamento",
+    "scenarios": [
+      "LLT84_C38"
+    ]
+  },
+  {
+    "id": "S_938bc1b1d4a1",
+    "template": "que uso uma sessão real de teste sem autorização para o alvo",
+    "scenarios": [
+      "LLT84_C39"
+    ]
+  },
+  {
+    "id": "S_dc4a7e0ddd30",
+    "template": "envio diretamente uma operação de <operacao> com identificador de outra Empresa ou Produto sem acesso",
+    "scenarios": [
+      "LLT84_C39"
+    ]
+  },
+  {
+    "id": "S_b78c4085a982",
+    "template": "o Core deve recusar sem devolver dados nem modificar registros",
+    "scenarios": [
+      "LLT84_C39"
+    ]
+  },
+  {
+    "id": "S_b6860ba2031d",
+    "template": "a recusa deve seguir o contrato de negação simples sem revogar a sessão por esse motivo",
+    "scenarios": [
+      "LLT84_C39"
+    ]
+  },
+  {
+    "id": "S_8c36916b76d0",
+    "template": "que a fixture real prepara <situacao>",
+    "scenarios": [
+      "LLT84_C40"
+    ]
+  },
+  {
+    "id": "S_d5d71dab1e9e",
+    "template": "envio diretamente a mudança <transicao> ao Core",
+    "scenarios": [
+      "LLT84_C40"
+    ]
+  },
+  {
+    "id": "S_bd35755b35b4",
+    "template": "devo observar <resultado> ao consultar novamente o registro",
+    "scenarios": [
+      "LLT84_C40"
+    ]
+  },
+  {
+    "id": "S_c6e786dc4f2e",
+    "template": "o formulário não deve ser a única proteção da regra",
+    "scenarios": [
+      "LLT84_C40"
+    ]
+  },
+  {
+    "id": "S_7e8348366def",
+    "template": "que identifiquei a operação real de consulta e seus parâmetros documentados",
+    "scenarios": [
+      "LLT84_C41"
+    ]
+  },
+  {
+    "id": "S_210896a72bcf",
+    "template": "envio diretamente <entrada> fora desse contrato sem passar pelo formulário",
+    "scenarios": [
+      "LLT84_C41"
+    ]
+  },
+  {
+    "id": "S_9688442cfa8d",
+    "template": "o Core deve recusar conforme o contrato sem produzir consulta irrestrita ou dados de outro contexto",
+    "scenarios": [
+      "LLT84_C41"
+    ]
+  },
+  {
+    "id": "S_390d4e7516dd",
+    "template": "o resultado deve ser verificado na resposta real do serviço",
+    "scenarios": [
+      "LLT84_C41"
+    ]
+  }
+]

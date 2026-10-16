@@ -1,0 +1,1491 @@
+[
+  {
+    "id": "S_bec9aae7493b",
+    "template": "que a conexão <entrada> está habilitada na instância de teste",
+    "scenarios": [
+      "LLT86_C01"
+    ]
+  },
+  {
+    "id": "S_f405beba6661",
+    "template": "a conta fictícia está <configuracao>",
+    "scenarios": [
+      "LLT86_C01"
+    ]
+  },
+  {
+    "id": "S_a65a86f81699",
+    "template": "concluo a primeira etapa no componente SignIn",
+    "scenarios": [
+      "LLT86_C01"
+    ]
+  },
+  {
+    "id": "S_07f91d217005",
+    "template": "devo visualizar <destino>",
+    "scenarios": [
+      "LLT86_C01",
+      "LLT86_C41"
+    ]
+  },
+  {
+    "id": "S_51b6ce1ae2ef",
+    "template": "nenhum recurso protegido deve ser liberado antes de concluir as tarefas e o MFA exigidos",
+    "scenarios": [
+      "LLT86_C01"
+    ]
+  },
+  {
+    "id": "S_d06c4ff2f6b0",
+    "template": "que uso uma conta fictícia existente no SignIn",
+    "scenarios": [
+      "LLT86_C02"
+    ]
+  },
+  {
+    "id": "S_28d1218f2b33",
+    "template": "a Clerk rejeita a senha informada",
+    "scenarios": [
+      "LLT86_C02"
+    ]
+  },
+  {
+    "id": "S_3cc897fad946",
+    "template": "o componente deve indicar a falha e permitir corrigir os dados",
+    "scenarios": [
+      "LLT86_C02"
+    ]
+  },
+  {
+    "id": "S_4cbc08738dde",
+    "template": "o Core não deve receber a senha nem uma solicitação própria para validá-la",
+    "scenarios": [
+      "LLT86_C02"
+    ]
+  },
+  {
+    "id": "S_18081520e13f",
+    "template": "nenhum acesso protegido deve ser liberado",
+    "scenarios": [
+      "LLT86_C02",
+      "LLT86_C36"
+    ]
+  },
+  {
+    "id": "S_e6a33be53170",
+    "template": "que estou no formulário do componente Clerk",
+    "scenarios": [
+      "LLT86_C03"
+    ]
+  },
+  {
+    "id": "S_1267c234da0b",
+    "template": "tento enviar <entrada>",
+    "scenarios": [
+      "LLT86_C03"
+    ]
+  },
+  {
+    "id": "S_b1beeb08edab",
+    "template": "devo visualizar <orientacao>",
+    "scenarios": [
+      "LLT86_C03"
+    ]
+  },
+  {
+    "id": "S_52f30d1061d7",
+    "template": "nenhuma solicitação de autenticação deve ser enviada enquanto os campos forem inválidos",
+    "scenarios": [
+      "LLT86_C03"
+    ]
+  },
+  {
+    "id": "S_44611b168c36",
+    "template": "que iniciei a conexão Google habilitada no SignIn",
+    "scenarios": [
+      "LLT86_C04"
+    ]
+  },
+  {
+    "id": "S_c8d63822a724",
+    "template": "cancelo a autenticação e retorno ao aplicativo",
+    "scenarios": [
+      "LLT86_C04"
+    ]
+  },
+  {
+    "id": "S_b99596a1500a",
+    "template": "devo continuar sem autenticação completa",
+    "scenarios": [
+      "LLT86_C04"
+    ]
+  },
+  {
+    "id": "S_8425e10d480a",
+    "template": "devo poder iniciar uma nova tentativa sem acesso protegido",
+    "scenarios": [
+      "LLT86_C04"
+    ]
+  },
+  {
+    "id": "S_0e415bbf4245",
+    "template": "que iniciei a conexão Google configurada",
+    "scenarios": [
+      "LLT86_C05"
+    ]
+  },
+  {
+    "id": "S_13d02c036de2",
+    "template": "ocorre <falha>",
+    "scenarios": [
+      "LLT86_C05"
+    ]
+  },
+  {
+    "id": "S_68891203ace4",
+    "template": "devo visualizar que a entrada não foi concluída",
+    "scenarios": [
+      "LLT86_C05"
+    ]
+  },
+  {
+    "id": "S_e14fb185ddb1",
+    "template": "devo poder tentar novamente sem carregamento indefinido",
+    "scenarios": [
+      "LLT86_C05",
+      "LLT86_C29"
+    ]
+  },
+  {
+    "id": "S_545ba50f0ad8",
+    "template": "a falha não deve criar acesso protegido",
+    "scenarios": [
+      "LLT86_C05"
+    ]
+  },
+  {
+    "id": "S_7b30b2b34791",
+    "template": "que a primeira etapa por <entrada> foi aceita",
+    "scenarios": [
+      "LLT86_C06"
+    ]
+  },
+  {
+    "id": "S_1c47d4c677d7",
+    "template": "o método <metodo> está configurado na conta de teste",
+    "scenarios": [
+      "LLT86_C06"
+    ]
+  },
+  {
+    "id": "S_2c6679b0c3a8",
+    "template": "confirmo um valor fictício aceito pela Clerk",
+    "scenarios": [
+      "LLT86_C06"
+    ]
+  },
+  {
+    "id": "S_7de7b7b7d154",
+    "template": "a sessão deve concluir as tarefas exigidas e tornar-se ativa",
+    "scenarios": [
+      "LLT86_C06"
+    ]
+  },
+  {
+    "id": "S_7af7347b466c",
+    "template": "devo chegar à área inicial do LhamaLog",
+    "scenarios": [
+      "LLT86_C06"
+    ]
+  },
+  {
+    "id": "S_fcfcb8469c59",
+    "template": "que a primeira etapa foi aceita e aguardo <metodo>",
+    "scenarios": [
+      "LLT86_C07"
+    ]
+  },
+  {
+    "id": "S_eb3ae0c17a53",
+    "template": "tento confirmar <entrada>",
+    "scenarios": [
+      "LLT86_C07"
+    ]
+  },
+  {
+    "id": "S_a58f9f914666",
+    "template": "o componente deve indicar <orientacao>",
+    "scenarios": [
+      "LLT86_C07"
+    ]
+  },
+  {
+    "id": "S_d3ce807fb1b6",
+    "template": "nenhum recurso protegido deve ser liberado",
+    "scenarios": [
+      "LLT86_C07"
+    ]
+  },
+  {
+    "id": "S_2f704fb4eec2",
+    "template": "que aguardo a verificação de MFA ou a tarefa setup-mfa",
+    "scenarios": [
+      "LLT86_C08"
+    ]
+  },
+  {
+    "id": "S_40b0da7ceeb7",
+    "template": "cancelo o fluxo do componente",
+    "scenarios": [
+      "LLT86_C08"
+    ]
+  },
+  {
+    "id": "S_98ce8ea62759",
+    "template": "não devo obter acesso protegido",
+    "scenarios": [
+      "LLT86_C08"
+    ]
+  },
+  {
+    "id": "S_5ac37bee255a",
+    "template": "devo poder retomar a autenticação pelo SignIn",
+    "scenarios": [
+      "LLT86_C08"
+    ]
+  },
+  {
+    "id": "S_4d1be865f5ae",
+    "template": "que uma solicitação de <etapa> está em andamento",
+    "scenarios": [
+      "LLT86_C09"
+    ]
+  },
+  {
+    "id": "S_772c98686cd8",
+    "template": "repito a ação de confirmação antes da resposta",
+    "scenarios": [
+      "LLT86_C09"
+    ]
+  },
+  {
+    "id": "S_42ae538913f9",
+    "template": "a interface deve manter uma única tentativa em andamento para essa ação",
+    "scenarios": [
+      "LLT86_C09"
+    ]
+  },
+  {
+    "id": "S_e052cb9b1d56",
+    "template": "não deve repetir navegação ou confirmação de sucesso",
+    "scenarios": [
+      "LLT86_C09"
+    ]
+  },
+  {
+    "id": "S_8cd1112d03a2",
+    "template": "que aguardo resposta de <etapa>",
+    "scenarios": [
+      "LLT86_C10"
+    ]
+  },
+  {
+    "id": "S_a0bfd78e3873",
+    "template": "a comunicação falha",
+    "scenarios": [
+      "LLT86_C10"
+    ]
+  },
+  {
+    "id": "S_0973cb2e02a1",
+    "template": "devo visualizar uma indicação de falha sem carregamento indefinido",
+    "scenarios": [
+      "LLT86_C10"
+    ]
+  },
+  {
+    "id": "S_f857da563381",
+    "template": "devo poder tentar novamente",
+    "scenarios": [
+      "LLT86_C10"
+    ]
+  },
+  {
+    "id": "S_83f70f580e98",
+    "template": "a falha não deve concluir a autenticação",
+    "scenarios": [
+      "LLT86_C10"
+    ]
+  },
+  {
+    "id": "S_755a279d51fb",
+    "template": "que estou <estado>",
+    "scenarios": [
+      "LLT86_C11"
+    ]
+  },
+  {
+    "id": "S_2ac93ea483e4",
+    "template": "tento abrir um recurso protegido por <navegacao>",
+    "scenarios": [
+      "LLT86_C11"
+    ]
+  },
+  {
+    "id": "S_4d7e5b75b7b2",
+    "template": "não devo visualizar seu conteúdo",
+    "scenarios": [
+      "LLT86_C11"
+    ]
+  },
+  {
+    "id": "S_b289e25e7dce",
+    "template": "devo ser encaminhado ao fluxo Clerk adequado ao estado da conta",
+    "scenarios": [
+      "LLT86_C11"
+    ]
+  },
+  {
+    "id": "S_a8b85b0987a1",
+    "template": "que minha sessão Clerk está ativa e as tarefas estão concluídas",
+    "scenarios": [
+      "LLT86_C12"
+    ]
+  },
+  {
+    "id": "S_792b4061d21c",
+    "template": "atualizo a área inicial",
+    "scenarios": [
+      "LLT86_C12"
+    ]
+  },
+  {
+    "id": "S_e4c6d521c0c6",
+    "template": "devo permanecer na conta correta após o carregamento do provedor",
+    "scenarios": [
+      "LLT86_C12"
+    ]
+  },
+  {
+    "id": "S_a584a752d0c7",
+    "template": "a atualização não deve exigir um novo login enquanto a sessão continuar válida",
+    "scenarios": [
+      "LLT86_C12"
+    ]
+  },
+  {
+    "id": "S_2933491ec4f0",
+    "template": "que a sessão da conta se torna <estado>",
+    "scenarios": [
+      "LLT86_C13"
+    ]
+  },
+  {
+    "id": "S_fd9804d1c0f9",
+    "template": "a interface detecta a perda da sessão",
+    "scenarios": [
+      "LLT86_C13"
+    ]
+  },
+  {
+    "id": "S_abc0a2171753",
+    "template": "o conteúdo protegido deve deixar de ser apresentado",
+    "scenarios": [
+      "LLT86_C13"
+    ]
+  },
+  {
+    "id": "S_e2e250732232",
+    "template": "devo ser encaminhado ao SignIn sem restaurar acesso pelo histórico",
+    "scenarios": [
+      "LLT86_C13"
+    ]
+  },
+  {
+    "id": "S_fb5283fcef80",
+    "template": "que encerrei a sessão pelo componente Clerk",
+    "scenarios": [
+      "LLT86_C14"
+    ]
+  },
+  {
+    "id": "S_d03e0ee5abfb",
+    "template": "tento retornar usando <navegacao>",
+    "scenarios": [
+      "LLT86_C14"
+    ]
+  },
+  {
+    "id": "S_427d8f7e0fb0",
+    "template": "não devo recuperar a sessão encerrada",
+    "scenarios": [
+      "LLT86_C14"
+    ]
+  },
+  {
+    "id": "S_1ecef7db6e35",
+    "template": "o conteúdo protegido deve continuar indisponível",
+    "scenarios": [
+      "LLT86_C14"
+    ]
+  },
+  {
+    "id": "S_a6937cef1680",
+    "template": "que concluí a autenticação e o Core retorna <recursos>",
+    "scenarios": [
+      "LLT86_C15"
+    ]
+  },
+  {
+    "id": "S_c6565e8e323e",
+    "template": "a área inicial termina de carregar",
+    "scenarios": [
+      "LLT86_C15"
+    ]
+  },
+  {
+    "id": "S_9b8066e5d8ee",
+    "template": "devo visualizar <resultado>",
+    "scenarios": [
+      "LLT86_C15",
+      "LLT86_C33"
+    ]
+  },
+  {
+    "id": "S_1144b5659c62",
+    "template": "a interface não deve inventar vínculos nem criar Empresa ou Produto por efetuar login",
+    "scenarios": [
+      "LLT86_C15"
+    ]
+  },
+  {
+    "id": "S_b694278827e8",
+    "template": "que um vínculo fictício foi criado pelo fluxo autorizado de convite no backend",
+    "scenarios": [
+      "LLT86_C16"
+    ]
+  },
+  {
+    "id": "S_33b1d588ded1",
+    "template": "autentico a conta correspondente na Clerk e carrego a área inicial",
+    "scenarios": [
+      "LLT86_C16"
+    ]
+  },
+  {
+    "id": "S_30adbc2be65d",
+    "template": "os recursos apresentados devem corresponder ao vínculo devolvido pelo Core",
+    "scenarios": [
+      "LLT86_C16"
+    ]
+  },
+  {
+    "id": "S_092b81731583",
+    "template": "o teste de login não deve depender de uma central própria de convites ou de uma notificação própria no aplicativo",
+    "scenarios": [
+      "LLT86_C16"
+    ]
+  },
+  {
+    "id": "S_0e7155ade21f",
+    "template": "que a conta Google de teste está vinculada a uma identidade Clerk conhecida",
+    "scenarios": [
+      "LLT86_C17"
+    ]
+  },
+  {
+    "id": "S_9650bcd8957f",
+    "template": "concluo a autenticação e o MFA exigido",
+    "scenarios": [
+      "LLT86_C17"
+    ]
+  },
+  {
+    "id": "S_90db661d833e",
+    "template": "devo visualizar os dados correspondentes ao clerkUserId autenticado",
+    "scenarios": [
+      "LLT86_C17"
+    ]
+  },
+  {
+    "id": "S_d39faa0bacbe",
+    "template": "o Front não deve unir contas ou trocar vínculos por comparar apenas o texto do e-mail",
+    "scenarios": [
+      "LLT86_C17"
+    ]
+  },
+  {
+    "id": "S_e49d0ada3669",
+    "template": "que a conta possui um fluxo de recuperação de senha habilitado pela Clerk",
+    "scenarios": [
+      "LLT86_C18"
+    ]
+  },
+  {
+    "id": "S_846c7d5d6a72",
+    "template": "abro a recuperação no SignIn",
+    "scenarios": [
+      "LLT86_C18"
+    ]
+  },
+  {
+    "id": "S_3907fda26b9b",
+    "template": "devo visualizar as opções suportadas e configuradas pelo provedor",
+    "scenarios": [
+      "LLT86_C18"
+    ]
+  },
+  {
+    "id": "S_32f7fc41de86",
+    "template": "não deve ser exigida uma lista própria de todos os contatos ou confirmação pelo Mobile LhamaLog",
+    "scenarios": [
+      "LLT86_C18"
+    ]
+  },
+  {
+    "id": "S_8ac262c4bbef",
+    "template": "que iniciei a recuperação de senha da conta fictícia com MFA obrigatório",
+    "scenarios": [
+      "LLT86_C19"
+    ]
+  },
+  {
+    "id": "S_9586800ff3bb",
+    "template": "concluo a comprovação aceita pela Clerk e defino uma nova senha fictícia no ambiente de teste",
+    "scenarios": [
+      "LLT86_C19"
+    ]
+  },
+  {
+    "id": "S_bb9214cd015a",
+    "template": "a senha antiga deve ser rejeitada na tentativa seguinte",
+    "scenarios": [
+      "LLT86_C19"
+    ]
+  },
+  {
+    "id": "S_9b6fd01a1bc5",
+    "template": "a nova senha deve ser aceita como primeira etapa",
+    "scenarios": [
+      "LLT86_C19"
+    ]
+  },
+  {
+    "id": "S_f30313a87be1",
+    "template": "o MFA ou a tarefa setup-mfa exigida deve continuar sendo respeitado antes do acesso protegido",
+    "scenarios": [
+      "LLT86_C19"
+    ]
+  },
+  {
+    "id": "S_5a66db27dab4",
+    "template": "que a recuperação da Clerk usa o e-mail verificado da conta fictícia",
+    "scenarios": [
+      "LLT86_C20"
+    ]
+  },
+  {
+    "id": "S_f7b3ae717cfb",
+    "template": "tento indicar um destino diferente sem comprovar o vínculo com essa conta",
+    "scenarios": [
+      "LLT86_C20"
+    ]
+  },
+  {
+    "id": "S_fbff31c61a38",
+    "template": "a interface não deve permitir recuperar a conta por esse destino arbitrário",
+    "scenarios": [
+      "LLT86_C20"
+    ]
+  },
+  {
+    "id": "S_76a42665e0c6",
+    "template": "o teste não deve exigir disparo para telefone ou Mobile não suportados pelo fluxo configurado",
+    "scenarios": [
+      "LLT86_C20"
+    ]
+  },
+  {
+    "id": "S_4afd0bcd011f",
+    "template": "que iniciei a recuperação de senha no componente Clerk",
+    "scenarios": [
+      "LLT86_C21"
+    ]
+  },
+  {
+    "id": "S_a80b881f76bd",
+    "template": "envio <comprovacao>",
+    "scenarios": [
+      "LLT86_C21"
+    ]
+  },
+  {
+    "id": "S_5a4951be8e1f",
+    "template": "devo visualizar a rejeição ou a orientação de recuperação fornecida pelo componente",
+    "scenarios": [
+      "LLT86_C21"
+    ]
+  },
+  {
+    "id": "S_2bfe4c8f02e1",
+    "template": "a senha não deve ser alterada por essa tentativa",
+    "scenarios": [
+      "LLT86_C21"
+    ]
+  },
+  {
+    "id": "S_ec89397d0c4b",
+    "template": "que a fixture registra um reset de MFA já autorizado e concluído pelo suporte",
+    "scenarios": [
+      "LLT86_C22"
+    ]
+  },
+  {
+    "id": "S_981ad51719f6",
+    "template": "a exigência de MFA está ligada na Clerk",
+    "scenarios": [
+      "LLT86_C22"
+    ]
+  },
+  {
+    "id": "S_70b6ae38c46e",
+    "template": "a conta inicia o próximo login",
+    "scenarios": [
+      "LLT86_C22"
+    ]
+  },
+  {
+    "id": "S_6b4cba92c731",
+    "template": "devo visualizar a tarefa setup-mfa",
+    "scenarios": [
+      "LLT86_C22"
+    ]
+  },
+  {
+    "id": "S_6acd3c7823c9",
+    "template": "nenhum recurso protegido deve ser liberado antes de concluir o novo cadastro",
+    "scenarios": [
+      "LLT86_C22"
+    ]
+  },
+  {
+    "id": "S_03bf71fec12b",
+    "template": "que a conta perdeu seus fatores e códigos de backup",
+    "scenarios": [
+      "LLT86_C23"
+    ]
+  },
+  {
+    "id": "S_7511626091ad",
+    "template": "tenta prosseguir no login sem concluir a verificação",
+    "scenarios": [
+      "LLT86_C23"
+    ]
+  },
+  {
+    "id": "S_e9b0c7074b38",
+    "template": "o acesso protegido deve permanecer bloqueado",
+    "scenarios": [
+      "LLT86_C23"
+    ]
+  },
+  {
+    "id": "S_a4bbf64700da",
+    "template": "o Front não deve remover o MFA nem inventar recuperação automática por e-mail SMS ou Mobile",
+    "scenarios": [
+      "LLT86_C23"
+    ]
+  },
+  {
+    "id": "S_e0678d948d3e",
+    "template": "o reset deve permanecer restrito ao processo de suporte autorizado",
+    "scenarios": [
+      "LLT86_C23"
+    ]
+  },
+  {
+    "id": "S_deec1f3bb731",
+    "template": "que a conta está na tarefa setup-mfa sem acesso protegido",
+    "scenarios": [
+      "LLT86_C24"
+    ]
+  },
+  {
+    "id": "S_d8a186de4f2f",
+    "template": "concluo o cadastro de TOTP aceito pela Clerk",
+    "scenarios": [
+      "LLT86_C24"
+    ]
+  },
+  {
+    "id": "S_45eb9281fd4d",
+    "template": "a tarefa deve ser concluída conforme o provedor",
+    "scenarios": [
+      "LLT86_C24"
+    ]
+  },
+  {
+    "id": "S_9d5bb57f39af",
+    "template": "os códigos de backup devem estar disponíveis pelo fluxo de segurança da Clerk",
+    "scenarios": [
+      "LLT86_C24"
+    ]
+  },
+  {
+    "id": "S_514a1c8b1200",
+    "template": "o próximo login deve respeitar a exigência de MFA",
+    "scenarios": [
+      "LLT86_C24"
+    ]
+  },
+  {
+    "id": "S_cf21ec7aaedd",
+    "template": "que preciso cadastrar MFA e a sessão está pending",
+    "scenarios": [
+      "LLT86_C25"
+    ]
+  },
+  {
+    "id": "S_f809866f023d",
+    "template": "cancelo o cadastro antes da confirmação",
+    "scenarios": [
+      "LLT86_C25"
+    ]
+  },
+  {
+    "id": "S_46687b972dfe",
+    "template": "a sessão não deve ser tratada como ativa pelo LhamaLog",
+    "scenarios": [
+      "LLT86_C25"
+    ]
+  },
+  {
+    "id": "S_311e92cd4a11",
+    "template": "o próximo acesso deve continuar exigindo a tarefa setup-mfa",
+    "scenarios": [
+      "LLT86_C25"
+    ]
+  },
+  {
+    "id": "S_7aea7ac3a2b4",
+    "template": "que a conta está autenticada e usa o UserProfile da Clerk",
+    "scenarios": [
+      "LLT86_C26"
+    ]
+  },
+  {
+    "id": "S_2f5b568187d3",
+    "template": "conclui uma alteração de fator aceita pelo provedor",
+    "scenarios": [
+      "LLT86_C26"
+    ]
+  },
+  {
+    "id": "S_e476a86a8c56",
+    "template": "o estado exibido deve corresponder aos fatores confirmados pela Clerk",
+    "scenarios": [
+      "LLT86_C26"
+    ]
+  },
+  {
+    "id": "S_fd31f638009e",
+    "template": "o Front não deve manter cadastro paralelo de MFA próprio",
+    "scenarios": [
+      "LLT86_C26"
+    ]
+  },
+  {
+    "id": "S_40925c9df8fe",
+    "template": "que iniciei uma alteração de fator no UserProfile",
+    "scenarios": [
+      "LLT86_C27"
+    ]
+  },
+  {
+    "id": "S_26754ee52df0",
+    "template": "a operação é <resultado>",
+    "scenarios": [
+      "LLT86_C27"
+    ]
+  },
+  {
+    "id": "S_228019c7e6be",
+    "template": "não devo visualizar confirmação de alteração concluída",
+    "scenarios": [
+      "LLT86_C27"
+    ]
+  },
+  {
+    "id": "S_790aa9fdf4ec",
+    "template": "o estado apresentado deve corresponder ao que foi efetivamente confirmado pela Clerk",
+    "scenarios": [
+      "LLT86_C27"
+    ]
+  },
+  {
+    "id": "S_754fd2932f1f",
+    "template": "que iniciei <operacao> no componente Clerk",
+    "scenarios": [
+      "LLT86_C28"
+    ]
+  },
+  {
+    "id": "S_a42ba5b2c6cb",
+    "template": "a resposta controlada contém código ou tipo documentado para <causa>",
+    "scenarios": [
+      "LLT86_C28"
+    ]
+  },
+  {
+    "id": "S_2dbbd187a020",
+    "template": "devo visualizar <orientacao> e poder corrigir a tentativa",
+    "scenarios": [
+      "LLT86_C28"
+    ]
+  },
+  {
+    "id": "S_9709d5833bf9",
+    "template": "o erro não deve concluir a etapa nem conceder acesso",
+    "scenarios": [
+      "LLT86_C28"
+    ]
+  },
+  {
+    "id": "S_9c7c4c0b3797",
+    "template": "que enviei uma tentativa sem autenticação completa confirmada",
+    "scenarios": [
+      "LLT86_C29"
+    ]
+  },
+  {
+    "id": "S_3d0a25cc8eea",
+    "template": "a fronteira consumida pela interface retorna <resposta>",
+    "scenarios": [
+      "LLT86_C29"
+    ]
+  },
+  {
+    "id": "S_4a1ffa29561e",
+    "template": "devo visualizar uma orientação geral de que não foi possível concluir a operação",
+    "scenarios": [
+      "LLT86_C29"
+    ]
+  },
+  {
+    "id": "S_23a13ebae3f7",
+    "template": "a interface deve continuar utilizável sem mostrar null ou undefined",
+    "scenarios": [
+      "LLT86_C29"
+    ]
+  },
+  {
+    "id": "S_53b05138efdc",
+    "template": "nenhum sucesso ou acesso protegido deve ser liberado pela resposta",
+    "scenarios": [
+      "LLT86_C29"
+    ]
+  },
+  {
+    "id": "S_d6eb2fe4fd74",
+    "template": "que uma chamada protegida do Front ao Core está em andamento",
+    "scenarios": [
+      "LLT86_C30"
+    ]
+  },
+  {
+    "id": "S_3c215a17b250",
+    "template": "o Core responde HTTP 401 com <corpo>",
+    "scenarios": [
+      "LLT86_C30"
+    ]
+  },
+  {
+    "id": "S_245a0f324b17",
+    "template": "devo visualizar Você foi deslogado",
+    "scenarios": [
+      "LLT86_C30",
+      "LLT86_C31"
+    ]
+  },
+  {
+    "id": "S_280b07b07bf3",
+    "template": "devo retornar ao SignIn com o acesso local protegido encerrado",
+    "scenarios": [
+      "LLT86_C30"
+    ]
+  },
+  {
+    "id": "S_c71db2bed614",
+    "template": "o tratamento não deve depender da descrição do erro no corpo",
+    "scenarios": [
+      "LLT86_C30"
+    ]
+  },
+  {
+    "id": "S_47428713b332",
+    "template": "que a operação está classificada pelo contrato como 403 com revogação da ADR_032",
+    "scenarios": [
+      "LLT86_C31"
+    ]
+  },
+  {
+    "id": "S_1d2c4718255c",
+    "template": "o Core responde HTTP 403 com <corpo>",
+    "scenarios": [
+      "LLT86_C31"
+    ]
+  },
+  {
+    "id": "S_e8d8889604d1",
+    "template": "devo retornar ao SignIn sem manter acesso local protegido",
+    "scenarios": [
+      "LLT86_C31"
+    ]
+  },
+  {
+    "id": "S_1b5a463c7ecb",
+    "template": "o teste deve distinguir esse resultado da negação simples da ADR_126",
+    "scenarios": [
+      "LLT86_C31"
+    ]
+  },
+  {
+    "id": "S_29a6650d1547",
+    "template": "que a conta está autenticada com sessão válida",
+    "scenarios": [
+      "LLT86_C32"
+    ]
+  },
+  {
+    "id": "S_468a8ded7f03",
+    "template": "o Core nega acesso porque <motivo> conforme o contrato de negação simples",
+    "scenarios": [
+      "LLT86_C32"
+    ]
+  },
+  {
+    "id": "S_6c996fceeb8d",
+    "template": "devo retornar à tela inicial e continuar logado",
+    "scenarios": [
+      "LLT86_C32"
+    ]
+  },
+  {
+    "id": "S_378ec643b4e1",
+    "template": "o recurso recusado não deve ser exibido",
+    "scenarios": [
+      "LLT86_C32"
+    ]
+  },
+  {
+    "id": "S_2bcaeb310cab",
+    "template": "a interface não deve aplicar o logout global da ADR_032",
+    "scenarios": [
+      "LLT86_C32"
+    ]
+  },
+  {
+    "id": "S_d83071d9e575",
+    "template": "que o serviço indica <estado> para a conta fictícia",
+    "scenarios": [
+      "LLT86_C33"
+    ]
+  },
+  {
+    "id": "S_6f8e1c9fb297",
+    "template": "tento concluir a autenticação no componente",
+    "scenarios": [
+      "LLT86_C33"
+    ]
+  },
+  {
+    "id": "S_c574125d825b",
+    "template": "o Front não deve implementar um limite paralelo nem desbloquear a conta por conta própria",
+    "scenarios": [
+      "LLT86_C33"
+    ]
+  },
+  {
+    "id": "S_05589942d917",
+    "template": "que inspeciono os arquivos públicos e respostas entregues ao navegador de teste",
+    "scenarios": [
+      "LLT86_C34"
+    ]
+  },
+  {
+    "id": "S_14c9720dfd25",
+    "template": "verifico a presença de <segredo>",
+    "scenarios": [
+      "LLT86_C34"
+    ]
+  },
+  {
+    "id": "S_4646f2bc5fe7",
+    "template": "esse segredo não deve estar presente no conteúdo público",
+    "scenarios": [
+      "LLT86_C34"
+    ]
+  },
+  {
+    "id": "S_9b183e100816",
+    "template": "os componentes devem usar apenas a chave publicável e a sessão nos limites do contrato",
+    "scenarios": [
+      "LLT86_C34"
+    ]
+  },
+  {
+    "id": "S_d10995358ac0",
+    "template": "que abro a aplicação e a Clerk ainda está inicializando",
+    "scenarios": [
+      "LLT86_C35"
+    ]
+  },
+  {
+    "id": "S_22cd8ee3aa52",
+    "template": "o estado final será <estado>",
+    "scenarios": [
+      "LLT86_C35"
+    ]
+  },
+  {
+    "id": "S_1f7639601179",
+    "template": "devo perceber o carregamento sem um formulário ativo prematuro",
+    "scenarios": [
+      "LLT86_C35"
+    ]
+  },
+  {
+    "id": "S_5adee46d1d46",
+    "template": "nenhum conteúdo protegido deve aparecer enquanto a sessão estiver indefinida",
+    "scenarios": [
+      "LLT86_C35"
+    ]
+  },
+  {
+    "id": "S_6d875c2cf681",
+    "template": "ao resolver o estado devo visualizar <destino> sem oscilação indevida entre telas",
+    "scenarios": [
+      "LLT86_C35"
+    ]
+  },
+  {
+    "id": "S_8ce944ea7074",
+    "template": "que a página de login está sendo aberta",
+    "scenarios": [
+      "LLT86_C36"
+    ]
+  },
+  {
+    "id": "S_cd2ed4a6fead",
+    "template": "ocorre <falha> antes de montar o SignIn",
+    "scenarios": [
+      "LLT86_C36"
+    ]
+  },
+  {
+    "id": "S_4215a611abb2",
+    "template": "devo visualizar uma orientação de indisponibilidade sem detalhes internos",
+    "scenarios": [
+      "LLT86_C36"
+    ]
+  },
+  {
+    "id": "S_5331c58b4123",
+    "template": "a página não deve ficar branca nem manter carregamento indefinido",
+    "scenarios": [
+      "LLT86_C36"
+    ]
+  },
+  {
+    "id": "S_bcade07c80b2",
+    "template": "devo conseguir recarregar a página para tentar novamente",
+    "scenarios": [
+      "LLT86_C36"
+    ]
+  },
+  {
+    "id": "S_329bee1d572e",
+    "template": "que estou em <etapa> com o componente real e dados fictícios",
+    "scenarios": [
+      "LLT86_C37"
+    ]
+  },
+  {
+    "id": "S_5852eb956c70",
+    "template": "percorro os controles com Tab e Shift Tab e aciono a ação com a tecla adequada ao controle",
+    "scenarios": [
+      "LLT86_C37"
+    ]
+  },
+  {
+    "id": "S_70f633f4261c",
+    "template": "todos os controles necessários devem ser alcançáveis em ordem compreensível",
+    "scenarios": [
+      "LLT86_C37"
+    ]
+  },
+  {
+    "id": "S_2a6591b922ed",
+    "template": "o foco deve estar visível sem ficar preso em um controle",
+    "scenarios": [
+      "LLT86_C37"
+    ]
+  },
+  {
+    "id": "S_007a08f1b5eb",
+    "template": "devo conseguir <acao> sem depender do mouse",
+    "scenarios": [
+      "LLT86_C37"
+    ]
+  },
+  {
+    "id": "S_9dcaf92a8dd1",
+    "template": "o envio não deve ocorrer em duplicidade",
+    "scenarios": [
+      "LLT86_C37"
+    ]
+  },
+  {
+    "id": "S_5e4e158df531",
+    "template": "que verifico <elemento> na tela com o componente real",
+    "scenarios": [
+      "LLT86_C38"
+    ]
+  },
+  {
+    "id": "S_0499f3e005cc",
+    "template": "consulto o nome acessível e a leitura por tecnologia assistiva",
+    "scenarios": [
+      "LLT86_C38"
+    ]
+  },
+  {
+    "id": "S_3ac1a1cbd13a",
+    "template": "devo identificar <informacao> sem depender apenas de cor ou placeholder",
+    "scenarios": [
+      "LLT86_C38"
+    ]
+  },
+  {
+    "id": "S_33d11a7b60cc",
+    "template": "um erro específico deve estar associado ao campo correspondente e ser percebido na leitura",
+    "scenarios": [
+      "LLT86_C38"
+    ]
+  },
+  {
+    "id": "S_ea753ae35db6",
+    "template": "não deve ser necessário conhecer um nome interno do código para usar a interface",
+    "scenarios": [
+      "LLT86_C38"
+    ]
+  },
+  {
+    "id": "S_4f1fd27bb998",
+    "template": "que utilizo a autenticação pelo teclado",
+    "scenarios": [
+      "LLT86_C39"
+    ]
+  },
+  {
+    "id": "S_26cdc6244d86",
+    "template": "ocorre <mudanca>",
+    "scenarios": [
+      "LLT86_C39"
+    ]
+  },
+  {
+    "id": "S_0f198c058d58",
+    "template": "o foco deve chegar a <destino> que permita entender o estado e continuar",
+    "scenarios": [
+      "LLT86_C39"
+    ]
+  },
+  {
+    "id": "S_af551156c224",
+    "template": "o foco não deve permanecer em elemento removido ou oculto",
+    "scenarios": [
+      "LLT86_C39"
+    ]
+  },
+  {
+    "id": "S_f097744acf1e",
+    "template": "a ordem de navegação deve continuar compreensível",
+    "scenarios": [
+      "LLT86_C39"
+    ]
+  },
+  {
+    "id": "S_868322cfdd10",
+    "template": "que abro <etapa> no navegador desktop com viewport <largura> e zoom <zoom>",
+    "scenarios": [
+      "LLT86_C40"
+    ]
+  },
+  {
+    "id": "S_7e8dfe3c4bd2",
+    "template": "preencho os dados e visualizo uma orientação de validação",
+    "scenarios": [
+      "LLT86_C40"
+    ]
+  },
+  {
+    "id": "S_2a6d6c6dd27c",
+    "template": "campos botões mensagens e foco devem continuar legíveis e alcançáveis",
+    "scenarios": [
+      "LLT86_C40"
+    ]
+  },
+  {
+    "id": "S_ca03b8460ed4",
+    "template": "nenhum controle necessário deve ficar cortado ou coberto",
+    "scenarios": [
+      "LLT86_C40"
+    ]
+  },
+  {
+    "id": "S_528c4e6c56db",
+    "template": "devo conseguir concluir ou corrigir a etapa usando rolagem vertical quando necessária",
+    "scenarios": [
+      "LLT86_C40"
+    ]
+  },
+  {
+    "id": "S_8e98533eecf7",
+    "template": "o conteúdo do formulário não deve exigir rolagem horizontal para ler e operar",
+    "scenarios": [
+      "LLT86_C40"
+    ]
+  },
+  {
+    "id": "S_3d66373446cb",
+    "template": "que a Clerk real de teste usa o perfil atual com MFA obrigatório",
+    "scenarios": [
+      "LLT86_C41"
+    ]
+  },
+  {
+    "id": "S_df19d51be11f",
+    "template": "realizo <tentativa>",
+    "scenarios": [
+      "LLT86_C41"
+    ]
+  },
+  {
+    "id": "S_0c29c40f6cbd",
+    "template": "o estado real da sessão deve corresponder a <sessao>",
+    "scenarios": [
+      "LLT86_C41"
+    ]
+  },
+  {
+    "id": "S_c939738ae5b2",
+    "template": "a evidência deve identificar a integração sem incluir segredos",
+    "scenarios": [
+      "LLT86_C41"
+    ]
+  },
+  {
+    "id": "S_988829efe763",
+    "template": "que a conta possui sessão Clerk ativa",
+    "scenarios": [
+      "LLT86_C42"
+    ]
+  },
+  {
+    "id": "S_7b8029162404",
+    "template": "a renovação do session token <resultado>",
+    "scenarios": [
+      "LLT86_C42"
+    ]
+  },
+  {
+    "id": "S_cb2bcd7bf069",
+    "template": "devo observar <efeito>",
+    "scenarios": [
+      "LLT86_C42"
+    ]
+  },
+  {
+    "id": "S_0f51d0615f5d",
+    "template": "o Core não deve emitir um session token próprio para substituir o da Clerk",
+    "scenarios": [
+      "LLT86_C42"
+    ]
+  },
+  {
+    "id": "S_ad2e326e8da8",
+    "template": "JWTs internos de serviço não devem ser entregues ao navegador",
+    "scenarios": [
+      "LLT86_C42"
+    ]
+  },
+  {
+    "id": "S_df00d0f0e320",
+    "template": "que o Front chama uma API de negócio do Core em <origem>",
+    "scenarios": [
+      "LLT86_C43"
+    ]
+  },
+  {
+    "id": "S_1b115dc865ab",
+    "template": "a conta autenticada faz a requisição",
+    "scenarios": [
+      "LLT86_C43"
+    ]
+  },
+  {
+    "id": "S_7f8e538d700a",
+    "template": "a sessão Clerk deve chegar por <transporte>",
+    "scenarios": [
+      "LLT86_C43"
+    ]
+  },
+  {
+    "id": "S_65092178e740",
+    "template": "o Core deve validar a sessão antes de devolver dados protegidos",
+    "scenarios": [
+      "LLT86_C43"
+    ]
+  },
+  {
+    "id": "S_37a1fe43692a",
+    "template": "a requisição não deve conter senha nem JWT interno de serviço",
+    "scenarios": [
+      "LLT86_C43"
+    ]
+  },
+  {
+    "id": "S_d22aabecbdec",
+    "template": "que identifiquei a operação real de autenticação da Clerk e seu contrato",
+    "scenarios": [
+      "LLT86_C44"
+    ]
+  },
+  {
+    "id": "S_b3a88c97c2b4",
+    "template": "envio diretamente uma requisição com o e-mail <entrada>",
+    "scenarios": [
+      "LLT86_C44"
+    ]
+  },
+  {
+    "id": "S_ceb361b5a5b3",
+    "template": "a Clerk deve rejeitar a solicitação conforme o contrato",
+    "scenarios": [
+      "LLT86_C44"
+    ]
+  },
+  {
+    "id": "S_ab1bbfbf69c0",
+    "template": "nenhuma autenticação completa deve resultar dessa solicitação",
+    "scenarios": [
+      "LLT86_C44"
+    ]
+  },
+  {
+    "id": "S_b124533af605",
+    "template": "o teste não deve enviar senha a um endpoint próprio do Core",
+    "scenarios": [
+      "LLT86_C44"
+    ]
+  },
+  {
+    "id": "S_5b4f20d55e6d",
+    "template": "que a requisição usa uma operação protegida real do Core",
+    "scenarios": [
+      "LLT86_C45"
+    ]
+  },
+  {
+    "id": "S_50c54e7ae178",
+    "template": "envio uma fixture de sessão <estado> sem passar pelo Front",
+    "scenarios": [
+      "LLT86_C45"
+    ]
+  },
+  {
+    "id": "S_5f3c0cd7210b",
+    "template": "o Core deve responder 401 sem devolver o conteúdo protegido",
+    "scenarios": [
+      "LLT86_C45"
+    ]
+  },
+  {
+    "id": "S_1c9ee550cbdb",
+    "template": "não deve tratar a solicitação como autenticação válida",
+    "scenarios": [
+      "LLT86_C45"
+    ]
+  },
+  {
+    "id": "S_3cc1cba61967",
+    "template": "que uma conta fictícia possui duas sessões ativas na Clerk",
+    "scenarios": [
+      "LLT86_C46"
+    ]
+  },
+  {
+    "id": "S_fb26280c0521",
+    "template": "a operação de teste aplica o 403 com revogação definido na ADR_032",
+    "scenarios": [
+      "LLT86_C46"
+    ]
+  },
+  {
+    "id": "S_f5599293f18a",
+    "template": "o Core recusa o acesso por esse contrato",
+    "scenarios": [
+      "LLT86_C46"
+    ]
+  },
+  {
+    "id": "S_cd5cb4e15ace",
+    "template": "deve responder 403 e revogar todas as sessões ativas dessa conta na Clerk",
+    "scenarios": [
+      "LLT86_C46"
+    ]
+  },
+  {
+    "id": "S_ee30b2e9c55e",
+    "template": "o teste deve comprovar a revogação no provedor",
+    "scenarios": [
+      "LLT86_C46"
+    ]
+  },
+  {
+    "id": "S_82591f911bc2",
+    "template": "a renovação seguinte dessas sessões deve falhar sem restaurar o acesso",
+    "scenarios": [
+      "LLT86_C46"
+    ]
+  },
+  {
+    "id": "S_91dbc4afa12a",
+    "template": "que a conta fictícia não efetuou compra de assinatura nem possui vínculo com empresa existente",
+    "scenarios": [
+      "LLT86_C47"
+    ]
+  },
+  {
+    "id": "S_a62156d385ba",
+    "template": "ocorre <evento>",
+    "scenarios": [
+      "LLT86_C47"
+    ]
+  },
+  {
+    "id": "S_5faef6c4be2a",
+    "template": "esse evento isolado não deve criar Tenant Assinatura Organization ou Produto de negócio",
+    "scenarios": [
+      "LLT86_C47"
+    ]
+  },
+  {
+    "id": "S_49d9861a038c",
+    "template": "a identidade deve continuar separada dos recursos de negócio",
+    "scenarios": [
+      "LLT86_C47"
+    ]
+  }
+]

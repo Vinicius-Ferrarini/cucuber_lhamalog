@@ -1,0 +1,3064 @@
+[
+  {
+    "text": "que abri o dashboard do Produto Alfa autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C01",
+        "stepId": "S_ffad57d4963f",
+        "parameters": {},
+        "template": "que abri o dashboard do Produto Alfa autorizado"
+      }
+    ]
+  },
+  {
+    "text": "a consulta ao Core está em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C01",
+        "stepId": "S_397ac92728c7",
+        "parameters": {},
+        "template": "a consulta ao Core está em andamento"
+      }
+    ]
+  },
+  {
+    "text": "devo perceber que os indicadores estão carregando",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C01",
+        "stepId": "S_b152b1a5943e",
+        "parameters": {},
+        "template": "devo perceber que os indicadores estão carregando"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve apresentar ausência de dados ou zero como resultado confirmado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C01",
+        "stepId": "S_92949d4813e5",
+        "parameters": {},
+        "template": "a interface não deve apresentar ausência de dados ou zero como resultado confirmado"
+      }
+    ]
+  },
+  {
+    "text": "métricas do Produto anterior não devem ser identificadas como métricas do Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C01",
+        "stepId": "S_53cc51d55057",
+        "parameters": {},
+        "template": "métricas do Produto anterior não devem ser identificadas como métricas do Alfa"
+      }
+    ]
+  },
+  {
+    "text": "que a conta de teste possui papel DONO na Empresa Exemplo A",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C02",
+        "stepId": "S_6044a76f2742",
+        "parameters": {
+          "papel": "DONO"
+        },
+        "template": "que a conta de teste possui papel <papel> na Empresa Exemplo A"
+      }
+    ]
+  },
+  {
+    "text": "que a conta de teste possui papel ADMIN na Empresa Exemplo A",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C02",
+        "stepId": "S_6044a76f2742",
+        "parameters": {
+          "papel": "ADMIN"
+        },
+        "template": "que a conta de teste possui papel <papel> na Empresa Exemplo A"
+      }
+    ]
+  },
+  {
+    "text": "que a conta de teste possui papel MEMBRO com AcessoProduto para Alfa na Empresa Exemplo A",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C02",
+        "stepId": "S_6044a76f2742",
+        "parameters": {
+          "papel": "MEMBRO com AcessoProduto para Alfa"
+        },
+        "template": "que a conta de teste possui papel <papel> na Empresa Exemplo A"
+      }
+    ]
+  },
+  {
+    "text": "o Core retorna os Produtos permitidos para essa conta",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C02",
+        "stepId": "S_acfa9501d170",
+        "parameters": {},
+        "template": "o Core retorna os Produtos permitidos para essa conta"
+      }
+    ]
+  },
+  {
+    "text": "seleciono o Produto Alfa na interface",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C02",
+        "stepId": "S_313bd6a647c8",
+        "parameters": {},
+        "template": "seleciono o Produto Alfa na interface"
+      }
+    ]
+  },
+  {
+    "text": "a consulta e os indicadores devem usar a Empresa Exemplo A e o Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C02",
+        "stepId": "S_9a1600ce6019",
+        "parameters": {},
+        "template": "a consulta e os indicadores devem usar a Empresa Exemplo A e o Produto Alfa"
+      }
+    ]
+  },
+  {
+    "text": "o seletor não deve oferecer como permitido o Produto Beta de outra Empresa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C02",
+        "stepId": "S_00b58a174f83",
+        "parameters": {},
+        "template": "o seletor não deve oferecer como permitido o Produto Beta de outra Empresa"
+      }
+    ]
+  },
+  {
+    "text": "que o contrato identifica um indicador e sua unidade",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C03",
+        "stepId": "S_118c115e4ff4",
+        "parameters": {},
+        "template": "que o contrato identifica um indicador e sua unidade"
+      }
+    ]
+  },
+  {
+    "text": "a resposta controlada contém quantidade válida 12",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C03",
+        "stepId": "S_9e71d33afdaf",
+        "parameters": {
+          "valor": "quantidade válida 12"
+        },
+        "template": "a resposta controlada contém <valor>"
+      }
+    ]
+  },
+  {
+    "text": "a resposta controlada contém quantidade válida 0",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C03",
+        "stepId": "S_9e71d33afdaf",
+        "parameters": {
+          "valor": "quantidade válida 0"
+        },
+        "template": "a resposta controlada contém <valor>"
+      }
+    ]
+  },
+  {
+    "text": "a resposta controlada contém ausência permitida pelo contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C03",
+        "stepId": "S_9e71d33afdaf",
+        "parameters": {
+          "valor": "ausência permitida pelo contrato"
+        },
+        "template": "a resposta controlada contém <valor>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar a quantidade 12 associado ao indicador correto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C03",
+        "stepId": "S_3bc51548e034",
+        "parameters": {
+          "resultado": "a quantidade 12"
+        },
+        "template": "devo visualizar <resultado> associado ao indicador correto"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar zero como valor válido associado ao indicador correto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C03",
+        "stepId": "S_3bc51548e034",
+        "parameters": {
+          "resultado": "zero como valor válido"
+        },
+        "template": "devo visualizar <resultado> associado ao indicador correto"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar indicação de indisponibilidade sem fabricar zero associado ao indicador correto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C03",
+        "stepId": "S_3bc51548e034",
+        "parameters": {
+          "resultado": "indicação de indisponibilidade sem fabricar zero"
+        },
+        "template": "devo visualizar <resultado> associado ao indicador correto"
+      }
+    ]
+  },
+  {
+    "text": "o componente não deve recalcular fórmula nem confundir dado ausente com zero",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C03",
+        "stepId": "S_de1831f14e36",
+        "parameters": {},
+        "template": "o componente não deve recalcular fórmula nem confundir dado ausente com zero"
+      }
+    ]
+  },
+  {
+    "text": "o nome e a unidade devem permanecer coerentes com o contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C03",
+        "stepId": "S_4634d93c3445",
+        "parameters": {},
+        "template": "o nome e a unidade devem permanecer coerentes com o contrato"
+      }
+    ]
+  },
+  {
+    "text": "que o Produto Alfa está autorizado mas não possui dados no recorte consultado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C04",
+        "stepId": "S_e8dd9f1bde8e",
+        "parameters": {},
+        "template": "que o Produto Alfa está autorizado mas não possui dados no recorte consultado"
+      }
+    ]
+  },
+  {
+    "text": "o Core retorna sucesso indicando ausência de dados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C04",
+        "stepId": "S_9f262b1f2479",
+        "parameters": {},
+        "template": "o Core retorna sucesso indicando ausência de dados"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar que não há dados para esse recorte",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C04",
+        "stepId": "S_df9eb2b534a3",
+        "parameters": {},
+        "template": "devo visualizar que não há dados para esse recorte"
+      }
+    ]
+  },
+  {
+    "text": "o Produto e o período devem permanecer identificáveis",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C04",
+        "stepId": "S_6534f0aeb2af",
+        "parameters": {},
+        "template": "o Produto e o período devem permanecer identificáveis"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve mostrar dados de demonstração nem erro de rede para essa condição",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C04",
+        "stepId": "S_78bd4f0063f0",
+        "parameters": {},
+        "template": "a interface não deve mostrar dados de demonstração nem erro de rede para essa condição"
+      }
+    ]
+  },
+  {
+    "text": "que solicitei o dashboard do Alfa e depois selecionei o Produto Gama autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C05",
+        "stepId": "S_8b03a8f791ad",
+        "parameters": {},
+        "template": "que solicitei o dashboard do Alfa e depois selecionei o Produto Gama autorizado"
+      }
+    ]
+  },
+  {
+    "text": "a resposta do Alfa chega após a resposta do Gama",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C05",
+        "stepId": "S_5dd80cb00112",
+        "parameters": {},
+        "template": "a resposta do Alfa chega após a resposta do Gama"
+      }
+    ]
+  },
+  {
+    "text": "devo continuar vendo apenas o contexto e os indicadores do Gama",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C05",
+        "stepId": "S_6706a50d158a",
+        "parameters": {},
+        "template": "devo continuar vendo apenas o contexto e os indicadores do Gama"
+      }
+    ]
+  },
+  {
+    "text": "títulos gráficos totais e opções de exportação não devem ser repostos para Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C05",
+        "stepId": "S_a6dc31cff135",
+        "parameters": {},
+        "template": "títulos gráficos totais e opções de exportação não devem ser repostos para Alfa"
+      }
+    ]
+  },
+  {
+    "text": "que uma consulta de indicadores está em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C06",
+        "stepId": "S_cb293a5890c3",
+        "parameters": {},
+        "template": "que uma consulta de indicadores está em andamento"
+      }
+    ]
+  },
+  {
+    "text": "ocorre interrupção de rede",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C06",
+        "stepId": "S_0c0b34614b07",
+        "parameters": {
+          "falha": "interrupção de rede"
+        },
+        "template": "ocorre <falha>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre erro do Core sem dados úteis",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C06",
+        "stepId": "S_0c0b34614b07",
+        "parameters": {
+          "falha": "erro do Core sem dados úteis"
+        },
+        "template": "ocorre <falha>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar uma orientação de falha e poder tentar novamente",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C06",
+        "stepId": "S_e2a49f7b541f",
+        "parameters": {},
+        "template": "devo visualizar uma orientação de falha e poder tentar novamente"
+      }
+    ]
+  },
+  {
+    "text": "o carregamento não deve continuar indefinido",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C06",
+        "stepId": "S_129f65103989",
+        "parameters": {},
+        "template": "o carregamento não deve continuar indefinido"
+      }
+    ]
+  },
+  {
+    "text": "a falha não deve ser apresentada como ausência de dados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C06",
+        "stepId": "S_36d892d0a382",
+        "parameters": {},
+        "template": "a falha não deve ser apresentada como ausência de dados"
+      }
+    ]
+  },
+  {
+    "text": "que estou no dashboard do Produto Alfa com dados fictícios e autorização",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C07",
+        "stepId": "S_cfbbebd2e793",
+        "parameters": {
+          "escopo": "do Produto Alfa"
+        },
+        "template": "que estou no dashboard <escopo> com dados fictícios e autorização"
+      }
+    ]
+  },
+  {
+    "text": "que estou no dashboard empresarial com dados fictícios e autorização",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C07",
+        "stepId": "S_cfbbebd2e793",
+        "parameters": {
+          "escopo": "empresarial"
+        },
+        "template": "que estou no dashboard <escopo> com dados fictícios e autorização"
+      }
+    ]
+  },
+  {
+    "text": "aplico período fictício suportado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C07",
+        "stepId": "S_747c6b0b49dd",
+        "parameters": {
+          "criterios": "período fictício suportado"
+        },
+        "template": "aplico <criterios>"
+      }
+    ]
+  },
+  {
+    "text": "aplico tipo de alerta aceito pela operação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C07",
+        "stepId": "S_747c6b0b49dd",
+        "parameters": {
+          "criterios": "tipo de alerta aceito pela operação"
+        },
+        "template": "aplico <criterios>"
+      }
+    ]
+  },
+  {
+    "text": "aplico período e Produtos Alfa e Gama autorizados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C07",
+        "stepId": "S_747c6b0b49dd",
+        "parameters": {
+          "criterios": "período e Produtos Alfa e Gama autorizados"
+        },
+        "template": "aplico <criterios>"
+      }
+    ]
+  },
+  {
+    "text": "a consulta deve transmitir os critérios juntos ao Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C07",
+        "stepId": "S_9c6f07d4b719",
+        "parameters": {},
+        "template": "a consulta deve transmitir os critérios juntos ao Core"
+      }
+    ]
+  },
+  {
+    "text": "indicadores e gráficos devem refletir a resposta desse mesmo recorte",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C07",
+        "stepId": "S_0cbf1dbf9f0e",
+        "parameters": {},
+        "template": "indicadores e gráficos devem refletir a resposta desse mesmo recorte"
+      }
+    ]
+  },
+  {
+    "text": "os critérios aplicados devem permanecer visíveis",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C07",
+        "stepId": "S_bb05e6191055",
+        "parameters": {},
+        "template": "os critérios aplicados devem permanecer visíveis"
+      }
+    ]
+  },
+  {
+    "text": "que o filtro recebe data inicial posterior à final inválida conforme o contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C08",
+        "stepId": "S_c15906a68bd9",
+        "parameters": {
+          "entrada": "data inicial posterior à final"
+        },
+        "template": "que o filtro recebe <entrada> inválida conforme o contrato"
+      }
+    ]
+  },
+  {
+    "text": "que o filtro recebe texto que não representa data válida inválida conforme o contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C08",
+        "stepId": "S_c15906a68bd9",
+        "parameters": {
+          "entrada": "texto que não representa data válida"
+        },
+        "template": "que o filtro recebe <entrada> inválida conforme o contrato"
+      }
+    ]
+  },
+  {
+    "text": "tento aplicá-lo",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C08",
+        "stepId": "S_95df5675e36b",
+        "parameters": {},
+        "template": "tento aplicá-lo"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar orientação associada ao campo",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C08",
+        "stepId": "S_36fccd3aebbe",
+        "parameters": {},
+        "template": "devo visualizar orientação associada ao campo"
+      }
+    ]
+  },
+  {
+    "text": "o Front não deve enviar a consulta inválida pelo fluxo normal",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C08",
+        "stepId": "S_2f1ce073c18d",
+        "parameters": {},
+        "template": "o Front não deve enviar a consulta inválida pelo fluxo normal"
+      }
+    ]
+  },
+  {
+    "text": "os últimos critérios aplicados com sucesso não devem ser substituídos por valores inválidos",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C08",
+        "stepId": "S_0657b4ce4c2f",
+        "parameters": {},
+        "template": "os últimos critérios aplicados com sucesso não devem ser substituídos por valores inválidos"
+      }
+    ]
+  },
+  {
+    "text": "que o dashboard possui filtros aplicados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C09",
+        "stepId": "S_051c46b78d3e",
+        "parameters": {},
+        "template": "que o dashboard possui filtros aplicados"
+      }
+    ]
+  },
+  {
+    "text": "realizo troca de período",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C09",
+        "stepId": "S_c2e9a13600db",
+        "parameters": {
+          "alteracao": "troca de período"
+        },
+        "template": "realizo <alteracao>"
+      }
+    ]
+  },
+  {
+    "text": "realizo remoção de um filtro",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C09",
+        "stepId": "S_c2e9a13600db",
+        "parameters": {
+          "alteracao": "remoção de um filtro"
+        },
+        "template": "realizo <alteracao>"
+      },
+      {
+        "scenarioId": "LLT85_C20",
+        "stepId": "S_b4d858fdce46",
+        "parameters": {
+          "acao": "remoção de um filtro"
+        },
+        "template": "realizo <acao>"
+      }
+    ]
+  },
+  {
+    "text": "realizo limpeza dos filtros opcionais",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C09",
+        "stepId": "S_c2e9a13600db",
+        "parameters": {
+          "alteracao": "limpeza dos filtros opcionais"
+        },
+        "template": "realizo <alteracao>"
+      },
+      {
+        "scenarioId": "LLT85_C20",
+        "stepId": "S_b4d858fdce46",
+        "parameters": {
+          "acao": "limpeza dos filtros opcionais"
+        },
+        "template": "realizo <acao>"
+      }
+    ]
+  },
+  {
+    "text": "a consulta deve refletir os critérios restantes e o contexto autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C09",
+        "stepId": "S_0cc6432937f8",
+        "parameters": {},
+        "template": "a consulta deve refletir os critérios restantes e o contexto autorizado"
+      }
+    ]
+  },
+  {
+    "text": "a tela deve substituir os indicadores pelos da nova resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C09",
+        "stepId": "S_104ed1e67f0e",
+        "parameters": {},
+        "template": "a tela deve substituir os indicadores pelos da nova resposta"
+      }
+    ]
+  },
+  {
+    "text": "o comando de exportar deve usar o recorte aplicado com sucesso",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C09",
+        "stepId": "S_cb057994387c",
+        "parameters": {},
+        "template": "o comando de exportar deve usar o recorte aplicado com sucesso"
+      }
+    ]
+  },
+  {
+    "text": "que apliquei uma combinação válida de filtros",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C10",
+        "stepId": "S_284d3a89d55c",
+        "parameters": {},
+        "template": "que apliquei uma combinação válida de filtros"
+      }
+    ]
+  },
+  {
+    "text": "o Core informa ausência de resultados para essa combinação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C10",
+        "stepId": "S_5a52fe2a29e5",
+        "parameters": {},
+        "template": "o Core informa ausência de resultados para essa combinação"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar uma indicação de ausência de dados filtrados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C10",
+        "stepId": "S_4daa48856e6e",
+        "parameters": {},
+        "template": "devo visualizar uma indicação de ausência de dados filtrados"
+      }
+    ]
+  },
+  {
+    "text": "devo poder alterar ou remover os filtros",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C10",
+        "stepId": "S_f857982c02cc",
+        "parameters": {},
+        "template": "devo poder alterar ou remover os filtros"
+      }
+    ]
+  },
+  {
+    "text": "nenhuma métrica anterior deve aparecer como resultado do novo recorte",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C10",
+        "stepId": "S_fa37c92876a4",
+        "parameters": {},
+        "template": "nenhuma métrica anterior deve aparecer como resultado do novo recorte"
+      }
+    ]
+  },
+  {
+    "text": "que solicitei dois recortes de filtros em sequência",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C11",
+        "stepId": "S_4de024d4736d",
+        "parameters": {},
+        "template": "que solicitei dois recortes de filtros em sequência"
+      }
+    ]
+  },
+  {
+    "text": "a resposta do primeiro chega depois da resposta do segundo",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C11",
+        "stepId": "S_8c0d3c453120",
+        "parameters": {},
+        "template": "a resposta do primeiro chega depois da resposta do segundo"
+      }
+    ]
+  },
+  {
+    "text": "os filtros indicadores e gráficos devem continuar correspondendo ao segundo recorte",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C11",
+        "stepId": "S_b5195ac9fc53",
+        "parameters": {},
+        "template": "os filtros indicadores e gráficos devem continuar correspondendo ao segundo recorte"
+      }
+    ]
+  },
+  {
+    "text": "a exportação não deve usar critérios de uma resposta atrasada",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C11",
+        "stepId": "S_fc781665b28f",
+        "parameters": {},
+        "template": "a exportação não deve usar critérios de uma resposta atrasada"
+      }
+    ]
+  },
+  {
+    "text": "que a conta possui papel DONO na Empresa Exemplo A e acesso empresarial confirmado pelo Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C12",
+        "stepId": "S_83cb5998b120",
+        "parameters": {
+          "papel": "DONO"
+        },
+        "template": "que a conta possui papel <papel> na Empresa Exemplo A e acesso empresarial confirmado pelo Core"
+      }
+    ]
+  },
+  {
+    "text": "que a conta possui papel ADMIN na Empresa Exemplo A e acesso empresarial confirmado pelo Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C12",
+        "stepId": "S_83cb5998b120",
+        "parameters": {
+          "papel": "ADMIN"
+        },
+        "template": "que a conta possui papel <papel> na Empresa Exemplo A e acesso empresarial confirmado pelo Core"
+      }
+    ]
+  },
+  {
+    "text": "abro o dashboard empresarial",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C12",
+        "stepId": "S_071fd20c054b",
+        "parameters": {},
+        "template": "abro o dashboard empresarial"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar a consolidação e os detalhamentos por Produto que o Core devolveu para essa Empresa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C12",
+        "stepId": "S_73e38267b0c2",
+        "parameters": {},
+        "template": "devo visualizar a consolidação e os detalhamentos por Produto que o Core devolveu para essa Empresa"
+      }
+    ]
+  },
+  {
+    "text": "nenhum dado ou contribuição da Empresa Exemplo B deve ser exibido",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C12",
+        "stepId": "S_dadfdd3bb60a",
+        "parameters": {},
+        "template": "nenhum dado ou contribuição da Empresa Exemplo B deve ser exibido"
+      }
+    ]
+  },
+  {
+    "text": "o Front não deve criar uma fórmula de agregação própria",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C12",
+        "stepId": "S_48b0e2be96e5",
+        "parameters": {},
+        "template": "o Front não deve criar uma fórmula de agregação própria"
+      }
+    ]
+  },
+  {
+    "text": "que Ana Exemplo é MEMBRO e tem AcessoProduto somente ao Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C13",
+        "stepId": "S_aea0cd2bc248",
+        "parameters": {},
+        "template": "que Ana Exemplo é MEMBRO e tem AcessoProduto somente ao Alfa"
+      }
+    ]
+  },
+  {
+    "text": "o contrato autoriza sua visualização empresarial limitada ao Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C13",
+        "stepId": "S_11d296705876",
+        "parameters": {},
+        "template": "o contrato autoriza sua visualização empresarial limitada ao Alfa"
+      }
+    ]
+  },
+  {
+    "text": "o Core devolve o dashboard desse recorte",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C13",
+        "stepId": "S_9841728ee926",
+        "parameters": {},
+        "template": "o Core devolve o dashboard desse recorte"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar somente dados e opções de Produto permitidos na resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C13",
+        "stepId": "S_20b00dea5c09",
+        "parameters": {},
+        "template": "devo visualizar somente dados e opções de Produto permitidos na resposta"
+      }
+    ]
+  },
+  {
+    "text": "totais gráficos e exportação não devem incluir Gama nem Produto de outra Empresa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C13",
+        "stepId": "S_b7984b3c79bf",
+        "parameters": {},
+        "template": "totais gráficos e exportação não devem incluir Gama nem Produto de outra Empresa"
+      }
+    ]
+  },
+  {
+    "text": "o teste não deve conceder permissão empresarial apenas por ser MEMBRO",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C13",
+        "stepId": "S_adb95f1dc8f8",
+        "parameters": {},
+        "template": "o teste não deve conceder permissão empresarial apenas por ser MEMBRO"
+      }
+    ]
+  },
+  {
+    "text": "que a sessão é válida mas o Core não autoriza o contexto solicitado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C14",
+        "stepId": "S_268a3694fb21",
+        "parameters": {},
+        "template": "que a sessão é válida mas o Core não autoriza o contexto solicitado"
+      }
+    ]
+  },
+  {
+    "text": "a operação retorna negação simples por ausência de vínculo com a Empresa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C14",
+        "stepId": "S_8b0a9f680252",
+        "parameters": {
+          "motivo": "ausência de vínculo com a Empresa"
+        },
+        "template": "a operação retorna negação simples por <motivo>"
+      }
+    ]
+  },
+  {
+    "text": "a operação retorna negação simples por Produto de outro tenant ou sem AcessoProduto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C14",
+        "stepId": "S_8b0a9f680252",
+        "parameters": {
+          "motivo": "Produto de outro tenant ou sem AcessoProduto"
+        },
+        "template": "a operação retorna negação simples por <motivo>"
+      }
+    ]
+  },
+  {
+    "text": "devo voltar à área inicial e continuar logada",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C14",
+        "stepId": "S_148a813c5324",
+        "parameters": {},
+        "template": "devo voltar à área inicial e continuar logada"
+      }
+    ]
+  },
+  {
+    "text": "nenhum indicador detalhe ou arquivo do contexto recusado deve ficar disponível",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C14",
+        "stepId": "S_b1cc8c63bfad",
+        "parameters": {},
+        "template": "nenhum indicador detalhe ou arquivo do contexto recusado deve ficar disponível"
+      }
+    ]
+  },
+  {
+    "text": "não devo aplicar o logout global da ADR_032 por essa negação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C14",
+        "stepId": "S_12902519f060",
+        "parameters": {},
+        "template": "não devo aplicar o logout global da ADR_032 por essa negação"
+      }
+    ]
+  },
+  {
+    "text": "que o dashboard empresarial mostra Alfa e Gama autorizados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C15",
+        "stepId": "S_e38f1a5e0a55",
+        "parameters": {},
+        "template": "que o dashboard empresarial mostra Alfa e Gama autorizados"
+      }
+    ]
+  },
+  {
+    "text": "seleciono o detalhamento do Gama",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C15",
+        "stepId": "S_0f167933d0dd",
+        "parameters": {},
+        "template": "seleciono o detalhamento do Gama"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar os dados do Gama retornados pelo Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C15",
+        "stepId": "S_cd2b199be94c",
+        "parameters": {},
+        "template": "devo visualizar os dados do Gama retornados pelo Core"
+      }
+    ]
+  },
+  {
+    "text": "o contexto de Empresa deve permanecer Exemplo A",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C15",
+        "stepId": "S_5588b3f3129d",
+        "parameters": {},
+        "template": "o contexto de Empresa deve permanecer Exemplo A"
+      }
+    ]
+  },
+  {
+    "text": "voltar à visão consolidada deve manter os filtros aplicados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C15",
+        "stepId": "S_7ed9420c503b",
+        "parameters": {},
+        "template": "voltar à visão consolidada deve manter os filtros aplicados"
+      }
+    ]
+  },
+  {
+    "text": "que o contrato disponibiliza seleção de Produtos permitidos na Empresa Exemplo A",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C16",
+        "stepId": "S_33f02ac6daba",
+        "parameters": {},
+        "template": "que o contrato disponibiliza seleção de Produtos permitidos na Empresa Exemplo A"
+      }
+    ]
+  },
+  {
+    "text": "aplico a seleção Alfa com o período fictício",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C16",
+        "stepId": "S_d6670b18e5a7",
+        "parameters": {
+          "selecao": "Alfa"
+        },
+        "template": "aplico a seleção <selecao> com o período fictício"
+      }
+    ]
+  },
+  {
+    "text": "aplico a seleção Alfa e Gama com o período fictício",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C16",
+        "stepId": "S_d6670b18e5a7",
+        "parameters": {
+          "selecao": "Alfa e Gama"
+        },
+        "template": "aplico a seleção <selecao> com o período fictício"
+      }
+    ]
+  },
+  {
+    "text": "aplico a seleção todos os Produtos autorizados da Empresa Exemplo A com o período fictício",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C16",
+        "stepId": "S_d6670b18e5a7",
+        "parameters": {
+          "selecao": "todos os Produtos autorizados da Empresa Exemplo A"
+        },
+        "template": "aplico a seleção <selecao> com o período fictício"
+      }
+    ]
+  },
+  {
+    "text": "a consulta deve usar somente os identificadores selecionados e autorizados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C16",
+        "stepId": "S_7c6d288cc212",
+        "parameters": {},
+        "template": "a consulta deve usar somente os identificadores selecionados e autorizados"
+      }
+    ]
+  },
+  {
+    "text": "indicadores e legenda devem corresponder à resposta desse conjunto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C16",
+        "stepId": "S_b679d54608d1",
+        "parameters": {},
+        "template": "indicadores e legenda devem corresponder à resposta desse conjunto"
+      }
+    ]
+  },
+  {
+    "text": "selecionar todos significa somente os Produtos permitidos desse contexto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C16",
+        "stepId": "S_002a81d0e4e7",
+        "parameters": {},
+        "template": "selecionar todos significa somente os Produtos permitidos desse contexto"
+      }
+    ]
+  },
+  {
+    "text": "que apliquei período e seleção de Produtos no dashboard empresarial",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C17",
+        "stepId": "S_e225a97d5bae",
+        "parameters": {},
+        "template": "que apliquei período e seleção de Produtos no dashboard empresarial"
+      }
+    ]
+  },
+  {
+    "text": "consulto seus indicadores e detalhamentos sem alterar os filtros",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C17",
+        "stepId": "S_8d07b1f657df",
+        "parameters": {},
+        "template": "consulto seus indicadores e detalhamentos sem alterar os filtros"
+      }
+    ]
+  },
+  {
+    "text": "os critérios devem continuar identificáveis e ativos nessa navegação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C17",
+        "stepId": "S_d2a2c3d3f2e8",
+        "parameters": {},
+        "template": "os critérios devem continuar identificáveis e ativos nessa navegação"
+      }
+    ]
+  },
+  {
+    "text": "uma consulta seguinte do mesmo estado deve usar esses critérios",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C17",
+        "stepId": "S_c922c289b3e9",
+        "parameters": {},
+        "template": "uma consulta seguinte do mesmo estado deve usar esses critérios"
+      }
+    ]
+  },
+  {
+    "text": "o teste não deve exigir persistência entre dispositivos ou após logout",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C17",
+        "stepId": "S_c5c19d462b3e",
+        "parameters": {},
+        "template": "o teste não deve exigir persistência entre dispositivos ou após logout"
+      }
+    ]
+  },
+  {
+    "text": "que a conta possui acesso ao módulo empresarial e aos Produtos Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C18",
+        "stepId": "S_9957611630f2",
+        "parameters": {
+          "produtos": "Alfa"
+        },
+        "template": "que a conta possui acesso ao módulo empresarial e aos Produtos <produtos>"
+      }
+    ]
+  },
+  {
+    "text": "que a conta possui acesso ao módulo empresarial e aos Produtos Alfa e Gama",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C18",
+        "stepId": "S_9957611630f2",
+        "parameters": {
+          "produtos": "Alfa e Gama"
+        },
+        "template": "que a conta possui acesso ao módulo empresarial e aos Produtos <produtos>"
+      }
+    ]
+  },
+  {
+    "text": "aplico os filtros de Ocorrências para Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C18",
+        "stepId": "S_08fe8294364e",
+        "parameters": {
+          "produtos": "Alfa"
+        },
+        "template": "aplico os filtros de Ocorrências para <produtos>"
+      }
+    ]
+  },
+  {
+    "text": "aplico os filtros de Ocorrências para Alfa e Gama",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C18",
+        "stepId": "S_08fe8294364e",
+        "parameters": {
+          "produtos": "Alfa e Gama"
+        },
+        "template": "aplico os filtros de Ocorrências para <produtos>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar somente as Ocorrências correspondentes retornadas pelo Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C18",
+        "stepId": "S_fd8fb2b8353c",
+        "parameters": {},
+        "template": "devo visualizar somente as Ocorrências correspondentes retornadas pelo Core"
+      }
+    ]
+  },
+  {
+    "text": "cada registro deve manter a identificação do Produto correto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C18",
+        "stepId": "S_f31aa5c9f1ea",
+        "parameters": {},
+        "template": "cada registro deve manter a identificação do Produto correto"
+      }
+    ]
+  },
+  {
+    "text": "o termo empresarial não deve misturar Empresas diferentes",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C18",
+        "stepId": "S_2acb012afe30",
+        "parameters": {},
+        "template": "o termo empresarial não deve misturar Empresas diferentes"
+      }
+    ]
+  },
+  {
+    "text": "que apliquei filtros válidos nas Ocorrências empresariais",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C19",
+        "stepId": "S_58323e5832bd",
+        "parameters": {},
+        "template": "que apliquei filtros válidos nas Ocorrências empresariais"
+      }
+    ]
+  },
+  {
+    "text": "o Core retorna sucesso sem correspondência",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C19",
+        "stepId": "S_a7a7b8d9a5b9",
+        "parameters": {},
+        "template": "o Core retorna sucesso sem correspondência"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar que não há Ocorrências para os critérios aplicados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C19",
+        "stepId": "S_11fe30b6e5f3",
+        "parameters": {},
+        "template": "devo visualizar que não há Ocorrências para os critérios aplicados"
+      }
+    ]
+  },
+  {
+    "text": "os filtros devem permanecer disponíveis para alteração ou remoção",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C19",
+        "stepId": "S_ae3c34329ad7",
+        "parameters": {},
+        "template": "os filtros devem permanecer disponíveis para alteração ou remoção"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve reapresentar registros anteriores como resultado atual",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C19",
+        "stepId": "S_d787df8af265",
+        "parameters": {},
+        "template": "a interface não deve reapresentar registros anteriores como resultado atual"
+      }
+    ]
+  },
+  {
+    "text": "que a consulta de Ocorrências empresariais possui filtros ativos",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C20",
+        "stepId": "S_54b8fcd3c393",
+        "parameters": {},
+        "template": "que a consulta de Ocorrências empresariais possui filtros ativos"
+      }
+    ]
+  },
+  {
+    "text": "realizo alteração de um critério",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C20",
+        "stepId": "S_b4d858fdce46",
+        "parameters": {
+          "acao": "alteração de um critério"
+        },
+        "template": "realizo <acao>"
+      }
+    ]
+  },
+  {
+    "text": "devo observar uma nova consulta com os critérios atualizados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C20",
+        "stepId": "S_bc47bf476d91",
+        "parameters": {},
+        "template": "devo observar uma nova consulta com os critérios atualizados"
+      }
+    ]
+  },
+  {
+    "text": "os registros e as identificações de Produto devem corresponder à nova resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C20",
+        "stepId": "S_746507ebffd4",
+        "parameters": {},
+        "template": "os registros e as identificações de Produto devem corresponder à nova resposta"
+      }
+    ]
+  },
+  {
+    "text": "o contexto autorizado de Empresa deve ser mantido",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C20",
+        "stepId": "S_4c7f87a24241",
+        "parameters": {},
+        "template": "o contexto autorizado de Empresa deve ser mantido"
+      }
+    ]
+  },
+  {
+    "text": "que a lista empresarial contém uma Ocorrência do Gama autorizada",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C21",
+        "stepId": "S_ee4ad6288bc7",
+        "parameters": {},
+        "template": "que a lista empresarial contém uma Ocorrência do Gama autorizada"
+      }
+    ]
+  },
+  {
+    "text": "a interface oferece navegação ao detalhe",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C21",
+        "stepId": "S_9cccb8b2d38c",
+        "parameters": {},
+        "template": "a interface oferece navegação ao detalhe"
+      }
+    ]
+  },
+  {
+    "text": "abro esse registro",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C21",
+        "stepId": "S_d4039b368d68",
+        "parameters": {},
+        "template": "abro esse registro"
+      }
+    ]
+  },
+  {
+    "text": "a consulta deve usar o identificador da Ocorrência e o Produto Gama na Empresa Exemplo A",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C21",
+        "stepId": "S_df450ef363fc",
+        "parameters": {},
+        "template": "a consulta deve usar o identificador da Ocorrência e o Produto Gama na Empresa Exemplo A"
+      }
+    ]
+  },
+  {
+    "text": "não deve reutilizar o Produto anteriormente consultado por engano",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C21",
+        "stepId": "S_d26f0d80b0c3",
+        "parameters": {},
+        "template": "não deve reutilizar o Produto anteriormente consultado por engano"
+      }
+    ]
+  },
+  {
+    "text": "o comportamento interno do detalhe segue o plano LLT-84",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C21",
+        "stepId": "S_f5ac3d8e0045",
+        "parameters": {},
+        "template": "o comportamento interno do detalhe segue o plano LLT-84"
+      }
+    ]
+  },
+  {
+    "text": "que abro a exportação do dashboard do Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C22",
+        "stepId": "S_3adea13f4686",
+        "parameters": {
+          "escopo": "do Produto Alfa"
+        },
+        "template": "que abro a exportação do dashboard <escopo>"
+      }
+    ]
+  },
+  {
+    "text": "que abro a exportação do dashboard empresarial",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C22",
+        "stepId": "S_3adea13f4686",
+        "parameters": {
+          "escopo": "empresarial"
+        },
+        "template": "que abro a exportação do dashboard <escopo>"
+      }
+    ]
+  },
+  {
+    "text": "o contrato ou configuração validada do ambiente informa os formatos disponíveis",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C22",
+        "stepId": "S_0ffe22266a1f",
+        "parameters": {},
+        "template": "o contrato ou configuração validada do ambiente informa os formatos disponíveis"
+      }
+    ]
+  },
+  {
+    "text": "visualizo as opções",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C22",
+        "stepId": "S_569c8a847c14",
+        "parameters": {},
+        "template": "visualizo as opções"
+      }
+    ]
+  },
+  {
+    "text": "devo poder selecionar os formatos efetivamente oferecidos por essa operação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C22",
+        "stepId": "S_114b52c8ce17",
+        "parameters": {},
+        "template": "devo poder selecionar os formatos efetivamente oferecidos por essa operação"
+      }
+    ]
+  },
+  {
+    "text": "não devo visualizar um formato inventado apenas porque é exemplo na planilha",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C22",
+        "stepId": "S_98e437426370",
+        "parameters": {},
+        "template": "não devo visualizar um formato inventado apenas porque é exemplo na planilha"
+      }
+    ]
+  },
+  {
+    "text": "escolher um formato não deve iniciar geração antes da confirmação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C22",
+        "stepId": "S_2f4cc7dbf785",
+        "parameters": {},
+        "template": "escolher um formato não deve iniciar geração antes da confirmação"
+      }
+    ]
+  },
+  {
+    "text": "que o dashboard do Produto Alfa tem período tipo e Produtos autorizados aplicados com sucesso",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C23",
+        "stepId": "S_822231cdd57b",
+        "parameters": {
+          "escopo": "do Produto Alfa"
+        },
+        "template": "que o dashboard <escopo> tem período tipo e Produtos autorizados aplicados com sucesso"
+      }
+    ]
+  },
+  {
+    "text": "que o dashboard empresarial de Alfa e Gama tem período tipo e Produtos autorizados aplicados com sucesso",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C23",
+        "stepId": "S_822231cdd57b",
+        "parameters": {
+          "escopo": "empresarial de Alfa e Gama"
+        },
+        "template": "que o dashboard <escopo> tem período tipo e Produtos autorizados aplicados com sucesso"
+      }
+    ]
+  },
+  {
+    "text": "escolho um formato disponível e confirmo a exportação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C23",
+        "stepId": "S_fab470dfc629",
+        "parameters": {},
+        "template": "escolho um formato disponível e confirmo a exportação"
+      }
+    ]
+  },
+  {
+    "text": "a solicitação deve identificar o mesmo recorte aplicado no dashboard",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C23",
+        "stepId": "S_31dec10ce319",
+        "parameters": {},
+        "template": "a solicitação deve identificar o mesmo recorte aplicado no dashboard"
+      }
+    ]
+  },
+  {
+    "text": "alterações ainda não aplicadas no formulário não devem ser enviadas como filtros confirmados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C23",
+        "stepId": "S_69f63ff767c2",
+        "parameters": {},
+        "template": "alterações ainda não aplicadas no formulário não devem ser enviadas como filtros confirmados"
+      }
+    ]
+  },
+  {
+    "text": "a interface deve indicar que a exportação foi iniciada sem anunciar arquivo pronto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C23",
+        "stepId": "S_67f2030c992b",
+        "parameters": {},
+        "template": "a interface deve indicar que a exportação foi iniciada sem anunciar arquivo pronto"
+      }
+    ]
+  },
+  {
+    "text": "que confirmei uma exportação do Produto Alfa em um formato disponível",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C24",
+        "stepId": "S_be0f1a279aa0",
+        "parameters": {
+          "escopo": "do Produto Alfa"
+        },
+        "template": "que confirmei uma exportação <escopo> em um formato disponível"
+      }
+    ]
+  },
+  {
+    "text": "que confirmei uma exportação empresarial de Alfa e Gama em um formato disponível",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C24",
+        "stepId": "S_be0f1a279aa0",
+        "parameters": {
+          "escopo": "empresarial de Alfa e Gama"
+        },
+        "template": "que confirmei uma exportação <escopo> em um formato disponível"
+      }
+    ]
+  },
+  {
+    "text": "o Core confirma conclusão e disponibiliza o arquivo conforme o contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C24",
+        "stepId": "S_d851695d0d92",
+        "parameters": {},
+        "template": "o Core confirma conclusão e disponibiliza o arquivo conforme o contrato"
+      }
+    ]
+  },
+  {
+    "text": "devo conseguir iniciar o download do arquivo correspondente à solicitação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C24",
+        "stepId": "S_afcc36090ee0",
+        "parameters": {},
+        "template": "devo conseguir iniciar o download do arquivo correspondente à solicitação"
+      }
+    ]
+  },
+  {
+    "text": "devo distinguir geração em andamento de arquivo pronto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C24",
+        "stepId": "S_7f2756f30a07",
+        "parameters": {},
+        "template": "devo distinguir geração em andamento de arquivo pronto"
+      }
+    ]
+  },
+  {
+    "text": "o arquivo deve manter formato e recorte associados àquela solicitação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C24",
+        "stepId": "S_f3049de9572a",
+        "parameters": {},
+        "template": "o arquivo deve manter formato e recorte associados àquela solicitação"
+      }
+    ]
+  },
+  {
+    "text": "que abri a configuração de exportação por Produto sem confirmar",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C25",
+        "stepId": "S_b5ab87bd6de2",
+        "parameters": {
+          "escopo": "por Produto"
+        },
+        "template": "que abri a configuração de exportação <escopo> sem confirmar"
+      }
+    ]
+  },
+  {
+    "text": "que abri a configuração de exportação empresarial sem confirmar",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C25",
+        "stepId": "S_b5ab87bd6de2",
+        "parameters": {
+          "escopo": "empresarial"
+        },
+        "template": "que abri a configuração de exportação <escopo> sem confirmar"
+      }
+    ]
+  },
+  {
+    "text": "cancelo essa configuração",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C25",
+        "stepId": "S_8c030af8580b",
+        "parameters": {},
+        "template": "cancelo essa configuração"
+      }
+    ]
+  },
+  {
+    "text": "devo retornar ao dashboard com seus filtros preservados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C25",
+        "stepId": "S_1062765c3bd8",
+        "parameters": {},
+        "template": "devo retornar ao dashboard com seus filtros preservados"
+      }
+    ]
+  },
+  {
+    "text": "nenhuma solicitação de geração deve ser enviada",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C25",
+        "stepId": "S_8dcc342b6b07",
+        "parameters": {},
+        "template": "nenhuma solicitação de geração deve ser enviada"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve registrar essa desistência como exportação concluída",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C25",
+        "stepId": "S_fb5c8a5650c6",
+        "parameters": {},
+        "template": "a interface não deve registrar essa desistência como exportação concluída"
+      }
+    ]
+  },
+  {
+    "text": "que a geração do relatório do Produto Alfa está em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C26",
+        "stepId": "S_6ec8bcf71c28",
+        "parameters": {},
+        "template": "que a geração do relatório do Produto Alfa está em andamento"
+      }
+    ]
+  },
+  {
+    "text": "aciono o cancelamento e o serviço confirma a interrupção conforme o contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C26",
+        "stepId": "S_8fddc0d33b31",
+        "parameters": {},
+        "template": "aciono o cancelamento e o serviço confirma a interrupção conforme o contrato"
+      }
+    ]
+  },
+  {
+    "text": "devo voltar ao dashboard com o recorte preservado e indicação de cancelamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C26",
+        "stepId": "S_c03d88c83ada",
+        "parameters": {},
+        "template": "devo voltar ao dashboard com o recorte preservado e indicação de cancelamento"
+      }
+    ]
+  },
+  {
+    "text": "a resposta posterior da tarefa cancelada não deve iniciar download automático",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C26",
+        "stepId": "S_a4f7b504e3e4",
+        "parameters": {},
+        "template": "a resposta posterior da tarefa cancelada não deve iniciar download automático"
+      }
+    ]
+  },
+  {
+    "text": "fechar uma janela sem confirmação do serviço não deve ser tratado como cancelamento efetivo",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C26",
+        "stepId": "S_5577374fda72",
+        "parameters": {},
+        "template": "fechar uma janela sem confirmação do serviço não deve ser tratado como cancelamento efetivo"
+      }
+    ]
+  },
+  {
+    "text": "que a operação empresarial oferece cancelamento documentado e o confirma quando solicitado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C27",
+        "stepId": "S_5be25bda332a",
+        "parameters": {
+          "suporte": "oferece cancelamento documentado e o confirma quando solicitado"
+        },
+        "template": "que a operação empresarial <suporte>"
+      }
+    ]
+  },
+  {
+    "text": "que a operação empresarial não oferece cancelamento documentado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C27",
+        "stepId": "S_5be25bda332a",
+        "parameters": {
+          "suporte": "não oferece cancelamento documentado"
+        },
+        "template": "que a operação empresarial <suporte>"
+      }
+    ]
+  },
+  {
+    "text": "consulto a possibilidade de cancelar a geração em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C27",
+        "stepId": "S_9240840ac8b6",
+        "parameters": {},
+        "template": "consulto a possibilidade de cancelar a geração em andamento"
+      }
+    ]
+  },
+  {
+    "text": "devo observar ação de cancelamento com retorno ao dashboard após confirmação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C27",
+        "stepId": "S_2c21fc9c55ab",
+        "parameters": {
+          "resultado": "ação de cancelamento com retorno ao dashboard após confirmação"
+        },
+        "template": "devo observar <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "devo observar ausência de promessa de interrupção do serviço ao fechar a interface",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C27",
+        "stepId": "S_2c21fc9c55ab",
+        "parameters": {
+          "resultado": "ausência de promessa de interrupção do serviço ao fechar a interface"
+        },
+        "template": "devo observar <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "uma recusa de permissão não deve ser interpretada como confirmação de cancelamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C27",
+        "stepId": "S_2b3eefe460af",
+        "parameters": {},
+        "template": "uma recusa de permissão não deve ser interpretada como confirmação de cancelamento"
+      }
+    ]
+  },
+  {
+    "text": "que uma exportação autorizada está em solicitação de geração",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C28",
+        "stepId": "S_f02925488466",
+        "parameters": {
+          "etapa": "solicitação de geração"
+        },
+        "template": "que uma exportação autorizada está em <etapa>"
+      }
+    ]
+  },
+  {
+    "text": "que uma exportação autorizada está em geração confirmada",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C28",
+        "stepId": "S_f02925488466",
+        "parameters": {
+          "etapa": "geração confirmada"
+        },
+        "template": "que uma exportação autorizada está em <etapa>"
+      }
+    ]
+  },
+  {
+    "text": "que uma exportação autorizada está em arquivo disponibilizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C28",
+        "stepId": "S_f02925488466",
+        "parameters": {
+          "etapa": "arquivo disponibilizado"
+        },
+        "template": "que uma exportação autorizada está em <etapa>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre erro de comunicação sem confirmação de criação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C28",
+        "stepId": "S_0c0b34614b07",
+        "parameters": {
+          "falha": "erro de comunicação sem confirmação de criação"
+        },
+        "template": "ocorre <falha>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre erro de processamento informado pelo Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C28",
+        "stepId": "S_0c0b34614b07",
+        "parameters": {
+          "falha": "erro de processamento informado pelo Core"
+        },
+        "template": "ocorre <falha>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre falha de obtenção do arquivo",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C28",
+        "stepId": "S_0c0b34614b07",
+        "parameters": {
+          "falha": "falha de obtenção do arquivo"
+        },
+        "template": "ocorre <falha>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar que essa etapa não foi concluída e poder recuperar a operação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C28",
+        "stepId": "S_ddcbc251cc32",
+        "parameters": {},
+        "template": "devo visualizar que essa etapa não foi concluída e poder recuperar a operação"
+      }
+    ]
+  },
+  {
+    "text": "não devo mostrar confirmação de arquivo baixado sem comprovação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C28",
+        "stepId": "S_d3771ae28633",
+        "parameters": {},
+        "template": "não devo mostrar confirmação de arquivo baixado sem comprovação"
+      }
+    ]
+  },
+  {
+    "text": "Produto Empresa e filtros do dashboard devem permanecer recuperáveis",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C28",
+        "stepId": "S_c1141d7c7313",
+        "parameters": {},
+        "template": "Produto Empresa e filtros do dashboard devem permanecer recuperáveis"
+      }
+    ]
+  },
+  {
+    "text": "que confirmei uma exportação e o controle aguarda a resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C29",
+        "stepId": "S_e46ca18f08ab",
+        "parameters": {},
+        "template": "que confirmei uma exportação e o controle aguarda a resposta"
+      }
+    ]
+  },
+  {
+    "text": "aciono novamente a confirmação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C29",
+        "stepId": "S_9d559aebc3ba",
+        "parameters": {},
+        "template": "aciono novamente a confirmação"
+      }
+    ]
+  },
+  {
+    "text": "o Front não deve enviar duas solicitações simultâneas idênticas pelo mesmo controle",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C29",
+        "stepId": "S_5f68c0e09d8e",
+        "parameters": {},
+        "template": "o Front não deve enviar duas solicitações simultâneas idênticas pelo mesmo controle"
+      }
+    ]
+  },
+  {
+    "text": "devo perceber o andamento e conseguir recuperar o controle após a resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C29",
+        "stepId": "S_949440291c1e",
+        "parameters": {},
+        "template": "devo perceber o andamento e conseguir recuperar o controle após a resposta"
+      }
+    ]
+  },
+  {
+    "text": "o teste não deve inventar uma garantia de idempotência do serviço",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C29",
+        "stepId": "S_7ee866e4028a",
+        "parameters": {},
+        "template": "o teste não deve inventar uma garantia de idempotência do serviço"
+      }
+    ]
+  },
+  {
+    "text": "que uma exportação aguarda um arquivo válido",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C30",
+        "stepId": "S_cc37a8486eec",
+        "parameters": {},
+        "template": "que uma exportação aguarda um arquivo válido"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira de download retorna página HTML de erro no lugar do arquivo solicitado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C30",
+        "stepId": "S_2922ac0a7bdf",
+        "parameters": {
+          "resposta": "página HTML de erro no lugar do arquivo solicitado"
+        },
+        "template": "a fronteira de download retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira de download retorna retorno sem arquivo ou referência obrigatória",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C30",
+        "stepId": "S_2922ac0a7bdf",
+        "parameters": {
+          "resposta": "retorno sem arquivo ou referência obrigatória"
+        },
+        "template": "a fronteira de download retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira de download retorna arquivo identificado com formato diferente do confirmado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C30",
+        "stepId": "S_2922ac0a7bdf",
+        "parameters": {
+          "resposta": "arquivo identificado com formato diferente do confirmado"
+        },
+        "template": "a fronteira de download retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira de download retorna resposta inválida segundo as verificações previstas no contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C30",
+        "stepId": "S_2922ac0a7bdf",
+        "parameters": {
+          "resposta": "resposta inválida segundo as verificações previstas no contrato"
+        },
+        "template": "a fronteira de download retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve anunciar download concluído de um relatório válido",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C30",
+        "stepId": "S_a58c0e300c23",
+        "parameters": {},
+        "template": "a interface não deve anunciar download concluído de um relatório válido"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar orientação de falha sem executar conteúdo inesperado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C30",
+        "stepId": "S_0daaa174dfba",
+        "parameters": {},
+        "template": "devo visualizar orientação de falha sem executar conteúdo inesperado"
+      }
+    ]
+  },
+  {
+    "text": "o tratamento deve usar os campos e sinais realmente disponíveis no contrato de download",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C30",
+        "stepId": "S_973d8ba4ff98",
+        "parameters": {},
+        "template": "o tratamento deve usar os campos e sinais realmente disponíveis no contrato de download"
+      }
+    ]
+  },
+  {
+    "text": "que uma exportação foi solicitada com autorização",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C31",
+        "stepId": "S_b05e32ab9d92",
+        "parameters": {},
+        "template": "que uma exportação foi solicitada com autorização"
+      }
+    ]
+  },
+  {
+    "text": "a obtenção do arquivo retorna negação simples por perda de acesso ao Produto ou à Empresa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C31",
+        "stepId": "S_9e62591ff8c6",
+        "parameters": {},
+        "template": "a obtenção do arquivo retorna negação simples por perda de acesso ao Produto ou à Empresa"
+      }
+    ]
+  },
+  {
+    "text": "nenhum arquivo ou conteúdo recusado deve ser entregue pela interface",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C31",
+        "stepId": "S_9efef27f7b68",
+        "parameters": {},
+        "template": "nenhum arquivo ou conteúdo recusado deve ser entregue pela interface"
+      }
+    ]
+  },
+  {
+    "text": "devo retornar à área inicial mantendo a sessão conforme a ADR_126",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C31",
+        "stepId": "S_db4947867c13",
+        "parameters": {},
+        "template": "devo retornar à área inicial mantendo a sessão conforme a ADR_126"
+      }
+    ]
+  },
+  {
+    "text": "a autorização obtida no início não deve ser tratada como permissão permanente de download",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C31",
+        "stepId": "S_0545312320f1",
+        "parameters": {},
+        "template": "a autorização obtida no início não deve ser tratada como permissão permanente de download"
+      }
+    ]
+  },
+  {
+    "text": "que uma consulta ou exportação está em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C32",
+        "stepId": "S_cee33ae7a58b",
+        "parameters": {},
+        "template": "que uma consulta ou exportação está em andamento"
+      }
+    ]
+  },
+  {
+    "text": "a operação retorna 401 do Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C32",
+        "stepId": "S_734b49f50559",
+        "parameters": {
+          "retorno": "401 do Core"
+        },
+        "template": "a operação retorna <retorno>"
+      }
+    ]
+  },
+  {
+    "text": "a operação retorna 403 classificado pelo contrato como revogação da ADR_032",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C32",
+        "stepId": "S_734b49f50559",
+        "parameters": {
+          "retorno": "403 classificado pelo contrato como revogação da ADR_032"
+        },
+        "template": "a operação retorna <retorno>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar Você foi deslogado e retornar ao SignIn sem manter conteúdo protegido",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C32",
+        "stepId": "S_0e8f17f542a0",
+        "parameters": {},
+        "template": "devo visualizar Você foi deslogado e retornar ao SignIn sem manter conteúdo protegido"
+      }
+    ]
+  },
+  {
+    "text": "o tratamento não deve depender de uma mensagem no corpo",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C32",
+        "stepId": "S_3f8f4784b002",
+        "parameters": {},
+        "template": "o tratamento não deve depender de uma mensagem no corpo"
+      }
+    ]
+  },
+  {
+    "text": "esse caso não deve ser confundido com a negação simples da ADR_126",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C32",
+        "stepId": "S_0ef782f6e252",
+        "parameters": {},
+        "template": "esse caso não deve ser confundido com a negação simples da ADR_126"
+      }
+    ]
+  },
+  {
+    "text": "que uma consulta de dashboard aguarda resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C33",
+        "stepId": "S_e396402bc87d",
+        "parameters": {},
+        "template": "que uma consulta de dashboard aguarda resposta"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida retorna null fora do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C33",
+        "stepId": "S_7164258cf81c",
+        "parameters": {
+          "resposta": "null"
+        },
+        "template": "a fronteira consumida retorna <resposta> fora do contrato"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida retorna corpo vazio quando é exigido conteúdo fora do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C33",
+        "stepId": "S_7164258cf81c",
+        "parameters": {
+          "resposta": "corpo vazio quando é exigido conteúdo"
+        },
+        "template": "a fronteira consumida retorna <resposta> fora do contrato"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida retorna JSON inválido ou HTML inesperado fora do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C33",
+        "stepId": "S_7164258cf81c",
+        "parameters": {
+          "resposta": "JSON inválido ou HTML inesperado"
+        },
+        "template": "a fronteira consumida retorna <resposta> fora do contrato"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida retorna HTTP 200 sem os campos exigidos do dashboard fora do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C33",
+        "stepId": "S_7164258cf81c",
+        "parameters": {
+          "resposta": "HTTP 200 sem os campos exigidos do dashboard"
+        },
+        "template": "a fronteira consumida retorna <resposta> fora do contrato"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida retorna erro sem causa reconhecida pelo contrato fora do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C33",
+        "stepId": "S_7164258cf81c",
+        "parameters": {
+          "resposta": "erro sem causa reconhecida pelo contrato"
+        },
+        "template": "a fronteira consumida retorna <resposta> fora do contrato"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar orientação geral de falha sem travar nem mostrar null ou undefined",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C33",
+        "stepId": "S_0b27266181c0",
+        "parameters": {},
+        "template": "devo visualizar orientação geral de falha sem travar nem mostrar null ou undefined"
+      }
+    ]
+  },
+  {
+    "text": "não devo apresentar indicadores antigos como atuais nem fabricar zero para preencher dados ausentes",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C33",
+        "stepId": "S_e546a06960c5",
+        "parameters": {},
+        "template": "não devo apresentar indicadores antigos como atuais nem fabricar zero para preencher dados ausentes"
+      }
+    ]
+  },
+  {
+    "text": "devo poder recuperar a consulta sem perder a identificação do contexto autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C33",
+        "stepId": "S_fa709dca550e",
+        "parameters": {},
+        "template": "devo poder recuperar a consulta sem perder a identificação do contexto autorizado"
+      }
+    ]
+  },
+  {
+    "text": "que utilizo a interface somente pelo teclado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C34",
+        "stepId": "S_91c87ab36b02",
+        "parameters": {},
+        "template": "que utilizo a interface somente pelo teclado"
+      }
+    ]
+  },
+  {
+    "text": "realizo selecionar Produto e aplicar critérios",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C34",
+        "stepId": "S_b4d858fdce46",
+        "parameters": {
+          "acao": "selecionar Produto e aplicar critérios"
+        },
+        "template": "realizo <acao>"
+      }
+    ]
+  },
+  {
+    "text": "realizo escolher formato e confirmar ou desistir",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C34",
+        "stepId": "S_b4d858fdce46",
+        "parameters": {
+          "acao": "escolher formato e confirmar ou desistir"
+        },
+        "template": "realizo <acao>"
+      }
+    ]
+  },
+  {
+    "text": "realizo alterar seleção de Produtos e consultar resultados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C34",
+        "stepId": "S_b4d858fdce46",
+        "parameters": {
+          "acao": "alterar seleção de Produtos e consultar resultados"
+        },
+        "template": "realizo <acao>"
+      }
+    ]
+  },
+  {
+    "text": "os controles necessários devem ser alcançáveis com foco visível e ordem compreensível",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C34",
+        "stepId": "S_7d4b863ac984",
+        "parameters": {},
+        "template": "os controles necessários devem ser alcançáveis com foco visível e ordem compreensível"
+      }
+    ]
+  },
+  {
+    "text": "uma janela de exportação deve manter foco útil e devolvê-lo ao controle de origem ao fechar",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C34",
+        "stepId": "S_cd8d3c074e52",
+        "parameters": {},
+        "template": "uma janela de exportação deve manter foco útil e devolvê-lo ao controle de origem ao fechar"
+      }
+    ]
+  },
+  {
+    "text": "a ação não deve depender do mouse",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C34",
+        "stepId": "S_e8bc3b00f117",
+        "parameters": {},
+        "template": "a ação não deve depender do mouse"
+      }
+    ]
+  },
+  {
+    "text": "que verifico card ou representação do gráfico no componente do LhamaLog",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C35",
+        "stepId": "S_f6137152d998",
+        "parameters": {
+          "elemento": "card ou representação do gráfico"
+        },
+        "template": "que verifico <elemento> no componente do LhamaLog"
+      }
+    ]
+  },
+  {
+    "text": "que verifico campo de data com erro no componente do LhamaLog",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C35",
+        "stepId": "S_f6137152d998",
+        "parameters": {
+          "elemento": "campo de data com erro"
+        },
+        "template": "que verifico <elemento> no componente do LhamaLog"
+      }
+    ]
+  },
+  {
+    "text": "que verifico controle de geração no componente do LhamaLog",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C35",
+        "stepId": "S_f6137152d998",
+        "parameters": {
+          "elemento": "controle de geração"
+        },
+        "template": "que verifico <elemento> no componente do LhamaLog"
+      }
+    ]
+  },
+  {
+    "text": "consulto o nome acessível e a leitura assistiva",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C35",
+        "stepId": "S_27a2f0d99849",
+        "parameters": {},
+        "template": "consulto o nome acessível e a leitura assistiva"
+      }
+    ]
+  },
+  {
+    "text": "devo compreender nome unidade e valor ou alternativa textual equivalente sem depender somente de cor ícone ou placeholder",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C35",
+        "stepId": "S_cd05bd66af74",
+        "parameters": {
+          "informacao": "nome unidade e valor ou alternativa textual equivalente"
+        },
+        "template": "devo compreender <informacao> sem depender somente de cor ícone ou placeholder"
+      }
+    ]
+  },
+  {
+    "text": "devo compreender qual campo corrigir e por quê sem depender somente de cor ícone ou placeholder",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C35",
+        "stepId": "S_cd05bd66af74",
+        "parameters": {
+          "informacao": "qual campo corrigir e por quê"
+        },
+        "template": "devo compreender <informacao> sem depender somente de cor ícone ou placeholder"
+      }
+    ]
+  },
+  {
+    "text": "devo compreender ação disponível e estado de processamento sem depender somente de cor ícone ou placeholder",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C35",
+        "stepId": "S_cd05bd66af74",
+        "parameters": {
+          "informacao": "ação disponível e estado de processamento"
+        },
+        "template": "devo compreender <informacao> sem depender somente de cor ícone ou placeholder"
+      }
+    ]
+  },
+  {
+    "text": "os resultados devem ser confirmados na página real com tecnologia assistiva",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C35",
+        "stepId": "S_c69add761cb1",
+        "parameters": {},
+        "template": "os resultados devem ser confirmados na página real com tecnologia assistiva"
+      }
+    ]
+  },
+  {
+    "text": "que abro dashboard por Produto nas condições viewport 360 por 800 e zoom 100 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C36",
+        "stepId": "S_86bfc84add06",
+        "parameters": {
+          "tela": "dashboard por Produto",
+          "condicoes": "viewport 360 por 800 e zoom 100 por cento"
+        },
+        "template": "que abro <tela> nas condições <condicoes>"
+      }
+    ]
+  },
+  {
+    "text": "que abro dashboard empresarial nas condições viewport 1280 por 800 e zoom 200 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C36",
+        "stepId": "S_86bfc84add06",
+        "parameters": {
+          "tela": "dashboard empresarial",
+          "condicoes": "viewport 1280 por 800 e zoom 200 por cento"
+        },
+        "template": "que abro <tela> nas condições <condicoes>"
+      }
+    ]
+  },
+  {
+    "text": "que abro configuração de exportação nas condições viewport 1280 por 800 e zoom 200 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C36",
+        "stepId": "S_86bfc84add06",
+        "parameters": {
+          "tela": "configuração de exportação",
+          "condicoes": "viewport 1280 por 800 e zoom 200 por cento"
+        },
+        "template": "que abro <tela> nas condições <condicoes>"
+      }
+    ]
+  },
+  {
+    "text": "consulto dados e percorro os controles",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C36",
+        "stepId": "S_5862e50ce1ef",
+        "parameters": {},
+        "template": "consulto dados e percorro os controles"
+      }
+    ]
+  },
+  {
+    "text": "rótulos valores filtros botões e foco devem permanecer legíveis e alcançáveis",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C36",
+        "stepId": "S_51b1f4aa88c0",
+        "parameters": {},
+        "template": "rótulos valores filtros botões e foco devem permanecer legíveis e alcançáveis"
+      }
+    ]
+  },
+  {
+    "text": "nenhum controle necessário deve ficar cortado ou sobreposto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C36",
+        "stepId": "S_2a8ade1fdb45",
+        "parameters": {},
+        "template": "nenhum controle necessário deve ficar cortado ou sobreposto"
+      }
+    ]
+  },
+  {
+    "text": "gráficos devem ter acesso aos seus dados sem exigir somente precisão de ponteiro",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C36",
+        "stepId": "S_e362d2498d9b",
+        "parameters": {},
+        "template": "gráficos devem ter acesso aos seus dados sem exigir somente precisão de ponteiro"
+      }
+    ]
+  },
+  {
+    "text": "que o Core real de teste contém dados fictícios do recorte Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C37",
+        "stepId": "S_01bedde860b2",
+        "parameters": {
+          "escopo": "Produto Alfa"
+        },
+        "template": "que o Core real de teste contém dados fictícios do recorte <escopo>"
+      }
+    ]
+  },
+  {
+    "text": "que o Core real de teste contém dados fictícios do recorte Empresa Exemplo A com Alfa e Gama autorizados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C37",
+        "stepId": "S_01bedde860b2",
+        "parameters": {
+          "escopo": "Empresa Exemplo A com Alfa e Gama autorizados"
+        },
+        "template": "que o Core real de teste contém dados fictícios do recorte <escopo>"
+      }
+    ]
+  },
+  {
+    "text": "aplico critérios válidos pela interface Web",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C37",
+        "stepId": "S_e6f8578e2330",
+        "parameters": {},
+        "template": "aplico critérios válidos pela interface Web"
+      }
+    ]
+  },
+  {
+    "text": "as chamadas de negócio devem ir ao Core com sessão Empresa e Produtos corretos",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C37",
+        "stepId": "S_2b7238755a85",
+        "parameters": {},
+        "template": "as chamadas de negócio devem ir ao Core com sessão Empresa e Produtos corretos"
+      }
+    ]
+  },
+  {
+    "text": "indicadores e gráficos devem corresponder aos valores e unidades devolvidos para essa consulta",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C37",
+        "stepId": "S_3ca9e7fa10b0",
+        "parameters": {},
+        "template": "indicadores e gráficos devem corresponder aos valores e unidades devolvidos para essa consulta"
+      }
+    ]
+  },
+  {
+    "text": "a evidência deve identificar o contrato usado sem declarar validada uma fórmula de agregação não especificada",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C37",
+        "stepId": "S_a1a32795f793",
+        "parameters": {},
+        "template": "a evidência deve identificar o contrato usado sem declarar validada uma fórmula de agregação não especificada"
+      }
+    ]
+  },
+  {
+    "text": "que a operação real oferece um formato de exportação documentado para Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C38",
+        "stepId": "S_96b1d867c4ee",
+        "parameters": {
+          "escopo": "Produto Alfa"
+        },
+        "template": "que a operação real oferece um formato de exportação documentado para <escopo>"
+      }
+    ]
+  },
+  {
+    "text": "que a operação real oferece um formato de exportação documentado para Empresa Exemplo A com Alfa e Gama",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C38",
+        "stepId": "S_96b1d867c4ee",
+        "parameters": {
+          "escopo": "Empresa Exemplo A com Alfa e Gama"
+        },
+        "template": "que a operação real oferece um formato de exportação documentado para <escopo>"
+      }
+    ]
+  },
+  {
+    "text": "registrei os filtros confirmados e os dados fictícios de referência desse recorte",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C38",
+        "stepId": "S_613aa7f81a7b",
+        "parameters": {},
+        "template": "registrei os filtros confirmados e os dados fictícios de referência desse recorte"
+      }
+    ]
+  },
+  {
+    "text": "confirmo e obtenho o arquivo real gerado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C38",
+        "stepId": "S_389c02f47e37",
+        "parameters": {},
+        "template": "confirmo e obtenho o arquivo real gerado"
+      }
+    ]
+  },
+  {
+    "text": "o arquivo deve corresponder ao formato e aos filtros da solicitação",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C38",
+        "stepId": "S_279c545eabe4",
+        "parameters": {},
+        "template": "o arquivo deve corresponder ao formato e aos filtros da solicitação"
+      }
+    ]
+  },
+  {
+    "text": "seus dados devem pertencer apenas à Empresa e aos Produtos autorizados no recorte",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C38",
+        "stepId": "S_14d9aa4e5fa5",
+        "parameters": {},
+        "template": "seus dados devem pertencer apenas à Empresa e aos Produtos autorizados no recorte"
+      }
+    ]
+  },
+  {
+    "text": "devo conferir o conteúdo do arquivo e não somente sua extensão ou presença de um link",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C38",
+        "stepId": "S_353c8d94b988",
+        "parameters": {},
+        "template": "devo conferir o conteúdo do arquivo e não somente sua extensão ou presença de um link"
+      }
+    ]
+  },
+  {
+    "text": "a geração deve ter o registro de exportação previsto na fonte comprovado em evidência do serviço",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C38",
+        "stepId": "S_82b7bdee25c9",
+        "parameters": {},
+        "template": "a geração deve ter o registro de exportação previsto na fonte comprovado em evidência do serviço"
+      }
+    ]
+  },
+  {
+    "text": "que a operação de relatório do Produto Alfa oferece cancelamento documentado no ambiente de teste",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C39",
+        "stepId": "S_333db4c4fac5",
+        "parameters": {
+          "escopo": "relatório do Produto Alfa"
+        },
+        "template": "que a operação de <escopo> oferece cancelamento documentado no ambiente de teste"
+      }
+    ]
+  },
+  {
+    "text": "que a operação de relatório empresarial oferece cancelamento documentado no ambiente de teste",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C39",
+        "stepId": "S_333db4c4fac5",
+        "parameters": {
+          "escopo": "relatório empresarial"
+        },
+        "template": "que a operação de <escopo> oferece cancelamento documentado no ambiente de teste"
+      }
+    ]
+  },
+  {
+    "text": "uma tarefa de geração fictícia está em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C39",
+        "stepId": "S_8bfb8f1bd691",
+        "parameters": {},
+        "template": "uma tarefa de geração fictícia está em andamento"
+      }
+    ]
+  },
+  {
+    "text": "solicito o cancelamento pela interface",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C39",
+        "stepId": "S_71d284cec57a",
+        "parameters": {},
+        "template": "solicito o cancelamento pela interface"
+      }
+    ]
+  },
+  {
+    "text": "o serviço deve confirmar a interrupção conforme seu contrato e a tela deve retornar ao dashboard",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C39",
+        "stepId": "S_57bfc39fb3f0",
+        "parameters": {},
+        "template": "o serviço deve confirmar a interrupção conforme seu contrato e a tela deve retornar ao dashboard"
+      }
+    ]
+  },
+  {
+    "text": "a evidência deve demonstrar o resultado da tarefa sem usar apenas o fechamento da janela como prova",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C39",
+        "stepId": "S_7500f8f27455",
+        "parameters": {},
+        "template": "a evidência deve demonstrar o resultado da tarefa sem usar apenas o fechamento da janela como prova"
+      }
+    ]
+  },
+  {
+    "text": "que a sessão fictícia não tem acesso ao contexto solicitado",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C40",
+        "stepId": "S_22f9268a087b",
+        "parameters": {},
+        "template": "que a sessão fictícia não tem acesso ao contexto solicitado"
+      }
+    ]
+  },
+  {
+    "text": "chamo diretamente consulta de dashboard ou Ocorrências empresariais com identificador de outra Empresa ou Produto sem permissão",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C40",
+        "stepId": "S_0142503033f5",
+        "parameters": {
+          "operacao": "consulta de dashboard ou Ocorrências empresariais"
+        },
+        "template": "chamo diretamente <operacao> com identificador de outra Empresa ou Produto sem permissão"
+      }
+    ]
+  },
+  {
+    "text": "chamo diretamente solicitação de relatório com identificador de outra Empresa ou Produto sem permissão",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C40",
+        "stepId": "S_0142503033f5",
+        "parameters": {
+          "operacao": "solicitação de relatório"
+        },
+        "template": "chamo diretamente <operacao> com identificador de outra Empresa ou Produto sem permissão"
+      }
+    ]
+  },
+  {
+    "text": "chamo diretamente obtenção do arquivo de relatório com identificador de outra Empresa ou Produto sem permissão",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C40",
+        "stepId": "S_0142503033f5",
+        "parameters": {
+          "operacao": "obtenção do arquivo de relatório"
+        },
+        "template": "chamo diretamente <operacao> com identificador de outra Empresa ou Produto sem permissão"
+      }
+    ]
+  },
+  {
+    "text": "o Core deve recusar sem devolver dados indicadores contribuição agregada ou arquivo desse contexto",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C40",
+        "stepId": "S_3be5e0691f77",
+        "parameters": {},
+        "template": "o Core deve recusar sem devolver dados indicadores contribuição agregada ou arquivo desse contexto"
+      }
+    ]
+  },
+  {
+    "text": "a recusa deve seguir o contrato de negação simples sem revogar a sessão por esse motivo",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C40",
+        "stepId": "S_64495e1b689c",
+        "parameters": {},
+        "template": "a recusa deve seguir o contrato de negação simples sem revogar a sessão por esse motivo"
+      }
+    ]
+  },
+  {
+    "text": "que identifiquei a operação real e seus parâmetros documentados",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C41",
+        "stepId": "S_aa42350ef7e1",
+        "parameters": {},
+        "template": "que identifiquei a operação real e seus parâmetros documentados"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente intervalo inicial posterior ao final incompatível com esse contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C41",
+        "stepId": "S_bbe8bbf12238",
+        "parameters": {
+          "entrada": "intervalo inicial posterior ao final"
+        },
+        "template": "envio diretamente <entrada> incompatível com esse contrato"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente tipo inválido no parâmetro de filtro exigido incompatível com esse contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C41",
+        "stepId": "S_bbe8bbf12238",
+        "parameters": {
+          "entrada": "tipo inválido no parâmetro de filtro exigido"
+        },
+        "template": "envio diretamente <entrada> incompatível com esse contrato"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente formato não suportado pela operação de exportação incompatível com esse contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C41",
+        "stepId": "S_bbe8bbf12238",
+        "parameters": {
+          "entrada": "formato não suportado pela operação de exportação"
+        },
+        "template": "envio diretamente <entrada> incompatível com esse contrato"
+      }
+    ]
+  },
+  {
+    "text": "o Core deve recusar conforme o contrato sem consultar ou exportar um escopo irrestrito por omissão",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C41",
+        "stepId": "S_4b7d80d3e39e",
+        "parameters": {},
+        "template": "o Core deve recusar conforme o contrato sem consultar ou exportar um escopo irrestrito por omissão"
+      }
+    ]
+  },
+  {
+    "text": "a proteção não deve depender da validação feita pelo navegador",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C41",
+        "stepId": "S_04c89acbd46c",
+        "parameters": {},
+        "template": "a proteção não deve depender da validação feita pelo navegador"
+      }
+    ]
+  },
+  {
+    "text": "que Ana Exemplo gerou um relatório autorizado no ambiente de teste",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C42",
+        "stepId": "S_211fe9c1e95f",
+        "parameters": {},
+        "template": "que Ana Exemplo gerou um relatório autorizado no ambiente de teste"
+      }
+    ]
+  },
+  {
+    "text": "Bruno Exemplo não tem acesso ao contexto desse relatório",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C42",
+        "stepId": "S_ac1f353e4bf0",
+        "parameters": {},
+        "template": "Bruno Exemplo não tem acesso ao contexto desse relatório"
+      }
+    ]
+  },
+  {
+    "text": "Bruno tenta usar diretamente a referência de obtenção do arquivo pelo mecanismo previsto no contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C42",
+        "stepId": "S_1529c7ca279d",
+        "parameters": {},
+        "template": "Bruno tenta usar diretamente a referência de obtenção do arquivo pelo mecanismo previsto no contrato"
+      }
+    ]
+  },
+  {
+    "text": "o serviço deve impedir a obtenção dos dados sem autorização",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C42",
+        "stepId": "S_e656493ed42b",
+        "parameters": {},
+        "template": "o serviço deve impedir a obtenção dos dados sem autorização"
+      }
+    ]
+  },
+  {
+    "text": "o teste deve verificar o mecanismo efetivo de autorização da entrega sem inventar prazo ou tecnologia de URL",
+    "bindings": [
+      {
+        "scenarioId": "LLT85_C42",
+        "stepId": "S_68be13914a6c",
+        "parameters": {},
+        "template": "o teste deve verificar o mecanismo efetivo de autorização da entrega sem inventar prazo ou tecnologia de URL"
+      }
+    ]
+  }
+]

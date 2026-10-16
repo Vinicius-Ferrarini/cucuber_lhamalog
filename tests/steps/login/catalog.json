@@ -1,0 +1,3926 @@
+[
+  {
+    "text": "que a conexão e-mail e senha está habilitada na instância de teste",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C01",
+        "stepId": "S_bec9aae7493b",
+        "parameters": {
+          "entrada": "e-mail e senha"
+        },
+        "template": "que a conexão <entrada> está habilitada na instância de teste"
+      }
+    ]
+  },
+  {
+    "text": "que a conexão Google está habilitada na instância de teste",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C01",
+        "stepId": "S_bec9aae7493b",
+        "parameters": {
+          "entrada": "Google"
+        },
+        "template": "que a conexão <entrada> está habilitada na instância de teste"
+      }
+    ]
+  },
+  {
+    "text": "a conta fictícia está com TOTP cadastrado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C01",
+        "stepId": "S_f405beba6661",
+        "parameters": {
+          "configuracao": "com TOTP cadastrado"
+        },
+        "template": "a conta fictícia está <configuracao>"
+      }
+    ]
+  },
+  {
+    "text": "a conta fictícia está sem fator cadastrado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C01",
+        "stepId": "S_f405beba6661",
+        "parameters": {
+          "configuracao": "sem fator cadastrado"
+        },
+        "template": "a conta fictícia está <configuracao>"
+      }
+    ]
+  },
+  {
+    "text": "concluo a primeira etapa no componente SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C01",
+        "stepId": "S_a65a86f81699",
+        "parameters": {},
+        "template": "concluo a primeira etapa no componente SignIn"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar o desafio de MFA",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C01",
+        "stepId": "S_07f91d217005",
+        "parameters": {
+          "destino": "o desafio de MFA"
+        },
+        "template": "devo visualizar <destino>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar a tarefa setup-mfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C01",
+        "stepId": "S_07f91d217005",
+        "parameters": {
+          "destino": "a tarefa setup-mfa"
+        },
+        "template": "devo visualizar <destino>"
+      },
+      {
+        "scenarioId": "LLT86_C22",
+        "stepId": "S_6b4cba92c731",
+        "parameters": {},
+        "template": "devo visualizar a tarefa setup-mfa"
+      }
+    ]
+  },
+  {
+    "text": "nenhum recurso protegido deve ser liberado antes de concluir as tarefas e o MFA exigidos",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C01",
+        "stepId": "S_51b6ce1ae2ef",
+        "parameters": {},
+        "template": "nenhum recurso protegido deve ser liberado antes de concluir as tarefas e o MFA exigidos"
+      }
+    ]
+  },
+  {
+    "text": "que uso uma conta fictícia existente no SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C02",
+        "stepId": "S_d06c4ff2f6b0",
+        "parameters": {},
+        "template": "que uso uma conta fictícia existente no SignIn"
+      }
+    ]
+  },
+  {
+    "text": "a Clerk rejeita a senha informada",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C02",
+        "stepId": "S_28d1218f2b33",
+        "parameters": {},
+        "template": "a Clerk rejeita a senha informada"
+      }
+    ]
+  },
+  {
+    "text": "o componente deve indicar a falha e permitir corrigir os dados",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C02",
+        "stepId": "S_3cc897fad946",
+        "parameters": {},
+        "template": "o componente deve indicar a falha e permitir corrigir os dados"
+      }
+    ]
+  },
+  {
+    "text": "o Core não deve receber a senha nem uma solicitação própria para validá-la",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C02",
+        "stepId": "S_4cbc08738dde",
+        "parameters": {},
+        "template": "o Core não deve receber a senha nem uma solicitação própria para validá-la"
+      }
+    ]
+  },
+  {
+    "text": "nenhum acesso protegido deve ser liberado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C02",
+        "stepId": "S_18081520e13f",
+        "parameters": {},
+        "template": "nenhum acesso protegido deve ser liberado"
+      },
+      {
+        "scenarioId": "LLT86_C36",
+        "stepId": "S_18081520e13f",
+        "parameters": {},
+        "template": "nenhum acesso protegido deve ser liberado"
+      }
+    ]
+  },
+  {
+    "text": "que estou no formulário do componente Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C03",
+        "stepId": "S_e6a33be53170",
+        "parameters": {},
+        "template": "que estou no formulário do componente Clerk"
+      }
+    ]
+  },
+  {
+    "text": "tento enviar e-mail e senha vazios",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C03",
+        "stepId": "S_1267c234da0b",
+        "parameters": {
+          "entrada": "e-mail e senha vazios"
+        },
+        "template": "tento enviar <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "tento enviar e-mail válido e senha vazia",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C03",
+        "stepId": "S_1267c234da0b",
+        "parameters": {
+          "entrada": "e-mail válido e senha vazia"
+        },
+        "template": "tento enviar <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "tento enviar e-mail vazio e senha preenchida",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C03",
+        "stepId": "S_1267c234da0b",
+        "parameters": {
+          "entrada": "e-mail vazio e senha preenchida"
+        },
+        "template": "tento enviar <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "tento enviar email-sem-arroba e senha preenchida",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C03",
+        "stepId": "S_1267c234da0b",
+        "parameters": {
+          "entrada": "email-sem-arroba e senha preenchida"
+        },
+        "template": "tento enviar <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar a indicação dos campos obrigatórios",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C03",
+        "stepId": "S_b1beeb08edab",
+        "parameters": {
+          "orientacao": "a indicação dos campos obrigatórios"
+        },
+        "template": "devo visualizar <orientacao>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar a indicação de senha obrigatória",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C03",
+        "stepId": "S_b1beeb08edab",
+        "parameters": {
+          "orientacao": "a indicação de senha obrigatória"
+        },
+        "template": "devo visualizar <orientacao>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar a indicação de e-mail obrigatório",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C03",
+        "stepId": "S_b1beeb08edab",
+        "parameters": {
+          "orientacao": "a indicação de e-mail obrigatório"
+        },
+        "template": "devo visualizar <orientacao>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar a indicação de formato inválido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C03",
+        "stepId": "S_b1beeb08edab",
+        "parameters": {
+          "orientacao": "a indicação de formato inválido"
+        },
+        "template": "devo visualizar <orientacao>"
+      }
+    ]
+  },
+  {
+    "text": "nenhuma solicitação de autenticação deve ser enviada enquanto os campos forem inválidos",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C03",
+        "stepId": "S_52f30d1061d7",
+        "parameters": {},
+        "template": "nenhuma solicitação de autenticação deve ser enviada enquanto os campos forem inválidos"
+      }
+    ]
+  },
+  {
+    "text": "que iniciei a conexão Google habilitada no SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C04",
+        "stepId": "S_44611b168c36",
+        "parameters": {},
+        "template": "que iniciei a conexão Google habilitada no SignIn"
+      }
+    ]
+  },
+  {
+    "text": "cancelo a autenticação e retorno ao aplicativo",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C04",
+        "stepId": "S_c8d63822a724",
+        "parameters": {},
+        "template": "cancelo a autenticação e retorno ao aplicativo"
+      }
+    ]
+  },
+  {
+    "text": "devo continuar sem autenticação completa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C04",
+        "stepId": "S_b99596a1500a",
+        "parameters": {},
+        "template": "devo continuar sem autenticação completa"
+      }
+    ]
+  },
+  {
+    "text": "devo poder iniciar uma nova tentativa sem acesso protegido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C04",
+        "stepId": "S_8425e10d480a",
+        "parameters": {},
+        "template": "devo poder iniciar uma nova tentativa sem acesso protegido"
+      }
+    ]
+  },
+  {
+    "text": "que iniciei a conexão Google configurada",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C05",
+        "stepId": "S_0e415bbf4245",
+        "parameters": {},
+        "template": "que iniciei a conexão Google configurada"
+      }
+    ]
+  },
+  {
+    "text": "ocorre rejeição do provedor",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C05",
+        "stepId": "S_13d02c036de2",
+        "parameters": {
+          "falha": "rejeição do provedor"
+        },
+        "template": "ocorre <falha>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre falha no retorno ao aplicativo",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C05",
+        "stepId": "S_13d02c036de2",
+        "parameters": {
+          "falha": "falha no retorno ao aplicativo"
+        },
+        "template": "ocorre <falha>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre indisponibilidade do serviço Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C05",
+        "stepId": "S_13d02c036de2",
+        "parameters": {
+          "falha": "indisponibilidade do serviço Clerk"
+        },
+        "template": "ocorre <falha>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar que a entrada não foi concluída",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C05",
+        "stepId": "S_68891203ace4",
+        "parameters": {},
+        "template": "devo visualizar que a entrada não foi concluída"
+      }
+    ]
+  },
+  {
+    "text": "devo poder tentar novamente sem carregamento indefinido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C05",
+        "stepId": "S_e14fb185ddb1",
+        "parameters": {},
+        "template": "devo poder tentar novamente sem carregamento indefinido"
+      },
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_e14fb185ddb1",
+        "parameters": {},
+        "template": "devo poder tentar novamente sem carregamento indefinido"
+      }
+    ]
+  },
+  {
+    "text": "a falha não deve criar acesso protegido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C05",
+        "stepId": "S_545ba50f0ad8",
+        "parameters": {},
+        "template": "a falha não deve criar acesso protegido"
+      }
+    ]
+  },
+  {
+    "text": "que a primeira etapa por e-mail e senha foi aceita",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C06",
+        "stepId": "S_7b30b2b34791",
+        "parameters": {
+          "entrada": "e-mail e senha"
+        },
+        "template": "que a primeira etapa por <entrada> foi aceita"
+      }
+    ]
+  },
+  {
+    "text": "que a primeira etapa por Google habilitado foi aceita",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C06",
+        "stepId": "S_7b30b2b34791",
+        "parameters": {
+          "entrada": "Google habilitado"
+        },
+        "template": "que a primeira etapa por <entrada> foi aceita"
+      }
+    ]
+  },
+  {
+    "text": "o método TOTP está configurado na conta de teste",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C06",
+        "stepId": "S_1c47d4c677d7",
+        "parameters": {
+          "metodo": "TOTP"
+        },
+        "template": "o método <metodo> está configurado na conta de teste"
+      }
+    ]
+  },
+  {
+    "text": "o método código de backup está configurado na conta de teste",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C06",
+        "stepId": "S_1c47d4c677d7",
+        "parameters": {
+          "metodo": "código de backup"
+        },
+        "template": "o método <metodo> está configurado na conta de teste"
+      }
+    ]
+  },
+  {
+    "text": "confirmo um valor fictício aceito pela Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C06",
+        "stepId": "S_2c6679b0c3a8",
+        "parameters": {},
+        "template": "confirmo um valor fictício aceito pela Clerk"
+      }
+    ]
+  },
+  {
+    "text": "a sessão deve concluir as tarefas exigidas e tornar-se ativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C06",
+        "stepId": "S_7de7b7b7d154",
+        "parameters": {},
+        "template": "a sessão deve concluir as tarefas exigidas e tornar-se ativa"
+      }
+    ]
+  },
+  {
+    "text": "devo chegar à área inicial do LhamaLog",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C06",
+        "stepId": "S_7af7347b466c",
+        "parameters": {},
+        "template": "devo chegar à área inicial do LhamaLog"
+      }
+    ]
+  },
+  {
+    "text": "que a primeira etapa foi aceita e aguardo TOTP",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_fcfcb8469c59",
+        "parameters": {
+          "metodo": "TOTP"
+        },
+        "template": "que a primeira etapa foi aceita e aguardo <metodo>"
+      }
+    ]
+  },
+  {
+    "text": "que a primeira etapa foi aceita e aguardo código de backup",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_fcfcb8469c59",
+        "parameters": {
+          "metodo": "código de backup"
+        },
+        "template": "que a primeira etapa foi aceita e aguardo <metodo>"
+      }
+    ]
+  },
+  {
+    "text": "tento confirmar código rejeitado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_eb3ae0c17a53",
+        "parameters": {
+          "entrada": "código rejeitado"
+        },
+        "template": "tento confirmar <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "tento confirmar campo vazio",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_eb3ae0c17a53",
+        "parameters": {
+          "entrada": "campo vazio"
+        },
+        "template": "tento confirmar <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "tento confirmar código incompleto conforme a configuração",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_eb3ae0c17a53",
+        "parameters": {
+          "entrada": "código incompleto conforme a configuração"
+        },
+        "template": "tento confirmar <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "tento confirmar código expirado no serviço",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_eb3ae0c17a53",
+        "parameters": {
+          "entrada": "código expirado no serviço"
+        },
+        "template": "tento confirmar <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "tento confirmar valor rejeitado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_eb3ae0c17a53",
+        "parameters": {
+          "entrada": "valor rejeitado"
+        },
+        "template": "tento confirmar <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "tento confirmar valor já consumido no serviço",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_eb3ae0c17a53",
+        "parameters": {
+          "entrada": "valor já consumido no serviço"
+        },
+        "template": "tento confirmar <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "o componente deve indicar falha na verificação",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_a58f9f914666",
+        "parameters": {
+          "orientacao": "falha na verificação"
+        },
+        "template": "o componente deve indicar <orientacao>"
+      }
+    ]
+  },
+  {
+    "text": "o componente deve indicar preenchimento obrigatório",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_a58f9f914666",
+        "parameters": {
+          "orientacao": "preenchimento obrigatório"
+        },
+        "template": "o componente deve indicar <orientacao>"
+      }
+    ]
+  },
+  {
+    "text": "o componente deve indicar correção do código",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_a58f9f914666",
+        "parameters": {
+          "orientacao": "correção do código"
+        },
+        "template": "o componente deve indicar <orientacao>"
+      }
+    ]
+  },
+  {
+    "text": "nenhum recurso protegido deve ser liberado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C07",
+        "stepId": "S_d3ce807fb1b6",
+        "parameters": {},
+        "template": "nenhum recurso protegido deve ser liberado"
+      }
+    ]
+  },
+  {
+    "text": "que aguardo a verificação de MFA ou a tarefa setup-mfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C08",
+        "stepId": "S_2f704fb4eec2",
+        "parameters": {},
+        "template": "que aguardo a verificação de MFA ou a tarefa setup-mfa"
+      }
+    ]
+  },
+  {
+    "text": "cancelo o fluxo do componente",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C08",
+        "stepId": "S_40b0da7ceeb7",
+        "parameters": {},
+        "template": "cancelo o fluxo do componente"
+      }
+    ]
+  },
+  {
+    "text": "não devo obter acesso protegido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C08",
+        "stepId": "S_98ce8ea62759",
+        "parameters": {},
+        "template": "não devo obter acesso protegido"
+      }
+    ]
+  },
+  {
+    "text": "devo poder retomar a autenticação pelo SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C08",
+        "stepId": "S_5ac37bee255a",
+        "parameters": {},
+        "template": "devo poder retomar a autenticação pelo SignIn"
+      }
+    ]
+  },
+  {
+    "text": "que uma solicitação de primeira etapa está em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C09",
+        "stepId": "S_4d1be865f5ae",
+        "parameters": {
+          "etapa": "primeira etapa"
+        },
+        "template": "que uma solicitação de <etapa> está em andamento"
+      }
+    ]
+  },
+  {
+    "text": "que uma solicitação de verificação TOTP está em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C09",
+        "stepId": "S_4d1be865f5ae",
+        "parameters": {
+          "etapa": "verificação TOTP"
+        },
+        "template": "que uma solicitação de <etapa> está em andamento"
+      }
+    ]
+  },
+  {
+    "text": "repito a ação de confirmação antes da resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C09",
+        "stepId": "S_772c98686cd8",
+        "parameters": {},
+        "template": "repito a ação de confirmação antes da resposta"
+      }
+    ]
+  },
+  {
+    "text": "a interface deve manter uma única tentativa em andamento para essa ação",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C09",
+        "stepId": "S_42ae538913f9",
+        "parameters": {},
+        "template": "a interface deve manter uma única tentativa em andamento para essa ação"
+      }
+    ]
+  },
+  {
+    "text": "não deve repetir navegação ou confirmação de sucesso",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C09",
+        "stepId": "S_e052cb9b1d56",
+        "parameters": {},
+        "template": "não deve repetir navegação ou confirmação de sucesso"
+      }
+    ]
+  },
+  {
+    "text": "que aguardo resposta de primeira etapa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C10",
+        "stepId": "S_8cd1112d03a2",
+        "parameters": {
+          "etapa": "primeira etapa"
+        },
+        "template": "que aguardo resposta de <etapa>"
+      }
+    ]
+  },
+  {
+    "text": "que aguardo resposta de MFA",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C10",
+        "stepId": "S_8cd1112d03a2",
+        "parameters": {
+          "etapa": "MFA"
+        },
+        "template": "que aguardo resposta de <etapa>"
+      }
+    ]
+  },
+  {
+    "text": "a comunicação falha",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C10",
+        "stepId": "S_a0bfd78e3873",
+        "parameters": {},
+        "template": "a comunicação falha"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar uma indicação de falha sem carregamento indefinido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C10",
+        "stepId": "S_0973cb2e02a1",
+        "parameters": {},
+        "template": "devo visualizar uma indicação de falha sem carregamento indefinido"
+      }
+    ]
+  },
+  {
+    "text": "devo poder tentar novamente",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C10",
+        "stepId": "S_f857da563381",
+        "parameters": {},
+        "template": "devo poder tentar novamente"
+      }
+    ]
+  },
+  {
+    "text": "a falha não deve concluir a autenticação",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C10",
+        "stepId": "S_83f70f580e98",
+        "parameters": {},
+        "template": "a falha não deve concluir a autenticação"
+      }
+    ]
+  },
+  {
+    "text": "que estou sem sessão",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C11",
+        "stepId": "S_755a279d51fb",
+        "parameters": {
+          "estado": "sem sessão"
+        },
+        "template": "que estou <estado>"
+      }
+    ]
+  },
+  {
+    "text": "que estou com primeira etapa aceita e MFA não concluído",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C11",
+        "stepId": "S_755a279d51fb",
+        "parameters": {
+          "estado": "com primeira etapa aceita e MFA não concluído"
+        },
+        "template": "que estou <estado>"
+      }
+    ]
+  },
+  {
+    "text": "que estou com tarefa setup-mfa não concluída",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C11",
+        "stepId": "S_755a279d51fb",
+        "parameters": {
+          "estado": "com tarefa setup-mfa não concluída"
+        },
+        "template": "que estou <estado>"
+      }
+    ]
+  },
+  {
+    "text": "tento abrir um recurso protegido por endereço direto",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C11",
+        "stepId": "S_2ac93ea483e4",
+        "parameters": {
+          "navegacao": "endereço direto"
+        },
+        "template": "tento abrir um recurso protegido por <navegacao>"
+      }
+    ]
+  },
+  {
+    "text": "tento abrir um recurso protegido por atualização da página",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C11",
+        "stepId": "S_2ac93ea483e4",
+        "parameters": {
+          "navegacao": "atualização da página"
+        },
+        "template": "tento abrir um recurso protegido por <navegacao>"
+      }
+    ]
+  },
+  {
+    "text": "tento abrir um recurso protegido por voltar do navegador",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C11",
+        "stepId": "S_2ac93ea483e4",
+        "parameters": {
+          "navegacao": "voltar do navegador"
+        },
+        "template": "tento abrir um recurso protegido por <navegacao>"
+      }
+    ]
+  },
+  {
+    "text": "não devo visualizar seu conteúdo",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C11",
+        "stepId": "S_4d7e5b75b7b2",
+        "parameters": {},
+        "template": "não devo visualizar seu conteúdo"
+      }
+    ]
+  },
+  {
+    "text": "devo ser encaminhado ao fluxo Clerk adequado ao estado da conta",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C11",
+        "stepId": "S_b289e25e7dce",
+        "parameters": {},
+        "template": "devo ser encaminhado ao fluxo Clerk adequado ao estado da conta"
+      }
+    ]
+  },
+  {
+    "text": "que minha sessão Clerk está ativa e as tarefas estão concluídas",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C12",
+        "stepId": "S_a8b85b0987a1",
+        "parameters": {},
+        "template": "que minha sessão Clerk está ativa e as tarefas estão concluídas"
+      }
+    ]
+  },
+  {
+    "text": "atualizo a área inicial",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C12",
+        "stepId": "S_792b4061d21c",
+        "parameters": {},
+        "template": "atualizo a área inicial"
+      }
+    ]
+  },
+  {
+    "text": "devo permanecer na conta correta após o carregamento do provedor",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C12",
+        "stepId": "S_e4c6d521c0c6",
+        "parameters": {},
+        "template": "devo permanecer na conta correta após o carregamento do provedor"
+      }
+    ]
+  },
+  {
+    "text": "a atualização não deve exigir um novo login enquanto a sessão continuar válida",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C12",
+        "stepId": "S_a584a752d0c7",
+        "parameters": {},
+        "template": "a atualização não deve exigir um novo login enquanto a sessão continuar válida"
+      }
+    ]
+  },
+  {
+    "text": "que a sessão da conta se torna expirada",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C13",
+        "stepId": "S_2933491ec4f0",
+        "parameters": {
+          "estado": "expirada"
+        },
+        "template": "que a sessão da conta se torna <estado>"
+      }
+    ]
+  },
+  {
+    "text": "que a sessão da conta se torna revogada",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C13",
+        "stepId": "S_2933491ec4f0",
+        "parameters": {
+          "estado": "revogada"
+        },
+        "template": "que a sessão da conta se torna <estado>"
+      }
+    ]
+  },
+  {
+    "text": "a interface detecta a perda da sessão",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C13",
+        "stepId": "S_fd9804d1c0f9",
+        "parameters": {},
+        "template": "a interface detecta a perda da sessão"
+      }
+    ]
+  },
+  {
+    "text": "o conteúdo protegido deve deixar de ser apresentado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C13",
+        "stepId": "S_abc0a2171753",
+        "parameters": {},
+        "template": "o conteúdo protegido deve deixar de ser apresentado"
+      }
+    ]
+  },
+  {
+    "text": "devo ser encaminhado ao SignIn sem restaurar acesso pelo histórico",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C13",
+        "stepId": "S_e2e250732232",
+        "parameters": {},
+        "template": "devo ser encaminhado ao SignIn sem restaurar acesso pelo histórico"
+      }
+    ]
+  },
+  {
+    "text": "que encerrei a sessão pelo componente Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C14",
+        "stepId": "S_fb5283fcef80",
+        "parameters": {},
+        "template": "que encerrei a sessão pelo componente Clerk"
+      }
+    ]
+  },
+  {
+    "text": "tento retornar usando voltar do navegador",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C14",
+        "stepId": "S_d03e0ee5abfb",
+        "parameters": {
+          "navegacao": "voltar do navegador"
+        },
+        "template": "tento retornar usando <navegacao>"
+      }
+    ]
+  },
+  {
+    "text": "tento retornar usando endereço protegido direto",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C14",
+        "stepId": "S_d03e0ee5abfb",
+        "parameters": {
+          "navegacao": "endereço protegido direto"
+        },
+        "template": "tento retornar usando <navegacao>"
+      }
+    ]
+  },
+  {
+    "text": "não devo recuperar a sessão encerrada",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C14",
+        "stepId": "S_427d8f7e0fb0",
+        "parameters": {},
+        "template": "não devo recuperar a sessão encerrada"
+      }
+    ]
+  },
+  {
+    "text": "o conteúdo protegido deve continuar indisponível",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C14",
+        "stepId": "S_1ecef7db6e35",
+        "parameters": {},
+        "template": "o conteúdo protegido deve continuar indisponível"
+      }
+    ]
+  },
+  {
+    "text": "que concluí a autenticação e o Core retorna nenhuma empresa ou Produto acessível",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C15",
+        "stepId": "S_a6937cef1680",
+        "parameters": {
+          "recursos": "nenhuma empresa ou Produto acessível"
+        },
+        "template": "que concluí a autenticação e o Core retorna <recursos>"
+      }
+    ]
+  },
+  {
+    "text": "que concluí a autenticação e o Core retorna os Produtos da Empresa Exemplo A para DONO",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C15",
+        "stepId": "S_a6937cef1680",
+        "parameters": {
+          "recursos": "os Produtos da Empresa Exemplo A para DONO"
+        },
+        "template": "que concluí a autenticação e o Core retorna <recursos>"
+      }
+    ]
+  },
+  {
+    "text": "que concluí a autenticação e o Core retorna somente Produto Alfa permitido para MEMBRO",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C15",
+        "stepId": "S_a6937cef1680",
+        "parameters": {
+          "recursos": "somente Produto Alfa permitido para MEMBRO"
+        },
+        "template": "que concluí a autenticação e o Core retorna <recursos>"
+      }
+    ]
+  },
+  {
+    "text": "a área inicial termina de carregar",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C15",
+        "stepId": "S_c6565e8e323e",
+        "parameters": {},
+        "template": "a área inicial termina de carregar"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar o estado vazio da área inicial",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C15",
+        "stepId": "S_9b8066e5d8ee",
+        "parameters": {
+          "resultado": "o estado vazio da área inicial"
+        },
+        "template": "devo visualizar <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar os recursos autorizados da Empresa Exemplo A",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C15",
+        "stepId": "S_9b8066e5d8ee",
+        "parameters": {
+          "resultado": "os recursos autorizados da Empresa Exemplo A"
+        },
+        "template": "devo visualizar <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar somente Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C15",
+        "stepId": "S_9b8066e5d8ee",
+        "parameters": {
+          "resultado": "somente Produto Alfa"
+        },
+        "template": "devo visualizar <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve inventar vínculos nem criar Empresa ou Produto por efetuar login",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C15",
+        "stepId": "S_1144b5659c62",
+        "parameters": {},
+        "template": "a interface não deve inventar vínculos nem criar Empresa ou Produto por efetuar login"
+      }
+    ]
+  },
+  {
+    "text": "que um vínculo fictício foi criado pelo fluxo autorizado de convite no backend",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C16",
+        "stepId": "S_b694278827e8",
+        "parameters": {},
+        "template": "que um vínculo fictício foi criado pelo fluxo autorizado de convite no backend"
+      }
+    ]
+  },
+  {
+    "text": "autentico a conta correspondente na Clerk e carrego a área inicial",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C16",
+        "stepId": "S_33b1d588ded1",
+        "parameters": {},
+        "template": "autentico a conta correspondente na Clerk e carrego a área inicial"
+      }
+    ]
+  },
+  {
+    "text": "os recursos apresentados devem corresponder ao vínculo devolvido pelo Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C16",
+        "stepId": "S_30adbc2be65d",
+        "parameters": {},
+        "template": "os recursos apresentados devem corresponder ao vínculo devolvido pelo Core"
+      }
+    ]
+  },
+  {
+    "text": "o teste de login não deve depender de uma central própria de convites ou de uma notificação própria no aplicativo",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C16",
+        "stepId": "S_092b81731583",
+        "parameters": {},
+        "template": "o teste de login não deve depender de uma central própria de convites ou de uma notificação própria no aplicativo"
+      }
+    ]
+  },
+  {
+    "text": "que a conta Google de teste está vinculada a uma identidade Clerk conhecida",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C17",
+        "stepId": "S_0e7155ade21f",
+        "parameters": {},
+        "template": "que a conta Google de teste está vinculada a uma identidade Clerk conhecida"
+      }
+    ]
+  },
+  {
+    "text": "concluo a autenticação e o MFA exigido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C17",
+        "stepId": "S_9650bcd8957f",
+        "parameters": {},
+        "template": "concluo a autenticação e o MFA exigido"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar os dados correspondentes ao clerkUserId autenticado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C17",
+        "stepId": "S_90db661d833e",
+        "parameters": {},
+        "template": "devo visualizar os dados correspondentes ao clerkUserId autenticado"
+      }
+    ]
+  },
+  {
+    "text": "o Front não deve unir contas ou trocar vínculos por comparar apenas o texto do e-mail",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C17",
+        "stepId": "S_d39faa0bacbe",
+        "parameters": {},
+        "template": "o Front não deve unir contas ou trocar vínculos por comparar apenas o texto do e-mail"
+      }
+    ]
+  },
+  {
+    "text": "que a conta possui um fluxo de recuperação de senha habilitado pela Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C18",
+        "stepId": "S_e49d0ada3669",
+        "parameters": {},
+        "template": "que a conta possui um fluxo de recuperação de senha habilitado pela Clerk"
+      }
+    ]
+  },
+  {
+    "text": "abro a recuperação no SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C18",
+        "stepId": "S_846c7d5d6a72",
+        "parameters": {},
+        "template": "abro a recuperação no SignIn"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar as opções suportadas e configuradas pelo provedor",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C18",
+        "stepId": "S_3907fda26b9b",
+        "parameters": {},
+        "template": "devo visualizar as opções suportadas e configuradas pelo provedor"
+      }
+    ]
+  },
+  {
+    "text": "não deve ser exigida uma lista própria de todos os contatos ou confirmação pelo Mobile LhamaLog",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C18",
+        "stepId": "S_32f7fc41de86",
+        "parameters": {},
+        "template": "não deve ser exigida uma lista própria de todos os contatos ou confirmação pelo Mobile LhamaLog"
+      }
+    ]
+  },
+  {
+    "text": "que iniciei a recuperação de senha da conta fictícia com MFA obrigatório",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C19",
+        "stepId": "S_8ac262c4bbef",
+        "parameters": {},
+        "template": "que iniciei a recuperação de senha da conta fictícia com MFA obrigatório"
+      }
+    ]
+  },
+  {
+    "text": "concluo a comprovação aceita pela Clerk e defino uma nova senha fictícia no ambiente de teste",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C19",
+        "stepId": "S_9586800ff3bb",
+        "parameters": {},
+        "template": "concluo a comprovação aceita pela Clerk e defino uma nova senha fictícia no ambiente de teste"
+      }
+    ]
+  },
+  {
+    "text": "a senha antiga deve ser rejeitada na tentativa seguinte",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C19",
+        "stepId": "S_bb9214cd015a",
+        "parameters": {},
+        "template": "a senha antiga deve ser rejeitada na tentativa seguinte"
+      }
+    ]
+  },
+  {
+    "text": "a nova senha deve ser aceita como primeira etapa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C19",
+        "stepId": "S_9b6fd01a1bc5",
+        "parameters": {},
+        "template": "a nova senha deve ser aceita como primeira etapa"
+      }
+    ]
+  },
+  {
+    "text": "o MFA ou a tarefa setup-mfa exigida deve continuar sendo respeitado antes do acesso protegido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C19",
+        "stepId": "S_f30313a87be1",
+        "parameters": {},
+        "template": "o MFA ou a tarefa setup-mfa exigida deve continuar sendo respeitado antes do acesso protegido"
+      }
+    ]
+  },
+  {
+    "text": "que a recuperação da Clerk usa o e-mail verificado da conta fictícia",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C20",
+        "stepId": "S_5a66db27dab4",
+        "parameters": {},
+        "template": "que a recuperação da Clerk usa o e-mail verificado da conta fictícia"
+      }
+    ]
+  },
+  {
+    "text": "tento indicar um destino diferente sem comprovar o vínculo com essa conta",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C20",
+        "stepId": "S_f7b3ae717cfb",
+        "parameters": {},
+        "template": "tento indicar um destino diferente sem comprovar o vínculo com essa conta"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve permitir recuperar a conta por esse destino arbitrário",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C20",
+        "stepId": "S_fbff31c61a38",
+        "parameters": {},
+        "template": "a interface não deve permitir recuperar a conta por esse destino arbitrário"
+      }
+    ]
+  },
+  {
+    "text": "o teste não deve exigir disparo para telefone ou Mobile não suportados pelo fluxo configurado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C20",
+        "stepId": "S_76a42665e0c6",
+        "parameters": {},
+        "template": "o teste não deve exigir disparo para telefone ou Mobile não suportados pelo fluxo configurado"
+      }
+    ]
+  },
+  {
+    "text": "que iniciei a recuperação de senha no componente Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C21",
+        "stepId": "S_4afd0bcd011f",
+        "parameters": {},
+        "template": "que iniciei a recuperação de senha no componente Clerk"
+      }
+    ]
+  },
+  {
+    "text": "envio comprovação fictícia rejeitada",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C21",
+        "stepId": "S_a80b881f76bd",
+        "parameters": {
+          "comprovacao": "comprovação fictícia rejeitada"
+        },
+        "template": "envio <comprovacao>"
+      }
+    ]
+  },
+  {
+    "text": "envio comprovação fictícia expirada no serviço",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C21",
+        "stepId": "S_a80b881f76bd",
+        "parameters": {
+          "comprovacao": "comprovação fictícia expirada no serviço"
+        },
+        "template": "envio <comprovacao>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar a rejeição ou a orientação de recuperação fornecida pelo componente",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C21",
+        "stepId": "S_5a4951be8e1f",
+        "parameters": {},
+        "template": "devo visualizar a rejeição ou a orientação de recuperação fornecida pelo componente"
+      }
+    ]
+  },
+  {
+    "text": "a senha não deve ser alterada por essa tentativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C21",
+        "stepId": "S_2bfe4c8f02e1",
+        "parameters": {},
+        "template": "a senha não deve ser alterada por essa tentativa"
+      }
+    ]
+  },
+  {
+    "text": "que a fixture registra um reset de MFA já autorizado e concluído pelo suporte",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C22",
+        "stepId": "S_ec89397d0c4b",
+        "parameters": {},
+        "template": "que a fixture registra um reset de MFA já autorizado e concluído pelo suporte"
+      }
+    ]
+  },
+  {
+    "text": "a exigência de MFA está ligada na Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C22",
+        "stepId": "S_981ad51719f6",
+        "parameters": {},
+        "template": "a exigência de MFA está ligada na Clerk"
+      }
+    ]
+  },
+  {
+    "text": "a conta inicia o próximo login",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C22",
+        "stepId": "S_70b6ae38c46e",
+        "parameters": {},
+        "template": "a conta inicia o próximo login"
+      }
+    ]
+  },
+  {
+    "text": "nenhum recurso protegido deve ser liberado antes de concluir o novo cadastro",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C22",
+        "stepId": "S_6acd3c7823c9",
+        "parameters": {},
+        "template": "nenhum recurso protegido deve ser liberado antes de concluir o novo cadastro"
+      }
+    ]
+  },
+  {
+    "text": "que a conta perdeu seus fatores e códigos de backup",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C23",
+        "stepId": "S_03bf71fec12b",
+        "parameters": {},
+        "template": "que a conta perdeu seus fatores e códigos de backup"
+      }
+    ]
+  },
+  {
+    "text": "tenta prosseguir no login sem concluir a verificação",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C23",
+        "stepId": "S_7511626091ad",
+        "parameters": {},
+        "template": "tenta prosseguir no login sem concluir a verificação"
+      }
+    ]
+  },
+  {
+    "text": "o acesso protegido deve permanecer bloqueado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C23",
+        "stepId": "S_e9b0c7074b38",
+        "parameters": {},
+        "template": "o acesso protegido deve permanecer bloqueado"
+      }
+    ]
+  },
+  {
+    "text": "o Front não deve remover o MFA nem inventar recuperação automática por e-mail SMS ou Mobile",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C23",
+        "stepId": "S_a4bbf64700da",
+        "parameters": {},
+        "template": "o Front não deve remover o MFA nem inventar recuperação automática por e-mail SMS ou Mobile"
+      }
+    ]
+  },
+  {
+    "text": "o reset deve permanecer restrito ao processo de suporte autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C23",
+        "stepId": "S_e0678d948d3e",
+        "parameters": {},
+        "template": "o reset deve permanecer restrito ao processo de suporte autorizado"
+      }
+    ]
+  },
+  {
+    "text": "que a conta está na tarefa setup-mfa sem acesso protegido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C24",
+        "stepId": "S_deec1f3bb731",
+        "parameters": {},
+        "template": "que a conta está na tarefa setup-mfa sem acesso protegido"
+      }
+    ]
+  },
+  {
+    "text": "concluo o cadastro de TOTP aceito pela Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C24",
+        "stepId": "S_d8a186de4f2f",
+        "parameters": {},
+        "template": "concluo o cadastro de TOTP aceito pela Clerk"
+      }
+    ]
+  },
+  {
+    "text": "a tarefa deve ser concluída conforme o provedor",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C24",
+        "stepId": "S_45eb9281fd4d",
+        "parameters": {},
+        "template": "a tarefa deve ser concluída conforme o provedor"
+      }
+    ]
+  },
+  {
+    "text": "os códigos de backup devem estar disponíveis pelo fluxo de segurança da Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C24",
+        "stepId": "S_9d5bb57f39af",
+        "parameters": {},
+        "template": "os códigos de backup devem estar disponíveis pelo fluxo de segurança da Clerk"
+      }
+    ]
+  },
+  {
+    "text": "o próximo login deve respeitar a exigência de MFA",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C24",
+        "stepId": "S_514a1c8b1200",
+        "parameters": {},
+        "template": "o próximo login deve respeitar a exigência de MFA"
+      }
+    ]
+  },
+  {
+    "text": "que preciso cadastrar MFA e a sessão está pending",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C25",
+        "stepId": "S_cf21ec7aaedd",
+        "parameters": {},
+        "template": "que preciso cadastrar MFA e a sessão está pending"
+      }
+    ]
+  },
+  {
+    "text": "cancelo o cadastro antes da confirmação",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C25",
+        "stepId": "S_f809866f023d",
+        "parameters": {},
+        "template": "cancelo o cadastro antes da confirmação"
+      }
+    ]
+  },
+  {
+    "text": "a sessão não deve ser tratada como ativa pelo LhamaLog",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C25",
+        "stepId": "S_46687b972dfe",
+        "parameters": {},
+        "template": "a sessão não deve ser tratada como ativa pelo LhamaLog"
+      }
+    ]
+  },
+  {
+    "text": "o próximo acesso deve continuar exigindo a tarefa setup-mfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C25",
+        "stepId": "S_311e92cd4a11",
+        "parameters": {},
+        "template": "o próximo acesso deve continuar exigindo a tarefa setup-mfa"
+      }
+    ]
+  },
+  {
+    "text": "que a conta está autenticada e usa o UserProfile da Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C26",
+        "stepId": "S_7aea7ac3a2b4",
+        "parameters": {},
+        "template": "que a conta está autenticada e usa o UserProfile da Clerk"
+      }
+    ]
+  },
+  {
+    "text": "conclui uma alteração de fator aceita pelo provedor",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C26",
+        "stepId": "S_2f5b568187d3",
+        "parameters": {},
+        "template": "conclui uma alteração de fator aceita pelo provedor"
+      }
+    ]
+  },
+  {
+    "text": "o estado exibido deve corresponder aos fatores confirmados pela Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C26",
+        "stepId": "S_e476a86a8c56",
+        "parameters": {},
+        "template": "o estado exibido deve corresponder aos fatores confirmados pela Clerk"
+      }
+    ]
+  },
+  {
+    "text": "o Front não deve manter cadastro paralelo de MFA próprio",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C26",
+        "stepId": "S_fd31f638009e",
+        "parameters": {},
+        "template": "o Front não deve manter cadastro paralelo de MFA próprio"
+      }
+    ]
+  },
+  {
+    "text": "que iniciei uma alteração de fator no UserProfile",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C27",
+        "stepId": "S_40925c9df8fe",
+        "parameters": {},
+        "template": "que iniciei uma alteração de fator no UserProfile"
+      }
+    ]
+  },
+  {
+    "text": "a operação é cancelada antes de confirmar",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C27",
+        "stepId": "S_26754ee52df0",
+        "parameters": {
+          "resultado": "cancelada antes de confirmar"
+        },
+        "template": "a operação é <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "a operação é rejeitada pelo provedor",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C27",
+        "stepId": "S_26754ee52df0",
+        "parameters": {
+          "resultado": "rejeitada pelo provedor"
+        },
+        "template": "a operação é <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "não devo visualizar confirmação de alteração concluída",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C27",
+        "stepId": "S_228019c7e6be",
+        "parameters": {},
+        "template": "não devo visualizar confirmação de alteração concluída"
+      }
+    ]
+  },
+  {
+    "text": "o estado apresentado deve corresponder ao que foi efetivamente confirmado pela Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C27",
+        "stepId": "S_790aa9fdf4ec",
+        "parameters": {},
+        "template": "o estado apresentado deve corresponder ao que foi efetivamente confirmado pela Clerk"
+      }
+    ]
+  },
+  {
+    "text": "que iniciei a entrada por senha no componente Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C28",
+        "stepId": "S_754fd2932f1f",
+        "parameters": {
+          "operacao": "a entrada por senha"
+        },
+        "template": "que iniciei <operacao> no componente Clerk"
+      }
+    ]
+  },
+  {
+    "text": "que iniciei a confirmação de MFA no componente Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C28",
+        "stepId": "S_754fd2932f1f",
+        "parameters": {
+          "operacao": "a confirmação de MFA"
+        },
+        "template": "que iniciei <operacao> no componente Clerk"
+      }
+    ]
+  },
+  {
+    "text": "a resposta controlada contém código ou tipo documentado para formato de e-mail inválido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C28",
+        "stepId": "S_a42ba5b2c6cb",
+        "parameters": {
+          "causa": "formato de e-mail inválido"
+        },
+        "template": "a resposta controlada contém código ou tipo documentado para <causa>"
+      }
+    ]
+  },
+  {
+    "text": "a resposta controlada contém código ou tipo documentado para credencial rejeitada",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C28",
+        "stepId": "S_a42ba5b2c6cb",
+        "parameters": {
+          "causa": "credencial rejeitada"
+        },
+        "template": "a resposta controlada contém código ou tipo documentado para <causa>"
+      }
+    ]
+  },
+  {
+    "text": "a resposta controlada contém código ou tipo documentado para desafio rejeitado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C28",
+        "stepId": "S_a42ba5b2c6cb",
+        "parameters": {
+          "causa": "desafio rejeitado"
+        },
+        "template": "a resposta controlada contém código ou tipo documentado para <causa>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar orientação sobre o campo e poder corrigir a tentativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C28",
+        "stepId": "S_2dbbd187a020",
+        "parameters": {
+          "orientacao": "orientação sobre o campo"
+        },
+        "template": "devo visualizar <orientacao> e poder corrigir a tentativa"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar falha na entrada e poder corrigir a tentativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C28",
+        "stepId": "S_2dbbd187a020",
+        "parameters": {
+          "orientacao": "falha na entrada"
+        },
+        "template": "devo visualizar <orientacao> e poder corrigir a tentativa"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar falha na verificação e poder corrigir a tentativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C28",
+        "stepId": "S_2dbbd187a020",
+        "parameters": {
+          "orientacao": "falha na verificação"
+        },
+        "template": "devo visualizar <orientacao> e poder corrigir a tentativa"
+      }
+    ]
+  },
+  {
+    "text": "o erro não deve concluir a etapa nem conceder acesso",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C28",
+        "stepId": "S_9709d5833bf9",
+        "parameters": {},
+        "template": "o erro não deve concluir a etapa nem conceder acesso"
+      }
+    ]
+  },
+  {
+    "text": "que enviei uma tentativa sem autenticação completa confirmada",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_9c7c4c0b3797",
+        "parameters": {},
+        "template": "que enviei uma tentativa sem autenticação completa confirmada"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida pela interface retorna null",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_3d0a25cc8eea",
+        "parameters": {
+          "resposta": "null"
+        },
+        "template": "a fronteira consumida pela interface retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida pela interface retorna corpo vazio onde é exigido conteúdo",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_3d0a25cc8eea",
+        "parameters": {
+          "resposta": "corpo vazio onde é exigido conteúdo"
+        },
+        "template": "a fronteira consumida pela interface retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida pela interface retorna erro sem os campos obrigatórios para identificação",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_3d0a25cc8eea",
+        "parameters": {
+          "resposta": "erro sem os campos obrigatórios para identificação"
+        },
+        "template": "a fronteira consumida pela interface retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida pela interface retorna erro sem informação reconhecível pelo contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_3d0a25cc8eea",
+        "parameters": {
+          "resposta": "erro sem informação reconhecível pelo contrato"
+        },
+        "template": "a fronteira consumida pela interface retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida pela interface retorna código de erro desconhecido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_3d0a25cc8eea",
+        "parameters": {
+          "resposta": "código de erro desconhecido"
+        },
+        "template": "a fronteira consumida pela interface retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida pela interface retorna conteúdo inválido para o JSON esperado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_3d0a25cc8eea",
+        "parameters": {
+          "resposta": "conteúdo inválido para o JSON esperado"
+        },
+        "template": "a fronteira consumida pela interface retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida pela interface retorna HTML onde era esperada resposta estruturada",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_3d0a25cc8eea",
+        "parameters": {
+          "resposta": "HTML onde era esperada resposta estruturada"
+        },
+        "template": "a fronteira consumida pela interface retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida pela interface retorna HTTP 404 sem explicação",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_3d0a25cc8eea",
+        "parameters": {
+          "resposta": "HTTP 404 sem explicação"
+        },
+        "template": "a fronteira consumida pela interface retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida pela interface retorna HTTP 500 sem corpo",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_3d0a25cc8eea",
+        "parameters": {
+          "resposta": "HTTP 500 sem corpo"
+        },
+        "template": "a fronteira consumida pela interface retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida pela interface retorna HTTP 200 sem comprovação de autenticação exigida",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_3d0a25cc8eea",
+        "parameters": {
+          "resposta": "HTTP 200 sem comprovação de autenticação exigida"
+        },
+        "template": "a fronteira consumida pela interface retorna <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar uma orientação geral de que não foi possível concluir a operação",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_4a1ffa29561e",
+        "parameters": {},
+        "template": "devo visualizar uma orientação geral de que não foi possível concluir a operação"
+      }
+    ]
+  },
+  {
+    "text": "a interface deve continuar utilizável sem mostrar null ou undefined",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_23a13ebae3f7",
+        "parameters": {},
+        "template": "a interface deve continuar utilizável sem mostrar null ou undefined"
+      }
+    ]
+  },
+  {
+    "text": "nenhum sucesso ou acesso protegido deve ser liberado pela resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C29",
+        "stepId": "S_53b05138efdc",
+        "parameters": {},
+        "template": "nenhum sucesso ou acesso protegido deve ser liberado pela resposta"
+      }
+    ]
+  },
+  {
+    "text": "que uma chamada protegida do Front ao Core está em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C30",
+        "stepId": "S_d6eb2fe4fd74",
+        "parameters": {},
+        "template": "que uma chamada protegida do Front ao Core está em andamento"
+      }
+    ]
+  },
+  {
+    "text": "o Core responde HTTP 401 com erro básico",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C30",
+        "stepId": "S_3c215a17b250",
+        "parameters": {
+          "corpo": "erro básico"
+        },
+        "template": "o Core responde HTTP 401 com <corpo>"
+      }
+    ]
+  },
+  {
+    "text": "o Core responde HTTP 401 com corpo vazio",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C30",
+        "stepId": "S_3c215a17b250",
+        "parameters": {
+          "corpo": "corpo vazio"
+        },
+        "template": "o Core responde HTTP 401 com <corpo>"
+      }
+    ]
+  },
+  {
+    "text": "o Core responde HTTP 401 com null",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C30",
+        "stepId": "S_3c215a17b250",
+        "parameters": {
+          "corpo": "null"
+        },
+        "template": "o Core responde HTTP 401 com <corpo>"
+      }
+    ]
+  },
+  {
+    "text": "o Core responde HTTP 401 com objeto sem mensagem",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C30",
+        "stepId": "S_3c215a17b250",
+        "parameters": {
+          "corpo": "objeto sem mensagem"
+        },
+        "template": "o Core responde HTTP 401 com <corpo>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar Você foi deslogado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C30",
+        "stepId": "S_245a0f324b17",
+        "parameters": {},
+        "template": "devo visualizar Você foi deslogado"
+      },
+      {
+        "scenarioId": "LLT86_C31",
+        "stepId": "S_245a0f324b17",
+        "parameters": {},
+        "template": "devo visualizar Você foi deslogado"
+      }
+    ]
+  },
+  {
+    "text": "devo retornar ao SignIn com o acesso local protegido encerrado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C30",
+        "stepId": "S_280b07b07bf3",
+        "parameters": {},
+        "template": "devo retornar ao SignIn com o acesso local protegido encerrado"
+      }
+    ]
+  },
+  {
+    "text": "o tratamento não deve depender da descrição do erro no corpo",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C30",
+        "stepId": "S_c71db2bed614",
+        "parameters": {},
+        "template": "o tratamento não deve depender da descrição do erro no corpo"
+      }
+    ]
+  },
+  {
+    "text": "que a operação está classificada pelo contrato como 403 com revogação da ADR_032",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C31",
+        "stepId": "S_47428713b332",
+        "parameters": {},
+        "template": "que a operação está classificada pelo contrato como 403 com revogação da ADR_032"
+      }
+    ]
+  },
+  {
+    "text": "o Core responde HTTP 403 com erro básico",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C31",
+        "stepId": "S_1d2c4718255c",
+        "parameters": {
+          "corpo": "erro básico"
+        },
+        "template": "o Core responde HTTP 403 com <corpo>"
+      }
+    ]
+  },
+  {
+    "text": "o Core responde HTTP 403 com corpo vazio",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C31",
+        "stepId": "S_1d2c4718255c",
+        "parameters": {
+          "corpo": "corpo vazio"
+        },
+        "template": "o Core responde HTTP 403 com <corpo>"
+      }
+    ]
+  },
+  {
+    "text": "devo retornar ao SignIn sem manter acesso local protegido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C31",
+        "stepId": "S_e8d8889604d1",
+        "parameters": {},
+        "template": "devo retornar ao SignIn sem manter acesso local protegido"
+      }
+    ]
+  },
+  {
+    "text": "o teste deve distinguir esse resultado da negação simples da ADR_126",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C31",
+        "stepId": "S_1b5a463c7ecb",
+        "parameters": {},
+        "template": "o teste deve distinguir esse resultado da negação simples da ADR_126"
+      }
+    ]
+  },
+  {
+    "text": "que a conta está autenticada com sessão válida",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C32",
+        "stepId": "S_29a6650d1547",
+        "parameters": {},
+        "template": "que a conta está autenticada com sessão válida"
+      }
+    ]
+  },
+  {
+    "text": "o Core nega acesso porque a conta não é membro da empresa solicitada conforme o contrato de negação simples",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C32",
+        "stepId": "S_468a8ded7f03",
+        "parameters": {
+          "motivo": "a conta não é membro da empresa solicitada"
+        },
+        "template": "o Core nega acesso porque <motivo> conforme o contrato de negação simples"
+      }
+    ]
+  },
+  {
+    "text": "o Core nega acesso porque o Produto da URL é inválido ou de outra empresa conforme o contrato de negação simples",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C32",
+        "stepId": "S_468a8ded7f03",
+        "parameters": {
+          "motivo": "o Produto da URL é inválido ou de outra empresa"
+        },
+        "template": "o Core nega acesso porque <motivo> conforme o contrato de negação simples"
+      }
+    ]
+  },
+  {
+    "text": "o Core nega acesso porque o MEMBRO não possui acesso ao Produto conforme o contrato de negação simples",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C32",
+        "stepId": "S_468a8ded7f03",
+        "parameters": {
+          "motivo": "o MEMBRO não possui acesso ao Produto"
+        },
+        "template": "o Core nega acesso porque <motivo> conforme o contrato de negação simples"
+      }
+    ]
+  },
+  {
+    "text": "devo retornar à tela inicial e continuar logado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C32",
+        "stepId": "S_6c996fceeb8d",
+        "parameters": {},
+        "template": "devo retornar à tela inicial e continuar logado"
+      }
+    ]
+  },
+  {
+    "text": "o recurso recusado não deve ser exibido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C32",
+        "stepId": "S_378ec643b4e1",
+        "parameters": {},
+        "template": "o recurso recusado não deve ser exibido"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve aplicar o logout global da ADR_032",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C32",
+        "stepId": "S_2bcaeb310cab",
+        "parameters": {},
+        "template": "a interface não deve aplicar o logout global da ADR_032"
+      }
+    ]
+  },
+  {
+    "text": "que o serviço indica bloqueio ativo por tentativas para a conta fictícia",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C33",
+        "stepId": "S_d83071d9e575",
+        "parameters": {
+          "estado": "bloqueio ativo por tentativas"
+        },
+        "template": "que o serviço indica <estado> para a conta fictícia"
+      }
+    ]
+  },
+  {
+    "text": "que o serviço indica fim do bloqueio confirmado pelo provedor para a conta fictícia",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C33",
+        "stepId": "S_d83071d9e575",
+        "parameters": {
+          "estado": "fim do bloqueio confirmado pelo provedor"
+        },
+        "template": "que o serviço indica <estado> para a conta fictícia"
+      }
+    ]
+  },
+  {
+    "text": "tento concluir a autenticação no componente",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C33",
+        "stepId": "S_6f8e1c9fb297",
+        "parameters": {},
+        "template": "tento concluir a autenticação no componente"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar a orientação de bloqueio do provedor sem acesso protegido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C33",
+        "stepId": "S_9b8066e5d8ee",
+        "parameters": {
+          "resultado": "a orientação de bloqueio do provedor sem acesso protegido"
+        },
+        "template": "devo visualizar <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar possibilidade de tentar o login sem autenticação automática",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C33",
+        "stepId": "S_9b8066e5d8ee",
+        "parameters": {
+          "resultado": "possibilidade de tentar o login sem autenticação automática"
+        },
+        "template": "devo visualizar <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "o Front não deve implementar um limite paralelo nem desbloquear a conta por conta própria",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C33",
+        "stepId": "S_c574125d825b",
+        "parameters": {},
+        "template": "o Front não deve implementar um limite paralelo nem desbloquear a conta por conta própria"
+      }
+    ]
+  },
+  {
+    "text": "que inspeciono os arquivos públicos e respostas entregues ao navegador de teste",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C34",
+        "stepId": "S_05589942d917",
+        "parameters": {},
+        "template": "que inspeciono os arquivos públicos e respostas entregues ao navegador de teste"
+      }
+    ]
+  },
+  {
+    "text": "verifico a presença de CLERK_SECRET_KEY",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C34",
+        "stepId": "S_14c9720dfd25",
+        "parameters": {
+          "segredo": "CLERK_SECRET_KEY"
+        },
+        "template": "verifico a presença de <segredo>"
+      }
+    ]
+  },
+  {
+    "text": "verifico a presença de CLERK_WEBHOOK_SIGNING_SECRET",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C34",
+        "stepId": "S_14c9720dfd25",
+        "parameters": {
+          "segredo": "CLERK_WEBHOOK_SIGNING_SECRET"
+        },
+        "template": "verifico a presença de <segredo>"
+      }
+    ]
+  },
+  {
+    "text": "verifico a presença de credencial ou chave de assinatura do JWT interno",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C34",
+        "stepId": "S_14c9720dfd25",
+        "parameters": {
+          "segredo": "credencial ou chave de assinatura do JWT interno"
+        },
+        "template": "verifico a presença de <segredo>"
+      }
+    ]
+  },
+  {
+    "text": "esse segredo não deve estar presente no conteúdo público",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C34",
+        "stepId": "S_4646f2bc5fe7",
+        "parameters": {},
+        "template": "esse segredo não deve estar presente no conteúdo público"
+      }
+    ]
+  },
+  {
+    "text": "os componentes devem usar apenas a chave publicável e a sessão nos limites do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C34",
+        "stepId": "S_9b183e100816",
+        "parameters": {},
+        "template": "os componentes devem usar apenas a chave publicável e a sessão nos limites do contrato"
+      }
+    ]
+  },
+  {
+    "text": "que abro a aplicação e a Clerk ainda está inicializando",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C35",
+        "stepId": "S_d10995358ac0",
+        "parameters": {},
+        "template": "que abro a aplicação e a Clerk ainda está inicializando"
+      }
+    ]
+  },
+  {
+    "text": "o estado final será sem sessão",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C35",
+        "stepId": "S_22cd8ee3aa52",
+        "parameters": {
+          "estado": "sem sessão"
+        },
+        "template": "o estado final será <estado>"
+      }
+    ]
+  },
+  {
+    "text": "o estado final será sessão ativa com MFA concluído",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C35",
+        "stepId": "S_22cd8ee3aa52",
+        "parameters": {
+          "estado": "sessão ativa com MFA concluído"
+        },
+        "template": "o estado final será <estado>"
+      }
+    ]
+  },
+  {
+    "text": "o estado final será sessão pending com setup obrigatório",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C35",
+        "stepId": "S_22cd8ee3aa52",
+        "parameters": {
+          "estado": "sessão pending com setup obrigatório"
+        },
+        "template": "o estado final será <estado>"
+      }
+    ]
+  },
+  {
+    "text": "devo perceber o carregamento sem um formulário ativo prematuro",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C35",
+        "stepId": "S_1f7639601179",
+        "parameters": {},
+        "template": "devo perceber o carregamento sem um formulário ativo prematuro"
+      }
+    ]
+  },
+  {
+    "text": "nenhum conteúdo protegido deve aparecer enquanto a sessão estiver indefinida",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C35",
+        "stepId": "S_5adee46d1d46",
+        "parameters": {},
+        "template": "nenhum conteúdo protegido deve aparecer enquanto a sessão estiver indefinida"
+      }
+    ]
+  },
+  {
+    "text": "ao resolver o estado devo visualizar SignIn sem oscilação indevida entre telas",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C35",
+        "stepId": "S_6d875c2cf681",
+        "parameters": {
+          "destino": "SignIn"
+        },
+        "template": "ao resolver o estado devo visualizar <destino> sem oscilação indevida entre telas"
+      }
+    ]
+  },
+  {
+    "text": "ao resolver o estado devo visualizar área inicial sem oscilação indevida entre telas",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C35",
+        "stepId": "S_6d875c2cf681",
+        "parameters": {
+          "destino": "área inicial"
+        },
+        "template": "ao resolver o estado devo visualizar <destino> sem oscilação indevida entre telas"
+      }
+    ]
+  },
+  {
+    "text": "ao resolver o estado devo visualizar setup-mfa sem conteúdo protegido sem oscilação indevida entre telas",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C35",
+        "stepId": "S_6d875c2cf681",
+        "parameters": {
+          "destino": "setup-mfa sem conteúdo protegido"
+        },
+        "template": "ao resolver o estado devo visualizar <destino> sem oscilação indevida entre telas"
+      }
+    ]
+  },
+  {
+    "text": "que a página de login está sendo aberta",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C36",
+        "stepId": "S_8ce944ea7074",
+        "parameters": {},
+        "template": "que a página de login está sendo aberta"
+      }
+    ]
+  },
+  {
+    "text": "ocorre falha no carregamento do recurso do provedor antes de montar o SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C36",
+        "stepId": "S_cd2ed4a6fead",
+        "parameters": {
+          "falha": "falha no carregamento do recurso do provedor"
+        },
+        "template": "ocorre <falha> antes de montar o SignIn"
+      }
+    ]
+  },
+  {
+    "text": "ocorre erro de configuração informado pela inicialização do provedor antes de montar o SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C36",
+        "stepId": "S_cd2ed4a6fead",
+        "parameters": {
+          "falha": "erro de configuração informado pela inicialização do provedor"
+        },
+        "template": "ocorre <falha> antes de montar o SignIn"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar uma orientação de indisponibilidade sem detalhes internos",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C36",
+        "stepId": "S_4215a611abb2",
+        "parameters": {},
+        "template": "devo visualizar uma orientação de indisponibilidade sem detalhes internos"
+      }
+    ]
+  },
+  {
+    "text": "a página não deve ficar branca nem manter carregamento indefinido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C36",
+        "stepId": "S_5331c58b4123",
+        "parameters": {},
+        "template": "a página não deve ficar branca nem manter carregamento indefinido"
+      }
+    ]
+  },
+  {
+    "text": "devo conseguir recarregar a página para tentar novamente",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C36",
+        "stepId": "S_bcade07c80b2",
+        "parameters": {},
+        "template": "devo conseguir recarregar a página para tentar novamente"
+      }
+    ]
+  },
+  {
+    "text": "que estou em SignIn por senha com o componente real e dados fictícios",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_329bee1d572e",
+        "parameters": {
+          "etapa": "SignIn por senha"
+        },
+        "template": "que estou em <etapa> com o componente real e dados fictícios"
+      }
+    ]
+  },
+  {
+    "text": "que estou em desafio TOTP com o componente real e dados fictícios",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_329bee1d572e",
+        "parameters": {
+          "etapa": "desafio TOTP"
+        },
+        "template": "que estou em <etapa> com o componente real e dados fictícios"
+      }
+    ]
+  },
+  {
+    "text": "que estou em recuperação de senha da Clerk com o componente real e dados fictícios",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_329bee1d572e",
+        "parameters": {
+          "etapa": "recuperação de senha da Clerk"
+        },
+        "template": "que estou em <etapa> com o componente real e dados fictícios"
+      }
+    ]
+  },
+  {
+    "text": "que estou em desafio de MFA com ação de retorno disponível com o componente real e dados fictícios",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_329bee1d572e",
+        "parameters": {
+          "etapa": "desafio de MFA com ação de retorno disponível"
+        },
+        "template": "que estou em <etapa> com o componente real e dados fictícios"
+      }
+    ]
+  },
+  {
+    "text": "percorro os controles com Tab e Shift Tab e aciono a ação com a tecla adequada ao controle",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_5852eb956c70",
+        "parameters": {},
+        "template": "percorro os controles com Tab e Shift Tab e aciono a ação com a tecla adequada ao controle"
+      }
+    ]
+  },
+  {
+    "text": "todos os controles necessários devem ser alcançáveis em ordem compreensível",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_70f633f4261c",
+        "parameters": {},
+        "template": "todos os controles necessários devem ser alcançáveis em ordem compreensível"
+      }
+    ]
+  },
+  {
+    "text": "o foco deve estar visível sem ficar preso em um controle",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_2a6591b922ed",
+        "parameters": {},
+        "template": "o foco deve estar visível sem ficar preso em um controle"
+      }
+    ]
+  },
+  {
+    "text": "devo conseguir preencher e enviar as credenciais sem depender do mouse",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_007a08f1b5eb",
+        "parameters": {
+          "acao": "preencher e enviar as credenciais"
+        },
+        "template": "devo conseguir <acao> sem depender do mouse"
+      }
+    ]
+  },
+  {
+    "text": "devo conseguir preencher e enviar o fator sem depender do mouse",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_007a08f1b5eb",
+        "parameters": {
+          "acao": "preencher e enviar o fator"
+        },
+        "template": "devo conseguir <acao> sem depender do mouse"
+      }
+    ]
+  },
+  {
+    "text": "devo conseguir informar os dados e avançar sem depender do mouse",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_007a08f1b5eb",
+        "parameters": {
+          "acao": "informar os dados e avançar"
+        },
+        "template": "devo conseguir <acao> sem depender do mouse"
+      }
+    ]
+  },
+  {
+    "text": "devo conseguir voltar à entrada sem conceder acesso sem depender do mouse",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_007a08f1b5eb",
+        "parameters": {
+          "acao": "voltar à entrada sem conceder acesso"
+        },
+        "template": "devo conseguir <acao> sem depender do mouse"
+      }
+    ]
+  },
+  {
+    "text": "o envio não deve ocorrer em duplicidade",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C37",
+        "stepId": "S_9dcaf92a8dd1",
+        "parameters": {},
+        "template": "o envio não deve ocorrer em duplicidade"
+      }
+    ]
+  },
+  {
+    "text": "que verifico campo de e-mail após erro local na tela com o componente real",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_5e4e158df531",
+        "parameters": {
+          "elemento": "campo de e-mail após erro local"
+        },
+        "template": "que verifico <elemento> na tela com o componente real"
+      }
+    ]
+  },
+  {
+    "text": "que verifico campo de senha após ausência de preenchimento na tela com o componente real",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_5e4e158df531",
+        "parameters": {
+          "elemento": "campo de senha após ausência de preenchimento"
+        },
+        "template": "que verifico <elemento> na tela com o componente real"
+      }
+    ]
+  },
+  {
+    "text": "que verifico campo TOTP após rejeição na tela com o componente real",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_5e4e158df531",
+        "parameters": {
+          "elemento": "campo TOTP após rejeição"
+        },
+        "template": "que verifico <elemento> na tela com o componente real"
+      }
+    ]
+  },
+  {
+    "text": "que verifico botão de continuar na tela com o componente real",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_5e4e158df531",
+        "parameters": {
+          "elemento": "botão de continuar"
+        },
+        "template": "que verifico <elemento> na tela com o componente real"
+      }
+    ]
+  },
+  {
+    "text": "consulto o nome acessível e a leitura por tecnologia assistiva",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_0499f3e005cc",
+        "parameters": {},
+        "template": "consulto o nome acessível e a leitura por tecnologia assistiva"
+      }
+    ]
+  },
+  {
+    "text": "devo identificar finalidade do campo e erro de formato sem depender apenas de cor ou placeholder",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_3ac1a1cbd13a",
+        "parameters": {
+          "informacao": "finalidade do campo e erro de formato"
+        },
+        "template": "devo identificar <informacao> sem depender apenas de cor ou placeholder"
+      }
+    ]
+  },
+  {
+    "text": "devo identificar finalidade do campo e obrigatoriedade sem depender apenas de cor ou placeholder",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_3ac1a1cbd13a",
+        "parameters": {
+          "informacao": "finalidade do campo e obrigatoriedade"
+        },
+        "template": "devo identificar <informacao> sem depender apenas de cor ou placeholder"
+      }
+    ]
+  },
+  {
+    "text": "devo identificar finalidade do campo e erro do fator sem depender apenas de cor ou placeholder",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_3ac1a1cbd13a",
+        "parameters": {
+          "informacao": "finalidade do campo e erro do fator"
+        },
+        "template": "devo identificar <informacao> sem depender apenas de cor ou placeholder"
+      }
+    ]
+  },
+  {
+    "text": "devo identificar ação executada e estado indisponível durante envio sem depender apenas de cor ou placeholder",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_3ac1a1cbd13a",
+        "parameters": {
+          "informacao": "ação executada e estado indisponível durante envio"
+        },
+        "template": "devo identificar <informacao> sem depender apenas de cor ou placeholder"
+      }
+    ]
+  },
+  {
+    "text": "um erro específico deve estar associado ao campo correspondente e ser percebido na leitura",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_33d11a7b60cc",
+        "parameters": {},
+        "template": "um erro específico deve estar associado ao campo correspondente e ser percebido na leitura"
+      }
+    ]
+  },
+  {
+    "text": "não deve ser necessário conhecer um nome interno do código para usar a interface",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C38",
+        "stepId": "S_ea753ae35db6",
+        "parameters": {},
+        "template": "não deve ser necessário conhecer um nome interno do código para usar a interface"
+      }
+    ]
+  },
+  {
+    "text": "que utilizo a autenticação pelo teclado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_4f1fd27bb998",
+        "parameters": {},
+        "template": "que utilizo a autenticação pelo teclado"
+      }
+    ]
+  },
+  {
+    "text": "ocorre primeira etapa aceita e desafio de MFA exibido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_26cdc6244d86",
+        "parameters": {
+          "mudanca": "primeira etapa aceita e desafio de MFA exibido"
+        },
+        "template": "ocorre <mudanca>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre validação local impede o envio",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_26cdc6244d86",
+        "parameters": {
+          "mudanca": "validação local impede o envio"
+        },
+        "template": "ocorre <mudanca>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre provedor rejeita o fator",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_26cdc6244d86",
+        "parameters": {
+          "mudanca": "provedor rejeita o fator"
+        },
+        "template": "ocorre <mudanca>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre ação de voltar exibe o SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_26cdc6244d86",
+        "parameters": {
+          "mudanca": "ação de voltar exibe o SignIn"
+        },
+        "template": "ocorre <mudanca>"
+      }
+    ]
+  },
+  {
+    "text": "o foco deve chegar a identificação da nova etapa ou primeiro controle do desafio que permita entender o estado e continuar",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_0f198c058d58",
+        "parameters": {
+          "destino": "identificação da nova etapa ou primeiro controle do desafio"
+        },
+        "template": "o foco deve chegar a <destino> que permita entender o estado e continuar"
+      }
+    ]
+  },
+  {
+    "text": "o foco deve chegar a campo inválido ou resumo acessível que leve ao campo que permita entender o estado e continuar",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_0f198c058d58",
+        "parameters": {
+          "destino": "campo inválido ou resumo acessível que leve ao campo"
+        },
+        "template": "o foco deve chegar a <destino> que permita entender o estado e continuar"
+      }
+    ]
+  },
+  {
+    "text": "o foco deve chegar a orientação perceptível e controle para corrigir a tentativa que permita entender o estado e continuar",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_0f198c058d58",
+        "parameters": {
+          "destino": "orientação perceptível e controle para corrigir a tentativa"
+        },
+        "template": "o foco deve chegar a <destino> que permita entender o estado e continuar"
+      }
+    ]
+  },
+  {
+    "text": "o foco deve chegar a identificação da etapa ou primeiro controle da entrada que permita entender o estado e continuar",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_0f198c058d58",
+        "parameters": {
+          "destino": "identificação da etapa ou primeiro controle da entrada"
+        },
+        "template": "o foco deve chegar a <destino> que permita entender o estado e continuar"
+      }
+    ]
+  },
+  {
+    "text": "o foco não deve permanecer em elemento removido ou oculto",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_af551156c224",
+        "parameters": {},
+        "template": "o foco não deve permanecer em elemento removido ou oculto"
+      }
+    ]
+  },
+  {
+    "text": "a ordem de navegação deve continuar compreensível",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C39",
+        "stepId": "S_f097744acf1e",
+        "parameters": {},
+        "template": "a ordem de navegação deve continuar compreensível"
+      }
+    ]
+  },
+  {
+    "text": "que abro SignIn no navegador desktop com viewport 360 por 800 pixels e zoom 100 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_868322cfdd10",
+        "parameters": {
+          "etapa": "SignIn",
+          "largura": "360 por 800 pixels",
+          "zoom": "100 por cento"
+        },
+        "template": "que abro <etapa> no navegador desktop com viewport <largura> e zoom <zoom>"
+      }
+    ]
+  },
+  {
+    "text": "que abro desafio TOTP no navegador desktop com viewport 360 por 800 pixels e zoom 100 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_868322cfdd10",
+        "parameters": {
+          "etapa": "desafio TOTP",
+          "largura": "360 por 800 pixels",
+          "zoom": "100 por cento"
+        },
+        "template": "que abro <etapa> no navegador desktop com viewport <largura> e zoom <zoom>"
+      }
+    ]
+  },
+  {
+    "text": "que abro recuperação de senha no navegador desktop com viewport 360 por 800 pixels e zoom 100 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_868322cfdd10",
+        "parameters": {
+          "etapa": "recuperação de senha",
+          "largura": "360 por 800 pixels",
+          "zoom": "100 por cento"
+        },
+        "template": "que abro <etapa> no navegador desktop com viewport <largura> e zoom <zoom>"
+      }
+    ]
+  },
+  {
+    "text": "que abro SignIn no navegador desktop com viewport 1280 por 800 pixels e zoom 200 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_868322cfdd10",
+        "parameters": {
+          "etapa": "SignIn",
+          "largura": "1280 por 800 pixels",
+          "zoom": "200 por cento"
+        },
+        "template": "que abro <etapa> no navegador desktop com viewport <largura> e zoom <zoom>"
+      }
+    ]
+  },
+  {
+    "text": "que abro desafio TOTP no navegador desktop com viewport 1280 por 800 pixels e zoom 200 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_868322cfdd10",
+        "parameters": {
+          "etapa": "desafio TOTP",
+          "largura": "1280 por 800 pixels",
+          "zoom": "200 por cento"
+        },
+        "template": "que abro <etapa> no navegador desktop com viewport <largura> e zoom <zoom>"
+      }
+    ]
+  },
+  {
+    "text": "que abro recuperação de senha no navegador desktop com viewport 1280 por 800 pixels e zoom 200 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_868322cfdd10",
+        "parameters": {
+          "etapa": "recuperação de senha",
+          "largura": "1280 por 800 pixels",
+          "zoom": "200 por cento"
+        },
+        "template": "que abro <etapa> no navegador desktop com viewport <largura> e zoom <zoom>"
+      }
+    ]
+  },
+  {
+    "text": "preencho os dados e visualizo uma orientação de validação",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_7e8dfe3c4bd2",
+        "parameters": {},
+        "template": "preencho os dados e visualizo uma orientação de validação"
+      }
+    ]
+  },
+  {
+    "text": "campos botões mensagens e foco devem continuar legíveis e alcançáveis",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_2a6d6c6dd27c",
+        "parameters": {},
+        "template": "campos botões mensagens e foco devem continuar legíveis e alcançáveis"
+      }
+    ]
+  },
+  {
+    "text": "nenhum controle necessário deve ficar cortado ou coberto",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_ca03b8460ed4",
+        "parameters": {},
+        "template": "nenhum controle necessário deve ficar cortado ou coberto"
+      }
+    ]
+  },
+  {
+    "text": "devo conseguir concluir ou corrigir a etapa usando rolagem vertical quando necessária",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_528c4e6c56db",
+        "parameters": {},
+        "template": "devo conseguir concluir ou corrigir a etapa usando rolagem vertical quando necessária"
+      }
+    ]
+  },
+  {
+    "text": "o conteúdo do formulário não deve exigir rolagem horizontal para ler e operar",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C40",
+        "stepId": "S_8e98533eecf7",
+        "parameters": {},
+        "template": "o conteúdo do formulário não deve exigir rolagem horizontal para ler e operar"
+      }
+    ]
+  },
+  {
+    "text": "que a Clerk real de teste usa o perfil atual com MFA obrigatório",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_3d66373446cb",
+        "parameters": {},
+        "template": "que a Clerk real de teste usa o perfil atual com MFA obrigatório"
+      }
+    ]
+  },
+  {
+    "text": "realizo primeira etapa por senha em conta sem fator",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_df19d51be11f",
+        "parameters": {
+          "tentativa": "primeira etapa por senha em conta sem fator"
+        },
+        "template": "realizo <tentativa>"
+      }
+    ]
+  },
+  {
+    "text": "realizo primeira etapa por senha em conta com TOTP",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_df19d51be11f",
+        "parameters": {
+          "tentativa": "primeira etapa por senha em conta com TOTP"
+        },
+        "template": "realizo <tentativa>"
+      }
+    ]
+  },
+  {
+    "text": "realizo senha e TOTP aceitos",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_df19d51be11f",
+        "parameters": {
+          "tentativa": "senha e TOTP aceitos"
+        },
+        "template": "realizo <tentativa>"
+      }
+    ]
+  },
+  {
+    "text": "realizo Google habilitado e TOTP aceitos",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_df19d51be11f",
+        "parameters": {
+          "tentativa": "Google habilitado e TOTP aceitos"
+        },
+        "template": "realizo <tentativa>"
+      }
+    ]
+  },
+  {
+    "text": "realizo senha rejeitada pela Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_df19d51be11f",
+        "parameters": {
+          "tentativa": "senha rejeitada pela Clerk"
+        },
+        "template": "realizo <tentativa>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar setup-mfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_07f91d217005",
+        "parameters": {
+          "destino": "setup-mfa"
+        },
+        "template": "devo visualizar <destino>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar desafio de MFA",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_07f91d217005",
+        "parameters": {
+          "destino": "desafio de MFA"
+        },
+        "template": "devo visualizar <destino>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar área inicial",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_07f91d217005",
+        "parameters": {
+          "destino": "área inicial"
+        },
+        "template": "devo visualizar <destino>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar falha no SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_07f91d217005",
+        "parameters": {
+          "destino": "falha no SignIn"
+        },
+        "template": "devo visualizar <destino>"
+      }
+    ]
+  },
+  {
+    "text": "o estado real da sessão deve corresponder a sessão ainda não ativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_0c29c40f6cbd",
+        "parameters": {
+          "sessao": "sessão ainda não ativa"
+        },
+        "template": "o estado real da sessão deve corresponder a <sessao>"
+      }
+    ]
+  },
+  {
+    "text": "o estado real da sessão deve corresponder a autenticação ainda incompleta",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_0c29c40f6cbd",
+        "parameters": {
+          "sessao": "autenticação ainda incompleta"
+        },
+        "template": "o estado real da sessão deve corresponder a <sessao>"
+      }
+    ]
+  },
+  {
+    "text": "o estado real da sessão deve corresponder a sessão ativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_0c29c40f6cbd",
+        "parameters": {
+          "sessao": "sessão ativa"
+        },
+        "template": "o estado real da sessão deve corresponder a <sessao>"
+      }
+    ]
+  },
+  {
+    "text": "o estado real da sessão deve corresponder a nenhuma autenticação concluída",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_0c29c40f6cbd",
+        "parameters": {
+          "sessao": "nenhuma autenticação concluída"
+        },
+        "template": "o estado real da sessão deve corresponder a <sessao>"
+      }
+    ]
+  },
+  {
+    "text": "a evidência deve identificar a integração sem incluir segredos",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C41",
+        "stepId": "S_c939738ae5b2",
+        "parameters": {},
+        "template": "a evidência deve identificar a integração sem incluir segredos"
+      }
+    ]
+  },
+  {
+    "text": "que a conta possui sessão Clerk ativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C42",
+        "stepId": "S_988829efe763",
+        "parameters": {},
+        "template": "que a conta possui sessão Clerk ativa"
+      }
+    ]
+  },
+  {
+    "text": "a renovação do session token é aceita e o Core valida o token renovado",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C42",
+        "stepId": "S_7b8029162404",
+        "parameters": {
+          "resultado": "é aceita e o Core valida o token renovado"
+        },
+        "template": "a renovação do session token <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "a renovação do session token falha por revogação da sessão",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C42",
+        "stepId": "S_7b8029162404",
+        "parameters": {
+          "resultado": "falha por revogação da sessão"
+        },
+        "template": "a renovação do session token <resultado>"
+      }
+    ]
+  },
+  {
+    "text": "devo observar continuidade da sessão sem novo login",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C42",
+        "stepId": "S_cb2bcd7bf069",
+        "parameters": {
+          "efeito": "continuidade da sessão sem novo login"
+        },
+        "template": "devo observar <efeito>"
+      }
+    ]
+  },
+  {
+    "text": "devo observar encerramento do acesso e retorno ao SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C42",
+        "stepId": "S_cb2bcd7bf069",
+        "parameters": {
+          "efeito": "encerramento do acesso e retorno ao SignIn"
+        },
+        "template": "devo observar <efeito>"
+      }
+    ]
+  },
+  {
+    "text": "o Core não deve emitir um session token próprio para substituir o da Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C42",
+        "stepId": "S_0f51d0615f5d",
+        "parameters": {},
+        "template": "o Core não deve emitir um session token próprio para substituir o da Clerk"
+      }
+    ]
+  },
+  {
+    "text": "JWTs internos de serviço não devem ser entregues ao navegador",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C42",
+        "stepId": "S_ad2e326e8da8",
+        "parameters": {},
+        "template": "JWTs internos de serviço não devem ser entregues ao navegador"
+      }
+    ]
+  },
+  {
+    "text": "que o Front chama uma API de negócio do Core em mesma origem",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C43",
+        "stepId": "S_df00d0f0e320",
+        "parameters": {
+          "origem": "mesma origem"
+        },
+        "template": "que o Front chama uma API de negócio do Core em <origem>"
+      }
+    ]
+  },
+  {
+    "text": "que o Front chama uma API de negócio do Core em origem diferente",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C43",
+        "stepId": "S_df00d0f0e320",
+        "parameters": {
+          "origem": "origem diferente"
+        },
+        "template": "que o Front chama uma API de negócio do Core em <origem>"
+      }
+    ]
+  },
+  {
+    "text": "a conta autenticada faz a requisição",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C43",
+        "stepId": "S_1b115dc865ab",
+        "parameters": {},
+        "template": "a conta autenticada faz a requisição"
+      }
+    ]
+  },
+  {
+    "text": "a sessão Clerk deve chegar por cookie de sessão",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C43",
+        "stepId": "S_7f8e538d700a",
+        "parameters": {
+          "transporte": "cookie de sessão"
+        },
+        "template": "a sessão Clerk deve chegar por <transporte>"
+      }
+    ]
+  },
+  {
+    "text": "a sessão Clerk deve chegar por Authorization Bearer com token obtido pelo SDK",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C43",
+        "stepId": "S_7f8e538d700a",
+        "parameters": {
+          "transporte": "Authorization Bearer com token obtido pelo SDK"
+        },
+        "template": "a sessão Clerk deve chegar por <transporte>"
+      }
+    ]
+  },
+  {
+    "text": "o Core deve validar a sessão antes de devolver dados protegidos",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C43",
+        "stepId": "S_65092178e740",
+        "parameters": {},
+        "template": "o Core deve validar a sessão antes de devolver dados protegidos"
+      }
+    ]
+  },
+  {
+    "text": "a requisição não deve conter senha nem JWT interno de serviço",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C43",
+        "stepId": "S_37a1fe43692a",
+        "parameters": {},
+        "template": "a requisição não deve conter senha nem JWT interno de serviço"
+      }
+    ]
+  },
+  {
+    "text": "que identifiquei a operação real de autenticação da Clerk e seu contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C44",
+        "stepId": "S_d22aabecbdec",
+        "parameters": {},
+        "template": "que identifiquei a operação real de autenticação da Clerk e seu contrato"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente uma requisição com o e-mail texto email-sem-arroba",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C44",
+        "stepId": "S_b3a88c97c2b4",
+        "parameters": {
+          "entrada": "texto email-sem-arroba"
+        },
+        "template": "envio diretamente uma requisição com o e-mail <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente uma requisição com o e-mail ausente do corpo",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C44",
+        "stepId": "S_b3a88c97c2b4",
+        "parameters": {
+          "entrada": "ausente do corpo"
+        },
+        "template": "envio diretamente uma requisição com o e-mail <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente uma requisição com o e-mail null",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C44",
+        "stepId": "S_b3a88c97c2b4",
+        "parameters": {
+          "entrada": "null"
+        },
+        "template": "envio diretamente uma requisição com o e-mail <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente uma requisição com o e-mail texto vazio",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C44",
+        "stepId": "S_b3a88c97c2b4",
+        "parameters": {
+          "entrada": "texto vazio"
+        },
+        "template": "envio diretamente uma requisição com o e-mail <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente uma requisição com o e-mail objeto no lugar do texto exigido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C44",
+        "stepId": "S_b3a88c97c2b4",
+        "parameters": {
+          "entrada": "objeto no lugar do texto exigido"
+        },
+        "template": "envio diretamente uma requisição com o e-mail <entrada>"
+      }
+    ]
+  },
+  {
+    "text": "a Clerk deve rejeitar a solicitação conforme o contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C44",
+        "stepId": "S_ceb361b5a5b3",
+        "parameters": {},
+        "template": "a Clerk deve rejeitar a solicitação conforme o contrato"
+      }
+    ]
+  },
+  {
+    "text": "nenhuma autenticação completa deve resultar dessa solicitação",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C44",
+        "stepId": "S_ab1bbfbf69c0",
+        "parameters": {},
+        "template": "nenhuma autenticação completa deve resultar dessa solicitação"
+      }
+    ]
+  },
+  {
+    "text": "o teste não deve enviar senha a um endpoint próprio do Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C44",
+        "stepId": "S_b124533af605",
+        "parameters": {},
+        "template": "o teste não deve enviar senha a um endpoint próprio do Core"
+      }
+    ]
+  },
+  {
+    "text": "que a requisição usa uma operação protegida real do Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C45",
+        "stepId": "S_5b4f20d55e6d",
+        "parameters": {},
+        "template": "que a requisição usa uma operação protegida real do Core"
+      }
+    ]
+  },
+  {
+    "text": "envio uma fixture de sessão sem token sem passar pelo Front",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C45",
+        "stepId": "S_50c54e7ae178",
+        "parameters": {
+          "estado": "sem token"
+        },
+        "template": "envio uma fixture de sessão <estado> sem passar pelo Front"
+      }
+    ]
+  },
+  {
+    "text": "envio uma fixture de sessão com assinatura inválida sem passar pelo Front",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C45",
+        "stepId": "S_50c54e7ae178",
+        "parameters": {
+          "estado": "com assinatura inválida"
+        },
+        "template": "envio uma fixture de sessão <estado> sem passar pelo Front"
+      }
+    ]
+  },
+  {
+    "text": "envio uma fixture de sessão com exp vencido sem passar pelo Front",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C45",
+        "stepId": "S_50c54e7ae178",
+        "parameters": {
+          "estado": "com exp vencido"
+        },
+        "template": "envio uma fixture de sessão <estado> sem passar pelo Front"
+      }
+    ]
+  },
+  {
+    "text": "envio uma fixture de sessão com nbf no futuro sem passar pelo Front",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C45",
+        "stepId": "S_50c54e7ae178",
+        "parameters": {
+          "estado": "com nbf no futuro"
+        },
+        "template": "envio uma fixture de sessão <estado> sem passar pelo Front"
+      }
+    ]
+  },
+  {
+    "text": "envio uma fixture de sessão com azp fora das origens permitidas sem passar pelo Front",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C45",
+        "stepId": "S_50c54e7ae178",
+        "parameters": {
+          "estado": "com azp fora das origens permitidas"
+        },
+        "template": "envio uma fixture de sessão <estado> sem passar pelo Front"
+      }
+    ]
+  },
+  {
+    "text": "envio uma fixture de sessão com sts igual a pending sem passar pelo Front",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C45",
+        "stepId": "S_50c54e7ae178",
+        "parameters": {
+          "estado": "com sts igual a pending"
+        },
+        "template": "envio uma fixture de sessão <estado> sem passar pelo Front"
+      }
+    ]
+  },
+  {
+    "text": "o Core deve responder 401 sem devolver o conteúdo protegido",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C45",
+        "stepId": "S_5f3c0cd7210b",
+        "parameters": {},
+        "template": "o Core deve responder 401 sem devolver o conteúdo protegido"
+      }
+    ]
+  },
+  {
+    "text": "não deve tratar a solicitação como autenticação válida",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C45",
+        "stepId": "S_1c9ee550cbdb",
+        "parameters": {},
+        "template": "não deve tratar a solicitação como autenticação válida"
+      }
+    ]
+  },
+  {
+    "text": "que uma conta fictícia possui duas sessões ativas na Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C46",
+        "stepId": "S_3cc1cba61967",
+        "parameters": {},
+        "template": "que uma conta fictícia possui duas sessões ativas na Clerk"
+      }
+    ]
+  },
+  {
+    "text": "a operação de teste aplica o 403 com revogação definido na ADR_032",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C46",
+        "stepId": "S_fb26280c0521",
+        "parameters": {},
+        "template": "a operação de teste aplica o 403 com revogação definido na ADR_032"
+      }
+    ]
+  },
+  {
+    "text": "o Core recusa o acesso por esse contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C46",
+        "stepId": "S_f5599293f18a",
+        "parameters": {},
+        "template": "o Core recusa o acesso por esse contrato"
+      }
+    ]
+  },
+  {
+    "text": "deve responder 403 e revogar todas as sessões ativas dessa conta na Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C46",
+        "stepId": "S_cd5cb4e15ace",
+        "parameters": {},
+        "template": "deve responder 403 e revogar todas as sessões ativas dessa conta na Clerk"
+      }
+    ]
+  },
+  {
+    "text": "o teste deve comprovar a revogação no provedor",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C46",
+        "stepId": "S_ee30b2e9c55e",
+        "parameters": {},
+        "template": "o teste deve comprovar a revogação no provedor"
+      }
+    ]
+  },
+  {
+    "text": "a renovação seguinte dessas sessões deve falhar sem restaurar o acesso",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C46",
+        "stepId": "S_82591f911bc2",
+        "parameters": {},
+        "template": "a renovação seguinte dessas sessões deve falhar sem restaurar o acesso"
+      }
+    ]
+  },
+  {
+    "text": "que a conta fictícia não efetuou compra de assinatura nem possui vínculo com empresa existente",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C47",
+        "stepId": "S_91dbc4afa12a",
+        "parameters": {},
+        "template": "que a conta fictícia não efetuou compra de assinatura nem possui vínculo com empresa existente"
+      }
+    ]
+  },
+  {
+    "text": "ocorre cadastro da identidade na Clerk",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C47",
+        "stepId": "S_a62156d385ba",
+        "parameters": {
+          "evento": "cadastro da identidade na Clerk"
+        },
+        "template": "ocorre <evento>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre novo login da mesma identidade",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C47",
+        "stepId": "S_a62156d385ba",
+        "parameters": {
+          "evento": "novo login da mesma identidade"
+        },
+        "template": "ocorre <evento>"
+      }
+    ]
+  },
+  {
+    "text": "esse evento isolado não deve criar Tenant Assinatura Organization ou Produto de negócio",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C47",
+        "stepId": "S_5faef6c4be2a",
+        "parameters": {},
+        "template": "esse evento isolado não deve criar Tenant Assinatura Organization ou Produto de negócio"
+      }
+    ]
+  },
+  {
+    "text": "a identidade deve continuar separada dos recursos de negócio",
+    "bindings": [
+      {
+        "scenarioId": "LLT86_C47",
+        "stepId": "S_49d9861a038c",
+        "parameters": {},
+        "template": "a identidade deve continuar separada dos recursos de negócio"
+      }
+    ]
+  }
+]

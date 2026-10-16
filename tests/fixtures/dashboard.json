@@ -1,0 +1,6 @@
+{
+  "observacao": "Fixture de apresentação; não define fórmula, periodicidade ou formato de relatório.",
+  "produto": "Produto Alfa",
+  "indicadores": [{"nome": "Quantidade fictícia", "unidade": "eventos", "valor": 12}],
+  "formatos": []
+}

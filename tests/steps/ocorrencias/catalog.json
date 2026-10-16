@@ -1,0 +1,3144 @@
+[
+  {
+    "text": "que Ana Exemplo abriu as Ocorrências do Produto Alfa autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C01",
+        "stepId": "S_65f1aca6ef8f",
+        "parameters": {},
+        "template": "que Ana Exemplo abriu as Ocorrências do Produto Alfa autorizado"
+      }
+    ]
+  },
+  {
+    "text": "a consulta ao Core ainda não terminou",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C01",
+        "stepId": "S_7c77d4fdb5fe",
+        "parameters": {},
+        "template": "a consulta ao Core ainda não terminou"
+      }
+    ]
+  },
+  {
+    "text": "devo perceber que a lista está carregando",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C01",
+        "stepId": "S_ed847d9eeb86",
+        "parameters": {},
+        "template": "devo perceber que a lista está carregando"
+      }
+    ]
+  },
+  {
+    "text": "não devo visualizar um estado vazio ou uma confirmação de sucesso antes da resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C01",
+        "stepId": "S_6bbd245bdbd4",
+        "parameters": {},
+        "template": "não devo visualizar um estado vazio ou uma confirmação de sucesso antes da resposta"
+      }
+    ]
+  },
+  {
+    "text": "dados do Produto anteriormente selecionado não devem aparecer como dados do Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C01",
+        "stepId": "S_beccf4b89a70",
+        "parameters": {},
+        "template": "dados do Produto anteriormente selecionado não devem aparecer como dados do Produto Alfa"
+      }
+    ]
+  },
+  {
+    "text": "que o Core retorna uma Ocorrência fictícia do Produto Alfa com ERRO e recorrente false",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C02",
+        "stepId": "S_0a9699e581ab",
+        "parameters": {
+          "tipo": "ERRO",
+          "recorrente": "false"
+        },
+        "template": "que o Core retorna uma Ocorrência fictícia do Produto Alfa com <tipo> e recorrente <recorrente>"
+      }
+    ]
+  },
+  {
+    "text": "que o Core retorna uma Ocorrência fictícia do Produto Alfa com ERRO e recorrente true",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C02",
+        "stepId": "S_0a9699e581ab",
+        "parameters": {
+          "tipo": "ERRO",
+          "recorrente": "true"
+        },
+        "template": "que o Core retorna uma Ocorrência fictícia do Produto Alfa com <tipo> e recorrente <recorrente>"
+      }
+    ]
+  },
+  {
+    "text": "que o Core retorna uma Ocorrência fictícia do Produto Alfa com WARNING e recorrente false",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C02",
+        "stepId": "S_0a9699e581ab",
+        "parameters": {
+          "tipo": "WARNING",
+          "recorrente": "false"
+        },
+        "template": "que o Core retorna uma Ocorrência fictícia do Produto Alfa com <tipo> e recorrente <recorrente>"
+      }
+    ]
+  },
+  {
+    "text": "que o Core retorna uma Ocorrência fictícia do Produto Alfa com WARNING e recorrente true",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C02",
+        "stepId": "S_0a9699e581ab",
+        "parameters": {
+          "tipo": "WARNING",
+          "recorrente": "true"
+        },
+        "template": "que o Core retorna uma Ocorrência fictícia do Produto Alfa com <tipo> e recorrente <recorrente>"
+      }
+    ]
+  },
+  {
+    "text": "a resposta inclui a gravidade já calculada pelo serviço de Ocorrência",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C02",
+        "stepId": "S_8743f97d3fa0",
+        "parameters": {},
+        "template": "a resposta inclui a gravidade já calculada pelo serviço de Ocorrência"
+      }
+    ]
+  },
+  {
+    "text": "a listagem termina de carregar",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C02",
+        "stepId": "S_5aa3e977fa20",
+        "parameters": {},
+        "template": "a listagem termina de carregar"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar o registro com seu tipo e os atributos disponibilizados pelo contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C02",
+        "stepId": "S_59512dbaa536",
+        "parameters": {},
+        "template": "devo visualizar o registro com seu tipo e os atributos disponibilizados pelo contrato"
+      }
+    ]
+  },
+  {
+    "text": "recorrência deve permanecer um atributo independente do tipo e do estado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C02",
+        "stepId": "S_c69f91ca2a25",
+        "parameters": {},
+        "template": "recorrência deve permanecer um atributo independente do tipo e do estado"
+      }
+    ]
+  },
+  {
+    "text": "o Front não deve recalcular a gravidade nem criar Ocorrência para SPAM",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C02",
+        "stepId": "S_69350280b7ba",
+        "parameters": {},
+        "template": "o Front não deve recalcular a gravidade nem criar Ocorrência para SPAM"
+      }
+    ]
+  },
+  {
+    "text": "que Ana Exemplo pode acessar o Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C03",
+        "stepId": "S_4cd1514c0ce0",
+        "parameters": {},
+        "template": "que Ana Exemplo pode acessar o Produto Alfa"
+      }
+    ]
+  },
+  {
+    "text": "o Core retorna uma consulta bem-sucedida sem Ocorrências",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C03",
+        "stepId": "S_197de6cb6ab0",
+        "parameters": {},
+        "template": "o Core retorna uma consulta bem-sucedida sem Ocorrências"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar uma indicação compreensível de ausência de registros",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C03",
+        "stepId": "S_efd75a6c4aae",
+        "parameters": {},
+        "template": "devo visualizar uma indicação compreensível de ausência de registros"
+      }
+    ]
+  },
+  {
+    "text": "não devo visualizar registros fictícios de preenchimento como se fossem reais",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C03",
+        "stepId": "S_9e334ed55b6c",
+        "parameters": {},
+        "template": "não devo visualizar registros fictícios de preenchimento como se fossem reais"
+      }
+    ]
+  },
+  {
+    "text": "não devo poder avançar para uma página de resultados inexistente",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C03",
+        "stepId": "S_69309d9d938f",
+        "parameters": {},
+        "template": "não devo poder avançar para uma página de resultados inexistente"
+      }
+    ]
+  },
+  {
+    "text": "que a consulta da listagem está em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C04",
+        "stepId": "S_a1162e1488bd",
+        "parameters": {},
+        "template": "que a consulta da listagem está em andamento"
+      }
+    ]
+  },
+  {
+    "text": "ocorre falha de conexão",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C04",
+        "stepId": "S_c1c150c285f2",
+        "parameters": {
+          "falha": "falha de conexão"
+        },
+        "template": "ocorre <falha>"
+      }
+    ]
+  },
+  {
+    "text": "ocorre erro do Core sem resposta útil",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C04",
+        "stepId": "S_c1c150c285f2",
+        "parameters": {
+          "falha": "erro do Core sem resposta útil"
+        },
+        "template": "ocorre <falha>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar que não foi possível carregar os dados e ter uma forma de tentar novamente",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C04",
+        "stepId": "S_e8225335adbb",
+        "parameters": {},
+        "template": "devo visualizar que não foi possível carregar os dados e ter uma forma de tentar novamente"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve confundir a falha com ausência de registros",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C04",
+        "stepId": "S_51bfd8912d5b",
+        "parameters": {},
+        "template": "a interface não deve confundir a falha com ausência de registros"
+      }
+    ]
+  },
+  {
+    "text": "o carregamento não deve permanecer indefinido",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C04",
+        "stepId": "S_b2d839e61bb8",
+        "parameters": {},
+        "template": "o carregamento não deve permanecer indefinido"
+      }
+    ]
+  },
+  {
+    "text": "que a consulta ao Produto Alfa ainda está em andamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C05",
+        "stepId": "S_06bf47a568a8",
+        "parameters": {},
+        "template": "que a consulta ao Produto Alfa ainda está em andamento"
+      }
+    ]
+  },
+  {
+    "text": "Ana Exemplo possui acesso também ao Produto Gama da mesma Empresa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C05",
+        "stepId": "S_23896f873bc1",
+        "parameters": {},
+        "template": "Ana Exemplo possui acesso também ao Produto Gama da mesma Empresa"
+      }
+    ]
+  },
+  {
+    "text": "seleciono o Produto Gama e a resposta do Alfa chega por último",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C05",
+        "stepId": "S_7a1f953104bd",
+        "parameters": {},
+        "template": "seleciono o Produto Gama e a resposta do Alfa chega por último"
+      }
+    ]
+  },
+  {
+    "text": "devo continuar vendo somente o contexto e os dados do Produto Gama",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C05",
+        "stepId": "S_cdd844088ddf",
+        "parameters": {},
+        "template": "devo continuar vendo somente o contexto e os dados do Produto Gama"
+      }
+    ]
+  },
+  {
+    "text": "a resposta atrasada não deve repor dados ou contadores do Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C05",
+        "stepId": "S_1e3b9217597b",
+        "parameters": {},
+        "template": "a resposta atrasada não deve repor dados ou contadores do Produto Alfa"
+      }
+    ]
+  },
+  {
+    "text": "que a lista do Produto Alfa está carregada",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C06",
+        "stepId": "S_27c020d3380f",
+        "parameters": {},
+        "template": "que a lista do Produto Alfa está carregada"
+      }
+    ]
+  },
+  {
+    "text": "a fixture de consulta associa identificador fictício OC-EX-01 à Ocorrência Exemplo 01",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C06",
+        "stepId": "S_3380c570a21c",
+        "parameters": {
+          "entrada": "identificador fictício OC-EX-01"
+        },
+        "template": "a fixture de consulta associa <entrada> à Ocorrência Exemplo 01"
+      }
+    ]
+  },
+  {
+    "text": "a fixture de consulta associa termo fictício FalhaExemplo à Ocorrência Exemplo 01",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C06",
+        "stepId": "S_3380c570a21c",
+        "parameters": {
+          "entrada": "termo fictício FalhaExemplo"
+        },
+        "template": "a fixture de consulta associa <entrada> à Ocorrência Exemplo 01"
+      }
+    ]
+  },
+  {
+    "text": "informo identificador fictício OC-EX-01 na pesquisa e aciono a busca",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C06",
+        "stepId": "S_8a361d056a6f",
+        "parameters": {
+          "entrada": "identificador fictício OC-EX-01"
+        },
+        "template": "informo <entrada> na pesquisa e aciono a busca"
+      }
+    ]
+  },
+  {
+    "text": "informo termo fictício FalhaExemplo na pesquisa e aciono a busca",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C06",
+        "stepId": "S_8a361d056a6f",
+        "parameters": {
+          "entrada": "termo fictício FalhaExemplo"
+        },
+        "template": "informo <entrada> na pesquisa e aciono a busca"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar o resultado correspondente retornado pelo Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C06",
+        "stepId": "S_6f04e29a03b5",
+        "parameters": {},
+        "template": "devo visualizar o resultado correspondente retornado pelo Core"
+      }
+    ]
+  },
+  {
+    "text": "a pesquisa deve permanecer limitada ao Produto e à Empresa autorizados",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C06",
+        "stepId": "S_1055d2a87e92",
+        "parameters": {},
+        "template": "a pesquisa deve permanecer limitada ao Produto e à Empresa autorizados"
+      }
+    ]
+  },
+  {
+    "text": "que pesquiso um termo fictício inexistente no contexto autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C07",
+        "stepId": "S_e51795a792b7",
+        "parameters": {},
+        "template": "que pesquiso um termo fictício inexistente no contexto autorizado"
+      }
+    ]
+  },
+  {
+    "text": "o Core retorna sucesso sem correspondência",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C07",
+        "stepId": "S_e7882a8adcfb",
+        "parameters": {},
+        "template": "o Core retorna sucesso sem correspondência"
+      }
+    ]
+  },
+  {
+    "text": "devo entender que nenhuma Ocorrência foi encontrada para a consulta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C07",
+        "stepId": "S_a76be3d357bb",
+        "parameters": {},
+        "template": "devo entender que nenhuma Ocorrência foi encontrada para a consulta"
+      }
+    ]
+  },
+  {
+    "text": "devo poder alterar ou limpar o termo para pesquisar novamente",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C07",
+        "stepId": "S_4b9e3efae742",
+        "parameters": {},
+        "template": "devo poder alterar ou limpar o termo para pesquisar novamente"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve mostrar esse resultado como erro de comunicação",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C07",
+        "stepId": "S_61b315b154f8",
+        "parameters": {},
+        "template": "a interface não deve mostrar esse resultado como erro de comunicação"
+      }
+    ]
+  },
+  {
+    "text": "que a listagem contém Ocorrência Exemplo 01 do Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C08",
+        "stepId": "S_30bdb70a2f02",
+        "parameters": {
+          "ocorrencia": "Ocorrência Exemplo 01"
+        },
+        "template": "que a listagem contém <ocorrencia> do Produto Alfa"
+      }
+    ]
+  },
+  {
+    "text": "que a listagem contém Ocorrência Exemplo 02 do Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C08",
+        "stepId": "S_30bdb70a2f02",
+        "parameters": {
+          "ocorrencia": "Ocorrência Exemplo 02"
+        },
+        "template": "que a listagem contém <ocorrencia> do Produto Alfa"
+      }
+    ]
+  },
+  {
+    "text": "a resposta controlada do detalhe pertence a esse mesmo registro",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C08",
+        "stepId": "S_50d60693931c",
+        "parameters": {},
+        "template": "a resposta controlada do detalhe pertence a esse mesmo registro"
+      }
+    ]
+  },
+  {
+    "text": "seleciono Ocorrência Exemplo 01",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C08",
+        "stepId": "S_d9f4fae4977a",
+        "parameters": {
+          "ocorrencia": "Ocorrência Exemplo 01"
+        },
+        "template": "seleciono <ocorrencia>"
+      }
+    ]
+  },
+  {
+    "text": "seleciono Ocorrência Exemplo 02",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C08",
+        "stepId": "S_d9f4fae4977a",
+        "parameters": {
+          "ocorrencia": "Ocorrência Exemplo 02"
+        },
+        "template": "seleciono <ocorrencia>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar o detalhe correspondente ao identificador selecionado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C08",
+        "stepId": "S_e484f520c9ed",
+        "parameters": {},
+        "template": "devo visualizar o detalhe correspondente ao identificador selecionado"
+      }
+    ]
+  },
+  {
+    "text": "não devo receber o detalhe de outra Ocorrência nem um resumo de Arquivo como substituto",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C08",
+        "stepId": "S_c2b6c5eb5fbc",
+        "parameters": {},
+        "template": "não devo receber o detalhe de outra Ocorrência nem um resumo de Arquivo como substituto"
+      }
+    ]
+  },
+  {
+    "text": "que o detalhe da Ocorrência Exemplo 01 foi carregado com dados fictícios",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C09",
+        "stepId": "S_90cff7c69237",
+        "parameters": {},
+        "template": "que o detalhe da Ocorrência Exemplo 01 foi carregado com dados fictícios"
+      }
+    ]
+  },
+  {
+    "text": "abro a aba Visão geral",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C09",
+        "stepId": "S_f5bdb0f91b77",
+        "parameters": {
+          "aba": "Visão geral"
+        },
+        "template": "abro a aba <aba>"
+      }
+    ]
+  },
+  {
+    "text": "abro a aba Stack trace",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C09",
+        "stepId": "S_f5bdb0f91b77",
+        "parameters": {
+          "aba": "Stack trace"
+        },
+        "template": "abro a aba <aba>"
+      }
+    ]
+  },
+  {
+    "text": "abro a aba Payload",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C09",
+        "stepId": "S_f5bdb0f91b77",
+        "parameters": {
+          "aba": "Payload"
+        },
+        "template": "abro a aba <aba>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar data e hora e endpoint retornados do registro selecionado conforme o contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C09",
+        "stepId": "S_b25c6d0e7e2e",
+        "parameters": {
+          "conteudo": "data e hora e endpoint retornados"
+        },
+        "template": "devo visualizar <conteudo> do registro selecionado conforme o contrato"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar stack trace fictício do registro selecionado conforme o contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C09",
+        "stepId": "S_b25c6d0e7e2e",
+        "parameters": {
+          "conteudo": "stack trace fictício"
+        },
+        "template": "devo visualizar <conteudo> do registro selecionado conforme o contrato"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar payload fictício do registro selecionado conforme o contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C09",
+        "stepId": "S_b25c6d0e7e2e",
+        "parameters": {
+          "conteudo": "payload fictício"
+        },
+        "template": "devo visualizar <conteudo> do registro selecionado conforme o contrato"
+      }
+    ]
+  },
+  {
+    "text": "a troca de aba não deve misturar dados de outra Ocorrência",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C09",
+        "stepId": "S_7d10eef36e6a",
+        "parameters": {},
+        "template": "a troca de aba não deve misturar dados de outra Ocorrência"
+      }
+    ]
+  },
+  {
+    "text": "o texto técnico deve ser apresentado como dado sem executar HTML ou script contido na fixture",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C09",
+        "stepId": "S_c19709f85c68",
+        "parameters": {},
+        "template": "o texto técnico deve ser apresentado como dado sem executar HTML ou script contido na fixture"
+      }
+    ]
+  },
+  {
+    "text": "que abri um detalhe a partir de uma pesquisa com filtros e página definidos",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C10",
+        "stepId": "S_8488dd97ae3a",
+        "parameters": {},
+        "template": "que abri um detalhe a partir de uma pesquisa com filtros e página definidos"
+      }
+    ]
+  },
+  {
+    "text": "encerro a visualização do detalhe",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C10",
+        "stepId": "S_a4f61c1b0e29",
+        "parameters": {},
+        "template": "encerro a visualização do detalhe"
+      }
+    ]
+  },
+  {
+    "text": "devo retornar à consulta com o termo os filtros e a página anteriores",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C10",
+        "stepId": "S_672853a00490",
+        "parameters": {},
+        "template": "devo retornar à consulta com o termo os filtros e a página anteriores"
+      }
+    ]
+  },
+  {
+    "text": "os registros devem continuar pertencendo ao mesmo contexto autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C10",
+        "stepId": "S_3b025fe0b58f",
+        "parameters": {},
+        "template": "os registros devem continuar pertencendo ao mesmo contexto autorizado"
+      }
+    ]
+  },
+  {
+    "text": "que solicitei um detalhe autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C11",
+        "stepId": "S_45e7e16775b2",
+        "parameters": {},
+        "template": "que solicitei um detalhe autorizado"
+      }
+    ]
+  },
+  {
+    "text": "o Core informa registro não encontrado conforme contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C11",
+        "stepId": "S_848695a49cb4",
+        "parameters": {
+          "resposta": "registro não encontrado conforme contrato"
+        },
+        "template": "o Core informa <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "o Core informa falha de carregamento do detalhe",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C11",
+        "stepId": "S_848695a49cb4",
+        "parameters": {
+          "resposta": "falha de carregamento do detalhe"
+        },
+        "template": "o Core informa <resposta>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar uma orientação compatível com essa resposta sem dados de outro registro",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C11",
+        "stepId": "S_c9a65b978318",
+        "parameters": {},
+        "template": "devo visualizar uma orientação compatível com essa resposta sem dados de outro registro"
+      }
+    ]
+  },
+  {
+    "text": "devo poder retornar à consulta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C11",
+        "stepId": "S_e501916bd629",
+        "parameters": {},
+        "template": "devo poder retornar à consulta"
+      }
+    ]
+  },
+  {
+    "text": "não devo reutilizar um detalhe anterior como se fosse o solicitado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C11",
+        "stepId": "S_73b8c3e31936",
+        "parameters": {},
+        "template": "não devo reutilizar um detalhe anterior como se fosse o solicitado"
+      }
+    ]
+  },
+  {
+    "text": "que estou na listagem do Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_0865353a4c32",
+        "parameters": {},
+        "template": "que estou na listagem do Produto Alfa"
+      }
+    ]
+  },
+  {
+    "text": "a fixture contém registros que atendem e que não atendem ao filtro intervalo fictício de datas suportado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_0616072fb93a",
+        "parameters": {
+          "filtro": "intervalo fictício de datas suportado"
+        },
+        "template": "a fixture contém registros que atendem e que não atendem ao filtro <filtro>"
+      }
+    ]
+  },
+  {
+    "text": "a fixture contém registros que atendem e que não atendem ao filtro tipo ERRO",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_0616072fb93a",
+        "parameters": {
+          "filtro": "tipo ERRO"
+        },
+        "template": "a fixture contém registros que atendem e que não atendem ao filtro <filtro>"
+      }
+    ]
+  },
+  {
+    "text": "a fixture contém registros que atendem e que não atendem ao filtro estado ABERTA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_0616072fb93a",
+        "parameters": {
+          "filtro": "estado ABERTA"
+        },
+        "template": "a fixture contém registros que atendem e que não atendem ao filtro <filtro>"
+      }
+    ]
+  },
+  {
+    "text": "a fixture contém registros que atendem e que não atendem ao filtro nome ou aplicação admitido no contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_0616072fb93a",
+        "parameters": {
+          "filtro": "nome ou aplicação admitido no contrato"
+        },
+        "template": "a fixture contém registros que atendem e que não atendem ao filtro <filtro>"
+      }
+    ]
+  },
+  {
+    "text": "aplico intervalo fictício de datas suportado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_9c8bdff56a38",
+        "parameters": {
+          "filtro": "intervalo fictício de datas suportado"
+        },
+        "template": "aplico <filtro>"
+      }
+    ]
+  },
+  {
+    "text": "aplico tipo ERRO",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_9c8bdff56a38",
+        "parameters": {
+          "filtro": "tipo ERRO"
+        },
+        "template": "aplico <filtro>"
+      }
+    ]
+  },
+  {
+    "text": "aplico estado ABERTA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_9c8bdff56a38",
+        "parameters": {
+          "filtro": "estado ABERTA"
+        },
+        "template": "aplico <filtro>"
+      }
+    ]
+  },
+  {
+    "text": "aplico nome ou aplicação admitido no contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_9c8bdff56a38",
+        "parameters": {
+          "filtro": "nome ou aplicação admitido no contrato"
+        },
+        "template": "aplico <filtro>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar somente os resultados devolvidos para esse critério",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_f45b4b6fa534",
+        "parameters": {},
+        "template": "devo visualizar somente os resultados devolvidos para esse critério"
+      }
+    ]
+  },
+  {
+    "text": "a consulta deve começar na primeira página com total e navegação coerentes com a resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C12",
+        "stepId": "S_1dce429add2d",
+        "parameters": {},
+        "template": "a consulta deve começar na primeira página com total e navegação coerentes com a resposta"
+      }
+    ]
+  },
+  {
+    "text": "que a fixture contém registros que atendem apenas parte dos critérios",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C13",
+        "stepId": "S_5b337ec9e752",
+        "parameters": {},
+        "template": "que a fixture contém registros que atendem apenas parte dos critérios"
+      }
+    ]
+  },
+  {
+    "text": "aplico a combinação período fictício e ERRO",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C13",
+        "stepId": "S_3cad18a14228",
+        "parameters": {
+          "combinacao": "período fictício e ERRO"
+        },
+        "template": "aplico a combinação <combinacao>"
+      }
+    ]
+  },
+  {
+    "text": "aplico a combinação WARNING e ABERTA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C13",
+        "stepId": "S_3cad18a14228",
+        "parameters": {
+          "combinacao": "WARNING e ABERTA"
+        },
+        "template": "aplico a combinação <combinacao>"
+      }
+    ]
+  },
+  {
+    "text": "aplico a combinação período fictício ERRO e EM_ANALISE",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C13",
+        "stepId": "S_3cad18a14228",
+        "parameters": {
+          "combinacao": "período fictício ERRO e EM_ANALISE"
+        },
+        "template": "aplico a combinação <combinacao>"
+      }
+    ]
+  },
+  {
+    "text": "a consulta deve transmitir conjuntamente os critérios ao Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C13",
+        "stepId": "S_ba9320d593c9",
+        "parameters": {},
+        "template": "a consulta deve transmitir conjuntamente os critérios ao Core"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar apenas os resultados que a resposta identifica para essa combinação",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C13",
+        "stepId": "S_6534253441f7",
+        "parameters": {},
+        "template": "devo visualizar apenas os resultados que a resposta identifica para essa combinação"
+      }
+    ]
+  },
+  {
+    "text": "o contexto autorizado de Empresa e Produto deve ser preservado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C13",
+        "stepId": "S_c10ed92157e6",
+        "parameters": {},
+        "template": "o contexto autorizado de Empresa e Produto deve ser preservado"
+      }
+    ]
+  },
+  {
+    "text": "que apliquei filtros válidos no Produto Alfa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C14",
+        "stepId": "S_3176601e129e",
+        "parameters": {},
+        "template": "que apliquei filtros válidos no Produto Alfa"
+      }
+    ]
+  },
+  {
+    "text": "o Core informa total zero",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C14",
+        "stepId": "S_98d95d58a8e6",
+        "parameters": {},
+        "template": "o Core informa total zero"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar que não há Ocorrências para os filtros aplicados",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C14",
+        "stepId": "S_7992b119c345",
+        "parameters": {},
+        "template": "devo visualizar que não há Ocorrências para os filtros aplicados"
+      }
+    ]
+  },
+  {
+    "text": "os filtros devem continuar disponíveis para correção ou limpeza",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C14",
+        "stepId": "S_252dd425764b",
+        "parameters": {},
+        "template": "os filtros devem continuar disponíveis para correção ou limpeza"
+      }
+    ]
+  },
+  {
+    "text": "os controles para avançar em resultados inexistentes devem estar ocultos ou indisponíveis",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C14",
+        "stepId": "S_629a238e8dfa",
+        "parameters": {},
+        "template": "os controles para avançar em resultados inexistentes devem estar ocultos ou indisponíveis"
+      }
+    ]
+  },
+  {
+    "text": "que estou em outra página com uma pesquisa e filtros ativos",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C15",
+        "stepId": "S_1d2845c56bd8",
+        "parameters": {},
+        "template": "que estou em outra página com uma pesquisa e filtros ativos"
+      }
+    ]
+  },
+  {
+    "text": "aciono a limpeza dos filtros",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C15",
+        "stepId": "S_f39204611ea6",
+        "parameters": {},
+        "template": "aciono a limpeza dos filtros"
+      }
+    ]
+  },
+  {
+    "text": "os critérios devem ser removidos e a lista sem filtros deve ser consultada na primeira página",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C15",
+        "stepId": "S_18f43e64e0f0",
+        "parameters": {},
+        "template": "os critérios devem ser removidos e a lista sem filtros deve ser consultada na primeira página"
+      }
+    ]
+  },
+  {
+    "text": "a Empresa e o Produto autorizados devem permanecer selecionados",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C15",
+        "stepId": "S_4445dcfd0fd6",
+        "parameters": {},
+        "template": "a Empresa e o Produto autorizados devem permanecer selecionados"
+      }
+    ]
+  },
+  {
+    "text": "totais e navegação devem corresponder à nova resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C15",
+        "stepId": "S_5c9be63e6f0e",
+        "parameters": {},
+        "template": "totais e navegação devem corresponder à nova resposta"
+      }
+    ]
+  },
+  {
+    "text": "que há várias páginas de resultados com filtros ativos",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C16",
+        "stepId": "S_e01612bad4b6",
+        "parameters": {},
+        "template": "que há várias páginas de resultados com filtros ativos"
+      }
+    ]
+  },
+  {
+    "text": "aciono próxima página",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C16",
+        "stepId": "S_8c8f90852c83",
+        "parameters": {
+          "controle": "próxima página"
+        },
+        "template": "aciono <controle>"
+      }
+    ]
+  },
+  {
+    "text": "aciono página anterior",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C16",
+        "stepId": "S_8c8f90852c83",
+        "parameters": {
+          "controle": "página anterior"
+        },
+        "template": "aciono <controle>"
+      }
+    ]
+  },
+  {
+    "text": "aciono número de página disponível",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C16",
+        "stepId": "S_8c8f90852c83",
+        "parameters": {
+          "controle": "número de página disponível"
+        },
+        "template": "aciono <controle>"
+      }
+    ]
+  },
+  {
+    "text": "a requisição da página solicitada deve manter os mesmos critérios e contexto autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C16",
+        "stepId": "S_93cef48c1cd4",
+        "parameters": {},
+        "template": "a requisição da página solicitada deve manter os mesmos critérios e contexto autorizado"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar os itens e a indicação de página retornados sem misturar páginas",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C16",
+        "stepId": "S_4b802d3d52b7",
+        "parameters": {},
+        "template": "devo visualizar os itens e a indicação de página retornados sem misturar páginas"
+      }
+    ]
+  },
+  {
+    "text": "que a fixture do contrato disponibiliza as opções de quantidade 10 e 50",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C17",
+        "stepId": "S_aae327856fcf",
+        "parameters": {},
+        "template": "que a fixture do contrato disponibiliza as opções de quantidade 10 e 50"
+      }
+    ]
+  },
+  {
+    "text": "estou em uma página posterior com filtros ativos",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C17",
+        "stepId": "S_fecac2b86892",
+        "parameters": {},
+        "template": "estou em uma página posterior com filtros ativos"
+      }
+    ]
+  },
+  {
+    "text": "escolho a quantidade 10",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C17",
+        "stepId": "S_d89a6c064bd9",
+        "parameters": {
+          "quantidade": "10"
+        },
+        "template": "escolho a quantidade <quantidade>"
+      }
+    ]
+  },
+  {
+    "text": "escolho a quantidade 50",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C17",
+        "stepId": "S_d89a6c064bd9",
+        "parameters": {
+          "quantidade": "50"
+        },
+        "template": "escolho a quantidade <quantidade>"
+      }
+    ]
+  },
+  {
+    "text": "a consulta deve retornar à primeira página usando essa quantidade e os filtros ativos",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C17",
+        "stepId": "S_19fb36ac47f0",
+        "parameters": {},
+        "template": "a consulta deve retornar à primeira página usando essa quantidade e os filtros ativos"
+      }
+    ]
+  },
+  {
+    "text": "o total de páginas e o intervalo exibido devem refletir a resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C17",
+        "stepId": "S_9cef44200983",
+        "parameters": {},
+        "template": "o total de páginas e o intervalo exibido devem refletir a resposta"
+      }
+    ]
+  },
+  {
+    "text": "que o formulário recebe data inicial posterior à final inválida segundo o contrato da operação",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C18",
+        "stepId": "S_4d7787b7fea6",
+        "parameters": {
+          "entrada": "data inicial posterior à final"
+        },
+        "template": "que o formulário recebe <entrada> inválida segundo o contrato da operação"
+      }
+    ]
+  },
+  {
+    "text": "que o formulário recebe valor que não representa uma data válida inválida segundo o contrato da operação",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C18",
+        "stepId": "S_4d7787b7fea6",
+        "parameters": {
+          "entrada": "valor que não representa uma data válida"
+        },
+        "template": "que o formulário recebe <entrada> inválida segundo o contrato da operação"
+      }
+    ]
+  },
+  {
+    "text": "tento aplicar os filtros",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C18",
+        "stepId": "S_b50967677981",
+        "parameters": {},
+        "template": "tento aplicar os filtros"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar uma orientação associada ao campo",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C18",
+        "stepId": "S_fc2bd56ab26c",
+        "parameters": {},
+        "template": "devo visualizar uma orientação associada ao campo"
+      }
+    ]
+  },
+  {
+    "text": "a consulta inválida não deve ser enviada pelo caminho normal da interface",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C18",
+        "stepId": "S_9fa155c6cfb5",
+        "parameters": {},
+        "template": "a consulta inválida não deve ser enviada pelo caminho normal da interface"
+      }
+    ]
+  },
+  {
+    "text": "devo poder corrigir o valor sem perder o contexto autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C18",
+        "stepId": "S_e79a07049fce",
+        "parameters": {},
+        "template": "devo poder corrigir o valor sem perder o contexto autorizado"
+      }
+    ]
+  },
+  {
+    "text": "que solicitei uma busca e depois alterei o termo ou os filtros",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C19",
+        "stepId": "S_cc559af1f5ec",
+        "parameters": {},
+        "template": "que solicitei uma busca e depois alterei o termo ou os filtros"
+      }
+    ]
+  },
+  {
+    "text": "a resposta da consulta mais antiga chega após a resposta mais recente",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C19",
+        "stepId": "S_bfcca9b249a6",
+        "parameters": {},
+        "template": "a resposta da consulta mais antiga chega após a resposta mais recente"
+      }
+    ]
+  },
+  {
+    "text": "devo continuar vendo os critérios e resultados da última consulta solicitada",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C19",
+        "stepId": "S_2aaf4a1e10e4",
+        "parameters": {},
+        "template": "devo continuar vendo os critérios e resultados da última consulta solicitada"
+      }
+    ]
+  },
+  {
+    "text": "totais e paginação antigos não devem sobrescrever o estado atual",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C19",
+        "stepId": "S_d117dbc8e34b",
+        "parameters": {},
+        "template": "totais e paginação antigos não devem sobrescrever o estado atual"
+      }
+    ]
+  },
+  {
+    "text": "que o contexto de teste não possui recurso de IA e autoriza a mudança manual",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_8b20a361b497",
+        "parameters": {},
+        "template": "que o contexto de teste não possui recurso de IA e autoriza a mudança manual"
+      }
+    ]
+  },
+  {
+    "text": "a Ocorrência está em ABERTA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_f66f99f1bc3d",
+        "parameters": {
+          "origem": "ABERTA"
+        },
+        "template": "a Ocorrência está em <origem>"
+      }
+    ]
+  },
+  {
+    "text": "a Ocorrência está em EM_ANALISE",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_f66f99f1bc3d",
+        "parameters": {
+          "origem": "EM_ANALISE"
+        },
+        "template": "a Ocorrência está em <origem>"
+      }
+    ]
+  },
+  {
+    "text": "a Ocorrência está em FECHADA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_f66f99f1bc3d",
+        "parameters": {
+          "origem": "FECHADA"
+        },
+        "template": "a Ocorrência está em <origem>"
+      }
+    ]
+  },
+  {
+    "text": "seleciono EM_ANALISE e confirmo a alteração",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_425dda1baf30",
+        "parameters": {
+          "destino": "EM_ANALISE"
+        },
+        "template": "seleciono <destino> e confirmo a alteração"
+      }
+    ]
+  },
+  {
+    "text": "seleciono FECHADA e confirmo a alteração",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_425dda1baf30",
+        "parameters": {
+          "destino": "FECHADA"
+        },
+        "template": "seleciono <destino> e confirmo a alteração"
+      }
+    ]
+  },
+  {
+    "text": "seleciono ABERTA e confirmo a alteração",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_425dda1baf30",
+        "parameters": {
+          "destino": "ABERTA"
+        },
+        "template": "seleciono <destino> e confirmo a alteração"
+      }
+    ]
+  },
+  {
+    "text": "devo enviar a mudança do registro selecionado ao Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_1081169795e1",
+        "parameters": {},
+        "template": "devo enviar a mudança do registro selecionado ao Core"
+      }
+    ]
+  },
+  {
+    "text": "após confirmação de sucesso devo visualizar EM_ANALISE e uma indicação de conclusão",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_821174a70132",
+        "parameters": {
+          "destino": "EM_ANALISE"
+        },
+        "template": "após confirmação de sucesso devo visualizar <destino> e uma indicação de conclusão"
+      }
+    ]
+  },
+  {
+    "text": "após confirmação de sucesso devo visualizar FECHADA e uma indicação de conclusão",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_821174a70132",
+        "parameters": {
+          "destino": "FECHADA"
+        },
+        "template": "após confirmação de sucesso devo visualizar <destino> e uma indicação de conclusão"
+      }
+    ]
+  },
+  {
+    "text": "após confirmação de sucesso devo visualizar ABERTA e uma indicação de conclusão",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_821174a70132",
+        "parameters": {
+          "destino": "ABERTA"
+        },
+        "template": "após confirmação de sucesso devo visualizar <destino> e uma indicação de conclusão"
+      }
+    ]
+  },
+  {
+    "text": "a interface não deve mudar a recorrência como consequência da marcação",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C20",
+        "stepId": "S_f01f170470af",
+        "parameters": {},
+        "template": "a interface não deve mudar a recorrência como consequência da marcação"
+      }
+    ]
+  },
+  {
+    "text": "que abri a seleção de estado para uma Ocorrência",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C21",
+        "stepId": "S_03569ccfe4a6",
+        "parameters": {},
+        "template": "que abri a seleção de estado para uma Ocorrência"
+      }
+    ]
+  },
+  {
+    "text": "desisto da alteração antes de confirmar",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C21",
+        "stepId": "S_a1c66ab9bca0",
+        "parameters": {},
+        "template": "desisto da alteração antes de confirmar"
+      }
+    ]
+  },
+  {
+    "text": "o estado original deve permanecer na interface",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C21",
+        "stepId": "S_5eafb43a1e9a",
+        "parameters": {},
+        "template": "o estado original deve permanecer na interface"
+      }
+    ]
+  },
+  {
+    "text": "nenhuma requisição de mudança deve ser enviada",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C21",
+        "stepId": "S_b98d1af34ea7",
+        "parameters": {},
+        "template": "nenhuma requisição de mudança deve ser enviada"
+      }
+    ]
+  },
+  {
+    "text": "devo continuar podendo consultar a Ocorrência",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C21",
+        "stepId": "S_032a587e08a8",
+        "parameters": {},
+        "template": "devo continuar podendo consultar a Ocorrência"
+      }
+    ]
+  },
+  {
+    "text": "que a Ocorrência está EM_ANALISE com uma Sugestão válida não FECHADA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C22",
+        "stepId": "S_0621f0daed8c",
+        "parameters": {},
+        "template": "que a Ocorrência está EM_ANALISE com uma Sugestão válida não FECHADA"
+      }
+    ]
+  },
+  {
+    "text": "o Core recusa a tentativa de fechamento por essa regra",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C22",
+        "stepId": "S_17144caebe7b",
+        "parameters": {},
+        "template": "o Core recusa a tentativa de fechamento por essa regra"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar que a alteração não foi concluída",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C22",
+        "stepId": "S_ff48d2bda436",
+        "parameters": {},
+        "template": "devo visualizar que a alteração não foi concluída"
+      }
+    ]
+  },
+  {
+    "text": "o estado EM_ANALISE deve permanecer sem confirmação falsa de fechamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C22",
+        "stepId": "S_9e27bc890923",
+        "parameters": {},
+        "template": "o estado EM_ANALISE deve permanecer sem confirmação falsa de fechamento"
+      }
+    ]
+  },
+  {
+    "text": "devo poder continuar consultando a Ocorrência e suas Sugestões",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C22",
+        "stepId": "S_c09fabbc4377",
+        "parameters": {},
+        "template": "devo poder continuar consultando a Ocorrência e suas Sugestões"
+      }
+    ]
+  },
+  {
+    "text": "que consultei uma Ocorrência ABERTA no fluxo manual",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C23",
+        "stepId": "S_8b0c0b3c0767",
+        "parameters": {
+          "fluxo": "manual"
+        },
+        "template": "que consultei uma Ocorrência ABERTA no fluxo <fluxo>"
+      }
+    ]
+  },
+  {
+    "text": "que consultei uma Ocorrência ABERTA no fluxo manual ou automático",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C23",
+        "stepId": "S_8b0c0b3c0767",
+        "parameters": {
+          "fluxo": "manual ou automático"
+        },
+        "template": "que consultei uma Ocorrência ABERTA no fluxo <fluxo>"
+      }
+    ]
+  },
+  {
+    "text": "o Core devolve Sugestão somente solicitada ou enfileirada e o estado ABERTA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C23",
+        "stepId": "S_beb8ac3adfa7",
+        "parameters": {
+          "situacao": "Sugestão somente solicitada ou enfileirada",
+          "estado": "ABERTA"
+        },
+        "template": "o Core devolve <situacao> e o estado <estado>"
+      }
+    ]
+  },
+  {
+    "text": "o Core devolve Sugestão concluída e visível como DISPONIVEL e o estado EM_ANALISE",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C23",
+        "stepId": "S_beb8ac3adfa7",
+        "parameters": {
+          "situacao": "Sugestão concluída e visível como DISPONIVEL",
+          "estado": "EM_ANALISE"
+        },
+        "template": "o Core devolve <situacao> e o estado <estado>"
+      }
+    ]
+  },
+  {
+    "text": "o Core devolve Sugestão com falha e o estado ABERTA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C23",
+        "stepId": "S_beb8ac3adfa7",
+        "parameters": {
+          "situacao": "Sugestão com falha",
+          "estado": "ABERTA"
+        },
+        "template": "o Core devolve <situacao> e o estado <estado>"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar ABERTA sem antecipar transição por conta própria",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C23",
+        "stepId": "S_d8c72e4a35f4",
+        "parameters": {
+          "estado": "ABERTA"
+        },
+        "template": "devo visualizar <estado> sem antecipar transição por conta própria"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar EM_ANALISE sem antecipar transição por conta própria",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C23",
+        "stepId": "S_d8c72e4a35f4",
+        "parameters": {
+          "estado": "EM_ANALISE"
+        },
+        "template": "devo visualizar <estado> sem antecipar transição por conta própria"
+      }
+    ]
+  },
+  {
+    "text": "uma Sugestão manual em FALHA não deve ser exibida como item de Sugestão nem bloquear fechamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C23",
+        "stepId": "S_ef15414cf400",
+        "parameters": {},
+        "template": "uma Sugestão manual em FALHA não deve ser exibida como item de Sugestão nem bloquear fechamento"
+      }
+    ]
+  },
+  {
+    "text": "que confirmei uma mudança de estado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C24",
+        "stepId": "S_7ff5d5f6410a",
+        "parameters": {},
+        "template": "que confirmei uma mudança de estado"
+      }
+    ]
+  },
+  {
+    "text": "ocorre falha de conexão sem confirmação de gravação",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C24",
+        "stepId": "S_3579179172d4",
+        "parameters": {
+          "falha": "falha de conexão"
+        },
+        "template": "ocorre <falha> sem confirmação de gravação"
+      }
+    ]
+  },
+  {
+    "text": "ocorre tempo de espera excedido sem confirmação de gravação",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C24",
+        "stepId": "S_3579179172d4",
+        "parameters": {
+          "falha": "tempo de espera excedido"
+        },
+        "template": "ocorre <falha> sem confirmação de gravação"
+      }
+    ]
+  },
+  {
+    "text": "não devo visualizar sucesso nem assumir o novo estado como confirmado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C24",
+        "stepId": "S_4320911f9371",
+        "parameters": {},
+        "template": "não devo visualizar sucesso nem assumir o novo estado como confirmado"
+      }
+    ]
+  },
+  {
+    "text": "devo receber orientação para recuperar a consulta ou tentar novamente",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C24",
+        "stepId": "S_0be250c1cccd",
+        "parameters": {},
+        "template": "devo receber orientação para recuperar a consulta ou tentar novamente"
+      }
+    ]
+  },
+  {
+    "text": "uma nova leitura deve reconciliar o estado com o Core antes de tratá-lo como definitivo",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C24",
+        "stepId": "S_c4099a54d7f4",
+        "parameters": {},
+        "template": "uma nova leitura deve reconciliar o estado com o Core antes de tratá-lo como definitivo"
+      }
+    ]
+  },
+  {
+    "text": "que uma Ocorrência autorizada está acessível em listagem",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C25",
+        "stepId": "S_e534d4c55d05",
+        "parameters": {
+          "origem": "listagem"
+        },
+        "template": "que uma Ocorrência autorizada está acessível em <origem>"
+      }
+    ]
+  },
+  {
+    "text": "que uma Ocorrência autorizada está acessível em detalhe",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C25",
+        "stepId": "S_e534d4c55d05",
+        "parameters": {
+          "origem": "detalhe"
+        },
+        "template": "que uma Ocorrência autorizada está acessível em <origem>"
+      }
+    ]
+  },
+  {
+    "text": "aciono Arquivar",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C25",
+        "stepId": "S_25c31a87a031",
+        "parameters": {},
+        "template": "aciono Arquivar"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar uma confirmação que identifica a Ocorrência antes de enviar a mudança",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C25",
+        "stepId": "S_015cb20121ed",
+        "parameters": {},
+        "template": "devo visualizar uma confirmação que identifica a Ocorrência antes de enviar a mudança"
+      }
+    ]
+  },
+  {
+    "text": "confirmo e o Core confirma o arquivamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C25",
+        "stepId": "S_d6599574aac9",
+        "parameters": {},
+        "template": "confirmo e o Core confirma o arquivamento"
+      }
+    ]
+  },
+  {
+    "text": "a Ocorrência não deve permanecer na lista ativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C25",
+        "stepId": "S_5ed202274de6",
+        "parameters": {},
+        "template": "a Ocorrência não deve permanecer na lista ativa"
+      }
+    ]
+  },
+  {
+    "text": "devo perceber a conclusão sem excluir definitivamente o registro nem criar um estado de ciclo de vida ARQUIVADA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C25",
+        "stepId": "S_09db935fab43",
+        "parameters": {},
+        "template": "devo perceber a conclusão sem excluir definitivamente o registro nem criar um estado de ciclo de vida ARQUIVADA"
+      }
+    ]
+  },
+  {
+    "text": "que a confirmação de arquivamento está aberta para Ocorrência Exemplo 01",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C26",
+        "stepId": "S_9750a25ce13f",
+        "parameters": {
+          "alvo": "Ocorrência Exemplo 01"
+        },
+        "template": "que a confirmação de arquivamento está aberta para <alvo>"
+      }
+    ]
+  },
+  {
+    "text": "que a confirmação de arquivamento está aberta para Ocorrências Exemplo 01 e 02 selecionadas",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C26",
+        "stepId": "S_9750a25ce13f",
+        "parameters": {
+          "alvo": "Ocorrências Exemplo 01 e 02 selecionadas"
+        },
+        "template": "que a confirmação de arquivamento está aberta para <alvo>"
+      }
+    ]
+  },
+  {
+    "text": "aciono Cancelar",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C26",
+        "stepId": "S_786e3ef0c926",
+        "parameters": {},
+        "template": "aciono Cancelar"
+      }
+    ]
+  },
+  {
+    "text": "a confirmação deve fechar sem enviar a alteração",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C26",
+        "stepId": "S_d85eacecf610",
+        "parameters": {},
+        "template": "a confirmação deve fechar sem enviar a alteração"
+      }
+    ]
+  },
+  {
+    "text": "os registros devem permanecer inalterados na lista ativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C26",
+        "stepId": "S_f4fc8c17920e",
+        "parameters": {},
+        "template": "os registros devem permanecer inalterados na lista ativa"
+      }
+    ]
+  },
+  {
+    "text": "que selecionei Ocorrências Exemplo 01 e 02 e deixei Exemplo 03 sem seleção",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C27",
+        "stepId": "S_dc614c7ebb6c",
+        "parameters": {},
+        "template": "que selecionei Ocorrências Exemplo 01 e 02 e deixei Exemplo 03 sem seleção"
+      }
+    ]
+  },
+  {
+    "text": "aciono Arquivar Selecionadas",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C27",
+        "stepId": "S_1627d1da41be",
+        "parameters": {},
+        "template": "aciono Arquivar Selecionadas"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar confirmação para os dois registros selecionados",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C27",
+        "stepId": "S_2629069e435c",
+        "parameters": {},
+        "template": "devo visualizar confirmação para os dois registros selecionados"
+      }
+    ]
+  },
+  {
+    "text": "confirmo e o Core confirma os dois resultados",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C27",
+        "stepId": "S_0b0fff9623eb",
+        "parameters": {},
+        "template": "confirmo e o Core confirma os dois resultados"
+      }
+    ]
+  },
+  {
+    "text": "somente Exemplo 01 e 02 devem sair da lista ativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C27",
+        "stepId": "S_ce5b657fc4c7",
+        "parameters": {},
+        "template": "somente Exemplo 01 e 02 devem sair da lista ativa"
+      }
+    ]
+  },
+  {
+    "text": "Exemplo 03 deve permanecer sem alteração",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C27",
+        "stepId": "S_b78118acadd3",
+        "parameters": {},
+        "template": "Exemplo 03 deve permanecer sem alteração"
+      }
+    ]
+  },
+  {
+    "text": "o total e a página devem ser reconciliados com uma nova consulta válida",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C27",
+        "stepId": "S_b19f9826f3e3",
+        "parameters": {},
+        "template": "o total e a página devem ser reconciliados com uma nova consulta válida"
+      }
+    ]
+  },
+  {
+    "text": "que confirmei o arquivamento de um registro",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C28",
+        "stepId": "S_917a2732cd02",
+        "parameters": {
+          "alvo": "um registro"
+        },
+        "template": "que confirmei o arquivamento de <alvo>"
+      }
+    ]
+  },
+  {
+    "text": "que confirmei o arquivamento de dois registros selecionados",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C28",
+        "stepId": "S_917a2732cd02",
+        "parameters": {
+          "alvo": "dois registros selecionados"
+        },
+        "template": "que confirmei o arquivamento de <alvo>"
+      }
+    ]
+  },
+  {
+    "text": "o Core recusa a operação ou não confirma sua conclusão",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C28",
+        "stepId": "S_20ae96a98c81",
+        "parameters": {},
+        "template": "o Core recusa a operação ou não confirma sua conclusão"
+      }
+    ]
+  },
+  {
+    "text": "não devo anunciar arquivamento concluído nem remover definitivamente os registros da interface",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C28",
+        "stepId": "S_c02fc2c1ffea",
+        "parameters": {},
+        "template": "não devo anunciar arquivamento concluído nem remover definitivamente os registros da interface"
+      }
+    ]
+  },
+  {
+    "text": "devo poder atualizar a consulta para conhecer o estado efetivo",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C28",
+        "stepId": "S_858c83fbd57f",
+        "parameters": {},
+        "template": "devo poder atualizar a consulta para conhecer o estado efetivo"
+      }
+    ]
+  },
+  {
+    "text": "resultados por item só devem ser usados se forem fornecidos pelo contrato real",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C28",
+        "stepId": "S_251cdbd758e3",
+        "parameters": {},
+        "template": "resultados por item só devem ser usados se forem fornecidos pelo contrato real"
+      }
+    ]
+  },
+  {
+    "text": "que uma solicitação de mudança de estado aguarda resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C29",
+        "stepId": "S_b6fa6b40c3f8",
+        "parameters": {
+          "operacao": "mudança de estado"
+        },
+        "template": "que uma solicitação de <operacao> aguarda resposta"
+      }
+    ]
+  },
+  {
+    "text": "que uma solicitação de arquivamento aguarda resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C29",
+        "stepId": "S_b6fa6b40c3f8",
+        "parameters": {
+          "operacao": "arquivamento"
+        },
+        "template": "que uma solicitação de <operacao> aguarda resposta"
+      }
+    ]
+  },
+  {
+    "text": "aciono novamente a confirmação na interface",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C29",
+        "stepId": "S_3383d17829f6",
+        "parameters": {},
+        "template": "aciono novamente a confirmação na interface"
+      }
+    ]
+  },
+  {
+    "text": "o Front não deve disparar outra solicitação simultânea idêntica pelo mesmo controle",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C29",
+        "stepId": "S_4b4ddb841c39",
+        "parameters": {},
+        "template": "o Front não deve disparar outra solicitação simultânea idêntica pelo mesmo controle"
+      }
+    ]
+  },
+  {
+    "text": "devo perceber o processamento e conseguir recuperar a interface após a resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C29",
+        "stepId": "S_ca2c754a4ba9",
+        "parameters": {},
+        "template": "devo perceber o processamento e conseguir recuperar a interface após a resposta"
+      }
+    ]
+  },
+  {
+    "text": "que Ana Exemplo possui sessão válida",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C30",
+        "stepId": "S_5a407b852fc2",
+        "parameters": {},
+        "template": "que Ana Exemplo possui sessão válida"
+      }
+    ]
+  },
+  {
+    "text": "o Core informa negação simples porque não é membro da Empresa solicitada",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C30",
+        "stepId": "S_5c5462e005a4",
+        "parameters": {
+          "motivo": "não é membro da Empresa solicitada"
+        },
+        "template": "o Core informa negação simples porque <motivo>"
+      }
+    ]
+  },
+  {
+    "text": "o Core informa negação simples porque o Produto da URL pertence a outro tenant",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C30",
+        "stepId": "S_5c5462e005a4",
+        "parameters": {
+          "motivo": "o Produto da URL pertence a outro tenant"
+        },
+        "template": "o Core informa negação simples porque <motivo>"
+      }
+    ]
+  },
+  {
+    "text": "o Core informa negação simples porque MEMBRO não tem AcessoProduto",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C30",
+        "stepId": "S_5c5462e005a4",
+        "parameters": {
+          "motivo": "MEMBRO não tem AcessoProduto"
+        },
+        "template": "o Core informa negação simples porque <motivo>"
+      }
+    ]
+  },
+  {
+    "text": "devo voltar à tela inicial e continuar logada",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C30",
+        "stepId": "S_0196869e8034",
+        "parameters": {},
+        "template": "devo voltar à tela inicial e continuar logada"
+      }
+    ]
+  },
+  {
+    "text": "nenhum dado ou contador do contexto recusado deve permanecer visível",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C30",
+        "stepId": "S_f8e878c985e3",
+        "parameters": {},
+        "template": "nenhum dado ou contador do contexto recusado deve permanecer visível"
+      }
+    ]
+  },
+  {
+    "text": "não devo aplicar o logout global da ADR_032 por essa negação",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C30",
+        "stepId": "S_4a9ad6616801",
+        "parameters": {},
+        "template": "não devo aplicar o logout global da ADR_032 por essa negação"
+      }
+    ]
+  },
+  {
+    "text": "que a tela de Ocorrências está aberta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C31",
+        "stepId": "S_767d06c42885",
+        "parameters": {},
+        "template": "que a tela de Ocorrências está aberta"
+      }
+    ]
+  },
+  {
+    "text": "uma consulta ou mutação recebe HTTP 401 do Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C31",
+        "stepId": "S_c495b346456b",
+        "parameters": {},
+        "template": "uma consulta ou mutação recebe HTTP 401 do Core"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar Você foi deslogado e retornar ao SignIn",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C31",
+        "stepId": "S_1ea9cc11aa25",
+        "parameters": {},
+        "template": "devo visualizar Você foi deslogado e retornar ao SignIn"
+      }
+    ]
+  },
+  {
+    "text": "o conteúdo protegido da tela deve deixar de ficar acessível",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C31",
+        "stepId": "S_7fc4c10fd6b2",
+        "parameters": {},
+        "template": "o conteúdo protegido da tela deve deixar de ficar acessível"
+      }
+    ]
+  },
+  {
+    "text": "o tratamento não deve depender de uma mensagem no corpo da resposta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C31",
+        "stepId": "S_20efeb461e44",
+        "parameters": {},
+        "template": "o tratamento não deve depender de uma mensagem no corpo da resposta"
+      }
+    ]
+  },
+  {
+    "text": "que uma operação da tela aguarda resposta do Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C32",
+        "stepId": "S_98884cfd609c",
+        "parameters": {},
+        "template": "que uma operação da tela aguarda resposta do Core"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida devolve null fora do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C32",
+        "stepId": "S_c527965ef349",
+        "parameters": {
+          "resposta": "null"
+        },
+        "template": "a fronteira consumida devolve <resposta> fora do contrato"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida devolve corpo vazio quando o contrato exige conteúdo fora do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C32",
+        "stepId": "S_c527965ef349",
+        "parameters": {
+          "resposta": "corpo vazio quando o contrato exige conteúdo"
+        },
+        "template": "a fronteira consumida devolve <resposta> fora do contrato"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida devolve JSON inválido ou HTML inesperado fora do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C32",
+        "stepId": "S_c527965ef349",
+        "parameters": {
+          "resposta": "JSON inválido ou HTML inesperado"
+        },
+        "template": "a fronteira consumida devolve <resposta> fora do contrato"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida devolve erro sem código ou causa reconhecida fora do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C32",
+        "stepId": "S_c527965ef349",
+        "parameters": {
+          "resposta": "erro sem código ou causa reconhecida"
+        },
+        "template": "a fronteira consumida devolve <resposta> fora do contrato"
+      }
+    ]
+  },
+  {
+    "text": "a fronteira consumida devolve HTTP 200 sem dados obrigatórios de confirmação fora do contrato",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C32",
+        "stepId": "S_c527965ef349",
+        "parameters": {
+          "resposta": "HTTP 200 sem dados obrigatórios de confirmação"
+        },
+        "template": "a fronteira consumida devolve <resposta> fora do contrato"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar orientação geral sem travar nem mostrar null ou undefined",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C32",
+        "stepId": "S_41704cb0e079",
+        "parameters": {},
+        "template": "devo visualizar orientação geral sem travar nem mostrar null ou undefined"
+      }
+    ]
+  },
+  {
+    "text": "não devo mostrar dados ou confirmar alterações sem comprovação válida",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C32",
+        "stepId": "S_4001bba74f65",
+        "parameters": {},
+        "template": "não devo mostrar dados ou confirmar alterações sem comprovação válida"
+      }
+    ]
+  },
+  {
+    "text": "devo poder recuperar a consulta ou corrigir a tentativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C32",
+        "stepId": "S_94f611de7f45",
+        "parameters": {},
+        "template": "devo poder recuperar a consulta ou corrigir a tentativa"
+      }
+    ]
+  },
+  {
+    "text": "que utilizo a tela somente pelo teclado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C33",
+        "stepId": "S_618e0b5b8026",
+        "parameters": {},
+        "template": "que utilizo a tela somente pelo teclado"
+      }
+    ]
+  },
+  {
+    "text": "percorro os controles e realizo pesquisar e abrir o detalhe",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C33",
+        "stepId": "S_c587ce416bb5",
+        "parameters": {
+          "acao": "pesquisar e abrir o detalhe"
+        },
+        "template": "percorro os controles e realizo <acao>"
+      }
+    ]
+  },
+  {
+    "text": "percorro os controles e realizo aplicar filtros e navegar entre páginas",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C33",
+        "stepId": "S_c587ce416bb5",
+        "parameters": {
+          "acao": "aplicar filtros e navegar entre páginas"
+        },
+        "template": "percorro os controles e realizo <acao>"
+      }
+    ]
+  },
+  {
+    "text": "percorro os controles e realizo abrir e cancelar o arquivamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C33",
+        "stepId": "S_c587ce416bb5",
+        "parameters": {
+          "acao": "abrir e cancelar o arquivamento"
+        },
+        "template": "percorro os controles e realizo <acao>"
+      }
+    ]
+  },
+  {
+    "text": "devo conseguir executar a ação sem mouse com foco visível e ordem compreensível",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C33",
+        "stepId": "S_1d5e7ea2f3c1",
+        "parameters": {},
+        "template": "devo conseguir executar a ação sem mouse com foco visível e ordem compreensível"
+      }
+    ]
+  },
+  {
+    "text": "uma confirmação modal deve manter foco útil e devolvê-lo ao controle de origem ao cancelar",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C33",
+        "stepId": "S_198f25f29584",
+        "parameters": {},
+        "template": "uma confirmação modal deve manter foco útil e devolvê-lo ao controle de origem ao cancelar"
+      }
+    ]
+  },
+  {
+    "text": "nenhum foco deve permanecer preso em elemento oculto ou removido",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C33",
+        "stepId": "S_60ef16962c8c",
+        "parameters": {},
+        "template": "nenhum foco deve permanecer preso em elemento oculto ou removido"
+      }
+    ]
+  },
+  {
+    "text": "que verifico campo de busca no componente do LhamaLog",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C34",
+        "stepId": "S_53647230e601",
+        "parameters": {
+          "controle": "campo de busca"
+        },
+        "template": "que verifico <controle> no componente do LhamaLog"
+      }
+    ]
+  },
+  {
+    "text": "que verifico campo de data com erro no componente do LhamaLog",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C34",
+        "stepId": "S_53647230e601",
+        "parameters": {
+          "controle": "campo de data com erro"
+        },
+        "template": "que verifico <controle> no componente do LhamaLog"
+      }
+    ]
+  },
+  {
+    "text": "que verifico checkbox de uma Ocorrência no componente do LhamaLog",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C34",
+        "stepId": "S_53647230e601",
+        "parameters": {
+          "controle": "checkbox de uma Ocorrência"
+        },
+        "template": "que verifico <controle> no componente do LhamaLog"
+      }
+    ]
+  },
+  {
+    "text": "consulto os nomes acessíveis e a associação de estado ou erro",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C34",
+        "stepId": "S_f145e4992a23",
+        "parameters": {},
+        "template": "consulto os nomes acessíveis e a associação de estado ou erro"
+      }
+    ]
+  },
+  {
+    "text": "devo entender sua finalidade sem depender somente de cor ícone ou placeholder",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C34",
+        "stepId": "S_35a4b96213cb",
+        "parameters": {
+          "informacao": "sua finalidade"
+        },
+        "template": "devo entender <informacao> sem depender somente de cor ícone ou placeholder"
+      }
+    ]
+  },
+  {
+    "text": "devo entender a causa e o campo a corrigir sem depender somente de cor ícone ou placeholder",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C34",
+        "stepId": "S_35a4b96213cb",
+        "parameters": {
+          "informacao": "a causa e o campo a corrigir"
+        },
+        "template": "devo entender <informacao> sem depender somente de cor ícone ou placeholder"
+      }
+    ]
+  },
+  {
+    "text": "devo entender qual registro está selecionado sem depender somente de cor ícone ou placeholder",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C34",
+        "stepId": "S_35a4b96213cb",
+        "parameters": {
+          "informacao": "qual registro está selecionado"
+        },
+        "template": "devo entender <informacao> sem depender somente de cor ícone ou placeholder"
+      }
+    ]
+  },
+  {
+    "text": "a verificação deve ser confirmada na página real com tecnologia assistiva",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C34",
+        "stepId": "S_b72bf83ef825",
+        "parameters": {},
+        "template": "a verificação deve ser confirmada na página real com tecnologia assistiva"
+      }
+    ]
+  },
+  {
+    "text": "que abro listagem nas condições viewport 360 por 800 e zoom 100 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C35",
+        "stepId": "S_628841076031",
+        "parameters": {
+          "tela": "listagem",
+          "condicoes": "viewport 360 por 800 e zoom 100 por cento"
+        },
+        "template": "que abro <tela> nas condições <condicoes>"
+      }
+    ]
+  },
+  {
+    "text": "que abro detalhe nas condições viewport 1280 por 800 e zoom 200 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C35",
+        "stepId": "S_628841076031",
+        "parameters": {
+          "tela": "detalhe",
+          "condicoes": "viewport 1280 por 800 e zoom 200 por cento"
+        },
+        "template": "que abro <tela> nas condições <condicoes>"
+      }
+    ]
+  },
+  {
+    "text": "que abro modal de arquivamento nas condições viewport 1280 por 800 e zoom 200 por cento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C35",
+        "stepId": "S_628841076031",
+        "parameters": {
+          "tela": "modal de arquivamento",
+          "condicoes": "viewport 1280 por 800 e zoom 200 por cento"
+        },
+        "template": "que abro <tela> nas condições <condicoes>"
+      }
+    ]
+  },
+  {
+    "text": "consulto os dados ou navego pelos controles",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C35",
+        "stepId": "S_ca7ba6a3552c",
+        "parameters": {},
+        "template": "consulto os dados ou navego pelos controles"
+      }
+    ]
+  },
+  {
+    "text": "textos campos botões e foco devem permanecer legíveis e alcançáveis",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C35",
+        "stepId": "S_a2649be87f59",
+        "parameters": {},
+        "template": "textos campos botões e foco devem permanecer legíveis e alcançáveis"
+      }
+    ]
+  },
+  {
+    "text": "detalhes técnicos extensos podem rolar em sua própria área sem encobrir as ações",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C35",
+        "stepId": "S_4fe082418e64",
+        "parameters": {},
+        "template": "detalhes técnicos extensos podem rolar em sua própria área sem encobrir as ações"
+      }
+    ]
+  },
+  {
+    "text": "nenhuma ação necessária deve ficar cortada ou coberta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C35",
+        "stepId": "S_40de61dc8cba",
+        "parameters": {},
+        "template": "nenhuma ação necessária deve ficar cortada ou coberta"
+      }
+    ]
+  },
+  {
+    "text": "que o ambiente real de teste contém Ocorrências fictícias no Produto Alfa autorizado",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C36",
+        "stepId": "S_c072e30174e6",
+        "parameters": {},
+        "template": "que o ambiente real de teste contém Ocorrências fictícias no Produto Alfa autorizado"
+      }
+    ]
+  },
+  {
+    "text": "consulto Ocorrências do Produto pela interface Web",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C36",
+        "stepId": "S_74e8fa4e9774",
+        "parameters": {
+          "recorte": "Ocorrências do Produto"
+        },
+        "template": "consulto <recorte> pela interface Web"
+      }
+    ]
+  },
+  {
+    "text": "consulto Ocorrências de um lote quando a navegação oferece esse recorte pela interface Web",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C36",
+        "stepId": "S_74e8fa4e9774",
+        "parameters": {
+          "recorte": "Ocorrências de um lote quando a navegação oferece esse recorte"
+        },
+        "template": "consulto <recorte> pela interface Web"
+      }
+    ]
+  },
+  {
+    "text": "consulto Ocorrências de um arquivo quando a navegação oferece esse recorte pela interface Web",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C36",
+        "stepId": "S_74e8fa4e9774",
+        "parameters": {
+          "recorte": "Ocorrências de um arquivo quando a navegação oferece esse recorte"
+        },
+        "template": "consulto <recorte> pela interface Web"
+      }
+    ]
+  },
+  {
+    "text": "as chamadas de negócio devem ir ao Core com a sessão e o contexto corretos",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C36",
+        "stepId": "S_e14026da5fd6",
+        "parameters": {},
+        "template": "as chamadas de negócio devem ir ao Core com a sessão e o contexto corretos"
+      }
+    ]
+  },
+  {
+    "text": "a lista e o detalhe devem corresponder aos registros reais de teste e aos filtros aplicados",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C36",
+        "stepId": "S_672a4e70ed9e",
+        "parameters": {},
+        "template": "a lista e o detalhe devem corresponder aos registros reais de teste e aos filtros aplicados"
+      }
+    ]
+  },
+  {
+    "text": "nenhum serviço interno nem banco deve ser acessado diretamente pelo navegador",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C36",
+        "stepId": "S_bc63fe31227b",
+        "parameters": {},
+        "template": "nenhum serviço interno nem banco deve ser acessado diretamente pelo navegador"
+      }
+    ]
+  },
+  {
+    "text": "que o ambiente autoriza a mudança manual e a Ocorrência ABERTA não tem Sugestões que impeçam fechamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C37",
+        "stepId": "S_1e5b81b5dd6b",
+        "parameters": {},
+        "template": "que o ambiente autoriza a mudança manual e a Ocorrência ABERTA não tem Sugestões que impeçam fechamento"
+      }
+    ]
+  },
+  {
+    "text": "altero para FECHADA pela interface e o Core confirma",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C37",
+        "stepId": "S_8167c8f95c31",
+        "parameters": {},
+        "template": "altero para FECHADA pela interface e o Core confirma"
+      }
+    ]
+  },
+  {
+    "text": "recarrego o detalhe por uma nova consulta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C37",
+        "stepId": "S_e24f2abcffb9",
+        "parameters": {},
+        "template": "recarrego o detalhe por uma nova consulta"
+      }
+    ]
+  },
+  {
+    "text": "devo visualizar FECHADA persistida no mesmo registro",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C37",
+        "stepId": "S_ecefdc6a44e2",
+        "parameters": {},
+        "template": "devo visualizar FECHADA persistida no mesmo registro"
+      }
+    ]
+  },
+  {
+    "text": "a evidência deve comprovar a gravação real sem usar a resposta simulada do teste de página",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C37",
+        "stepId": "S_39db5103a380",
+        "parameters": {},
+        "template": "a evidência deve comprovar a gravação real sem usar a resposta simulada do teste de página"
+      }
+    ]
+  },
+  {
+    "text": "que a operação real de arquivamento está disponibilizada pelo contrato do Core no ambiente de teste",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C38",
+        "stepId": "S_9a61084ce720",
+        "parameters": {},
+        "template": "que a operação real de arquivamento está disponibilizada pelo contrato do Core no ambiente de teste"
+      }
+    ]
+  },
+  {
+    "text": "existem registros fictícios autorizados que podem ser arquivados",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C38",
+        "stepId": "S_afe0c6e11479",
+        "parameters": {},
+        "template": "existem registros fictícios autorizados que podem ser arquivados"
+      }
+    ]
+  },
+  {
+    "text": "confirmo o arquivamento pela tela e consulto novamente a lista ativa",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C38",
+        "stepId": "S_7f31c8a79548",
+        "parameters": {},
+        "template": "confirmo o arquivamento pela tela e consulto novamente a lista ativa"
+      }
+    ]
+  },
+  {
+    "text": "os registros confirmados como arquivados não devem integrar essa lista",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C38",
+        "stepId": "S_1ceb423a02b0",
+        "parameters": {},
+        "template": "os registros confirmados como arquivados não devem integrar essa lista"
+      }
+    ]
+  },
+  {
+    "text": "registros não selecionados devem permanecer conforme a consulta",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C38",
+        "stepId": "S_e80f19245673",
+        "parameters": {},
+        "template": "registros não selecionados devem permanecer conforme a consulta"
+      }
+    ]
+  },
+  {
+    "text": "o teste não deve deduzir a representação interna do arquivamento",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C38",
+        "stepId": "S_728f4dd17e05",
+        "parameters": {},
+        "template": "o teste não deve deduzir a representação interna do arquivamento"
+      }
+    ]
+  },
+  {
+    "text": "que uso uma sessão real de teste sem autorização para o alvo",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C39",
+        "stepId": "S_938bc1b1d4a1",
+        "parameters": {},
+        "template": "que uso uma sessão real de teste sem autorização para o alvo"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente uma operação de consulta de lista ou detalhe com identificador de outra Empresa ou Produto sem acesso",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C39",
+        "stepId": "S_dc4a7e0ddd30",
+        "parameters": {
+          "operacao": "consulta de lista ou detalhe"
+        },
+        "template": "envio diretamente uma operação de <operacao> com identificador de outra Empresa ou Produto sem acesso"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente uma operação de mudança de estado com identificador de outra Empresa ou Produto sem acesso",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C39",
+        "stepId": "S_dc4a7e0ddd30",
+        "parameters": {
+          "operacao": "mudança de estado"
+        },
+        "template": "envio diretamente uma operação de <operacao> com identificador de outra Empresa ou Produto sem acesso"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente uma operação de arquivamento com identificador de outra Empresa ou Produto sem acesso",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C39",
+        "stepId": "S_dc4a7e0ddd30",
+        "parameters": {
+          "operacao": "arquivamento"
+        },
+        "template": "envio diretamente uma operação de <operacao> com identificador de outra Empresa ou Produto sem acesso"
+      }
+    ]
+  },
+  {
+    "text": "o Core deve recusar sem devolver dados nem modificar registros",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C39",
+        "stepId": "S_b78c4085a982",
+        "parameters": {},
+        "template": "o Core deve recusar sem devolver dados nem modificar registros"
+      }
+    ]
+  },
+  {
+    "text": "a recusa deve seguir o contrato de negação simples sem revogar a sessão por esse motivo",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C39",
+        "stepId": "S_b6860ba2031d",
+        "parameters": {},
+        "template": "a recusa deve seguir o contrato de negação simples sem revogar a sessão por esse motivo"
+      }
+    ]
+  },
+  {
+    "text": "que a fixture real prepara Ocorrência FECHADA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C40",
+        "stepId": "S_8c36916b76d0",
+        "parameters": {
+          "situacao": "Ocorrência FECHADA"
+        },
+        "template": "que a fixture real prepara <situacao>"
+      }
+    ]
+  },
+  {
+    "text": "que a fixture real prepara Ocorrência EM_ANALISE com Sugestão válida não FECHADA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C40",
+        "stepId": "S_8c36916b76d0",
+        "parameters": {
+          "situacao": "Ocorrência EM_ANALISE com Sugestão válida não FECHADA"
+        },
+        "template": "que a fixture real prepara <situacao>"
+      }
+    ]
+  },
+  {
+    "text": "que a fixture real prepara Ocorrência ABERTA com somente Sugestão manual em FALHA",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C40",
+        "stepId": "S_8c36916b76d0",
+        "parameters": {
+          "situacao": "Ocorrência ABERTA com somente Sugestão manual em FALHA"
+        },
+        "template": "que a fixture real prepara <situacao>"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente a mudança FECHADA para EM_ANALISE ao Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C40",
+        "stepId": "S_d5d71dab1e9e",
+        "parameters": {
+          "transicao": "FECHADA para EM_ANALISE"
+        },
+        "template": "envio diretamente a mudança <transicao> ao Core"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente a mudança EM_ANALISE para FECHADA ao Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C40",
+        "stepId": "S_d5d71dab1e9e",
+        "parameters": {
+          "transicao": "EM_ANALISE para FECHADA"
+        },
+        "template": "envio diretamente a mudança <transicao> ao Core"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente a mudança ABERTA para FECHADA ao Core",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C40",
+        "stepId": "S_d5d71dab1e9e",
+        "parameters": {
+          "transicao": "ABERTA para FECHADA"
+        },
+        "template": "envio diretamente a mudança <transicao> ao Core"
+      }
+    ]
+  },
+  {
+    "text": "devo observar recusa sem alterar o estado ao consultar novamente o registro",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C40",
+        "stepId": "S_bd35755b35b4",
+        "parameters": {
+          "resultado": "recusa sem alterar o estado"
+        },
+        "template": "devo observar <resultado> ao consultar novamente o registro"
+      }
+    ]
+  },
+  {
+    "text": "devo observar fechamento permitido sem tratar a falha como dependência ao consultar novamente o registro",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C40",
+        "stepId": "S_bd35755b35b4",
+        "parameters": {
+          "resultado": "fechamento permitido sem tratar a falha como dependência"
+        },
+        "template": "devo observar <resultado> ao consultar novamente o registro"
+      }
+    ]
+  },
+  {
+    "text": "o formulário não deve ser a única proteção da regra",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C40",
+        "stepId": "S_c6e786dc4f2e",
+        "parameters": {},
+        "template": "o formulário não deve ser a única proteção da regra"
+      }
+    ]
+  },
+  {
+    "text": "que identifiquei a operação real de consulta e seus parâmetros documentados",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C41",
+        "stepId": "S_7e8348366def",
+        "parameters": {},
+        "template": "que identifiquei a operação real de consulta e seus parâmetros documentados"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente intervalo inicial posterior ao final fora desse contrato sem passar pelo formulário",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C41",
+        "stepId": "S_210896a72bcf",
+        "parameters": {
+          "entrada": "intervalo inicial posterior ao final"
+        },
+        "template": "envio diretamente <entrada> fora desse contrato sem passar pelo formulário"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente tipo inválido no parâmetro de paginação exigido fora desse contrato sem passar pelo formulário",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C41",
+        "stepId": "S_210896a72bcf",
+        "parameters": {
+          "entrada": "tipo inválido no parâmetro de paginação exigido"
+        },
+        "template": "envio diretamente <entrada> fora desse contrato sem passar pelo formulário"
+      }
+    ]
+  },
+  {
+    "text": "envio diretamente valor de filtro fora do conjunto aceito pela operação fora desse contrato sem passar pelo formulário",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C41",
+        "stepId": "S_210896a72bcf",
+        "parameters": {
+          "entrada": "valor de filtro fora do conjunto aceito pela operação"
+        },
+        "template": "envio diretamente <entrada> fora desse contrato sem passar pelo formulário"
+      }
+    ]
+  },
+  {
+    "text": "o Core deve recusar conforme o contrato sem produzir consulta irrestrita ou dados de outro contexto",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C41",
+        "stepId": "S_9688442cfa8d",
+        "parameters": {},
+        "template": "o Core deve recusar conforme o contrato sem produzir consulta irrestrita ou dados de outro contexto"
+      }
+    ]
+  },
+  {
+    "text": "o resultado deve ser verificado na resposta real do serviço",
+    "bindings": [
+      {
+        "scenarioId": "LLT84_C41",
+        "stepId": "S_390d4e7516dd",
+        "parameters": {},
+        "template": "o resultado deve ser verificado na resposta real do serviço"
+      }
+    ]
+  }
+]

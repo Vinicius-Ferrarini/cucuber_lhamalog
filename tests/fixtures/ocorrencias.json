@@ -1,0 +1,20 @@
+[
+  {
+    "id": "OC-EX-01",
+    "titulo": "Ocorrência Exemplo 01",
+    "empresa": "Empresa Exemplo A",
+    "produto": "Produto Alfa",
+    "tipo": "ERRO",
+    "estado": "ABERTA",
+    "recorrente": false
+  },
+  {
+    "id": "OC-EX-02",
+    "titulo": "Ocorrência Exemplo 02",
+    "empresa": "Empresa Exemplo A",
+    "produto": "Produto Alfa",
+    "tipo": "WARNING",
+    "estado": "EM_ANALISE",
+    "recorrente": true
+  }
+]

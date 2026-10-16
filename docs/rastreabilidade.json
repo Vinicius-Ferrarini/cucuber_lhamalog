@@ -1,0 +1,2634 @@
+{
+  "generatedAt": "2026-10-16",
+  "scenarios": 130,
+  "exampleRows": 303,
+  "cases": [
+    {
+      "id": "LLT84_C01",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "01 Mostrar carregamento sem antecipar resultado",
+      "feature": "tests/features/ocorrencias/01-1-listagem-de-ocorrencias.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT84_C01",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C02",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "02 Apresentar os registros e atributos retornados - <exemplo>",
+      "feature": "tests/features/ocorrencias/01-1-listagem-de-ocorrencias.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@pagina",
+        "@front",
+        "@ADR_035",
+        "@ADR_062",
+        "@ADR_063",
+        "@LLT84_C02",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C03",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "03 Mostrar lista vazia do Produto autorizado",
+      "feature": "tests/features/ocorrencias/01-1-listagem-de-ocorrencias.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT84_C03",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C04",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "04 Recuperar a listagem após falha - <exemplo>",
+      "feature": "tests/features/ocorrencias/01-1-listagem-de-ocorrencias.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@criterio_front",
+        "@LLT84_C04",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C05",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "05 Ignorar resposta atrasada de outro Produto",
+      "feature": "tests/features/ocorrencias/01-1-listagem-de-ocorrencias.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT84_C05",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C06",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "06 Buscar Ocorrência por parâmetro suportado - <exemplo>",
+      "feature": "tests/features/ocorrencias/02-2-busca-e-detalhe.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_002",
+        "@pagina",
+        "@front",
+        "@LLT84_C06",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C07",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "07 Informar consulta sem correspondência",
+      "feature": "tests/features/ocorrencias/02-2-busca-e-detalhe.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_002",
+        "@pagina",
+        "@front",
+        "@LLT84_C07",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C08",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "08 Abrir o detalhe do registro selecionado - <exemplo>",
+      "feature": "tests/features/ocorrencias/02-2-busca-e-detalhe.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_002",
+        "@pagina",
+        "@front",
+        "@ADR_035",
+        "@LLT84_C08",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C09",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "09 Consultar as abas de dados técnicos - <exemplo>",
+      "feature": "tests/features/ocorrencias/02-2-busca-e-detalhe.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_002",
+        "@pagina",
+        "@front",
+        "@LLT84_C09",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C10",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "10 Voltar ao estado anterior da consulta",
+      "feature": "tests/features/ocorrencias/02-2-busca-e-detalhe.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_002",
+        "@USID_005",
+        "@pagina",
+        "@front",
+        "@LLT84_C10",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C11",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "11 Tratar detalhe indisponível sem mostrar outro registro - <exemplo>",
+      "feature": "tests/features/ocorrencias/02-2-busca-e-detalhe.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_002",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@criterio_front",
+        "@LLT84_C11",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C12",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "12 Aplicar um filtro suportado - <exemplo>",
+      "feature": "tests/features/ocorrencias/03-3-filtros-e-paginacao.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_005",
+        "@pagina",
+        "@front",
+        "@LLT84_C12",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C13",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "13 Combinar filtros na mesma consulta - <exemplo>",
+      "feature": "tests/features/ocorrencias/03-3-filtros-e-paginacao.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_005",
+        "@pagina",
+        "@front",
+        "@LLT84_C13",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C14",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "14 Mostrar ausência de resultados filtrados",
+      "feature": "tests/features/ocorrencias/03-3-filtros-e-paginacao.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_005",
+        "@pagina",
+        "@front",
+        "@LLT84_C14",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C15",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "15 Limpar filtros e retornar à primeira página",
+      "feature": "tests/features/ocorrencias/03-3-filtros-e-paginacao.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_005",
+        "@pagina",
+        "@front",
+        "@LLT84_C15",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C16",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "16 Navegar mantendo os filtros ativos - <exemplo>",
+      "feature": "tests/features/ocorrencias/03-3-filtros-e-paginacao.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_005",
+        "@pagina",
+        "@front",
+        "@LLT84_C16",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C17",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "17 Alterar a quantidade por página sem perder filtros - <exemplo>",
+      "feature": "tests/features/ocorrencias/03-3-filtros-e-paginacao.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_005",
+        "@pagina",
+        "@front",
+        "@LLT84_C17",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C18",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "18 Impedir envio normal de filtro inválido - <exemplo>",
+      "feature": "tests/features/ocorrencias/03-3-filtros-e-paginacao.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_005",
+        "@componente",
+        "@front",
+        "@criterio_front",
+        "@LLT84_C18",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C19",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "19 Manter o resultado da última consulta solicitada",
+      "feature": "tests/features/ocorrencias/03-3-filtros-e-paginacao.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_002",
+        "@USID_005",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT84_C19",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C20",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "20 Confirmar transição manual permitida - <exemplo>",
+      "feature": "tests/features/ocorrencias/04-4-marcacao-do-estado.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_003",
+        "@pagina",
+        "@front",
+        "@ADR_082",
+        "@LLT84_C20",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C21",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "21 Cancelar mudança sem alterar a Ocorrência",
+      "feature": "tests/features/ocorrencias/04-4-marcacao-do-estado.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_003",
+        "@pagina",
+        "@front",
+        "@LLT84_C21",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C22",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "22 Tratar recusa de fechamento com Sugestão não finalizada",
+      "feature": "tests/features/ocorrencias/04-4-marcacao-do-estado.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_003",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@ADR_089",
+        "@LLT84_C22",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C23",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "23 Refletir o estado recebido no fluxo de Sugestão - <exemplo>",
+      "feature": "tests/features/ocorrencias/04-4-marcacao-do-estado.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@USID_002",
+        "@pagina",
+        "@front",
+        "@ADR_089",
+        "@ADR_090",
+        "@LLT84_C23",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C24",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "24 Não confirmar gravação após falha ou timeout - <exemplo>",
+      "feature": "tests/features/ocorrencias/04-4-marcacao-do-estado.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_003",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@LLT84_C24",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C25",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "25 Confirmar arquivamento individual - <exemplo>",
+      "feature": "tests/features/ocorrencias/05-5-arquivamento.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_004",
+        "@pagina",
+        "@front",
+        "@LLT84_C25",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C26",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "26 Cancelar arquivamento individual ou em lote - <exemplo>",
+      "feature": "tests/features/ocorrencias/05-5-arquivamento.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_004",
+        "@pagina",
+        "@front",
+        "@LLT84_C26",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C27",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "27 Arquivar somente os registros selecionados",
+      "feature": "tests/features/ocorrencias/05-5-arquivamento.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_004",
+        "@pagina",
+        "@front",
+        "@LLT84_C27",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C28",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "28 Tratar falha de arquivamento sem ocultar sucesso inexistente - <exemplo>",
+      "feature": "tests/features/ocorrencias/05-5-arquivamento.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_004",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@criterio_front",
+        "@LLT84_C28",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C29",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "29 Evitar confirmação duplicada de mutação - <exemplo>",
+      "feature": "tests/features/ocorrencias/05-5-arquivamento.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_003",
+        "@USID_004",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT84_C29",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C30",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "30 Voltar à área inicial em negação simples - <exemplo>",
+      "feature": "tests/features/ocorrencias/06-6-acesso-e-tratamento-de-respostas.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@USID_002",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@ADR_121",
+        "@ADR_122",
+        "@ADR_126",
+        "@LLT84_C30",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C31",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "31 Encerrar acesso local diante de 401 do Core",
+      "feature": "tests/features/ocorrencias/06-6-acesso-e-tratamento-de-respostas.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@USID_002",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@ADR_032",
+        "@LLT84_C31",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C32",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "32 Continuar utilizável diante de retorno inesperado - <exemplo>",
+      "feature": "tests/features/ocorrencias/06-6-acesso-e-tratamento-de-respostas.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@USID_002",
+        "@USID_003",
+        "@USID_004",
+        "@USID_005",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@criterio_front",
+        "@LLT84_C32",
+        "@planejado"
+      ],
+      "examples": 5,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C33",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "33 Operar ações essenciais pelo teclado - <exemplo>",
+      "feature": "tests/features/ocorrencias/07-7-qualidade-da-interface.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@USID_002",
+        "@USID_004",
+        "@USID_005",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT84_C33",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C34",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "34 Identificar campos e ações por tecnologia assistiva - <exemplo>",
+      "feature": "tests/features/ocorrencias/07-7-qualidade-da-interface.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_002",
+        "@USID_004",
+        "@USID_005",
+        "@componente",
+        "@front",
+        "@criterio_front",
+        "@LLT84_C34",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C35",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "35 Manter a tela operável com largura reduzida e zoom - <exemplo>",
+      "feature": "tests/features/ocorrencias/07-7-qualidade-da-interface.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@USID_002",
+        "@USID_004",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT84_C35",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C36",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "36 Consultar o Core com contexto e filtros reais - <exemplo>",
+      "feature": "tests/features/ocorrencias/08-8-integracao-real-do-front.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@USID_002",
+        "@USID_005",
+        "@integracao",
+        "@ADR_101",
+        "@ADR_141",
+        "@LLT84_C36",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C37",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "37 Persistir e reler uma mudança de estado válida",
+      "feature": "tests/features/ocorrencias/08-8-integracao-real-do-front.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_003",
+        "@integracao",
+        "@ADR_082",
+        "@ADR_089",
+        "@LLT84_C37",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C38",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "38 Arquivar e reler a lista ativa real",
+      "feature": "tests/features/ocorrencias/08-8-integracao-real-do-front.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_004",
+        "@integracao",
+        "@LLT84_C38",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C39",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "39 Recusar consulta ou mutação fora do contexto autorizado - <exemplo>",
+      "feature": "tests/features/ocorrencias/09-anexo-verificacoes-complementares-de-backend.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_001",
+        "@USID_002",
+        "@USID_003",
+        "@USID_004",
+        "@api",
+        "@core",
+        "@ADR_121",
+        "@ADR_122",
+        "@ADR_126",
+        "@LLT84_C39",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C40",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "40 Validar restrições de transição sem depender do formulário - <exemplo>",
+      "feature": "tests/features/ocorrencias/09-anexo-verificacoes-complementares-de-backend.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_003",
+        "@api",
+        "@core",
+        "@ADR_082",
+        "@ADR_089",
+        "@ADR_090",
+        "@LLT84_C40",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT84_C41",
+      "task": "LLT-84",
+      "module": "ocorrencias",
+      "title": "41 Validar parâmetros de consulta diretamente na API - <exemplo>",
+      "feature": "tests/features/ocorrencias/09-anexo-verificacoes-complementares-de-backend.feature",
+      "tags": [
+        "@LLT84",
+        "@USID_005",
+        "@api",
+        "@core",
+        "@criterio_front",
+        "@LLT84_C41",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-84-plano-testes-ocorrencias.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C01",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "01 Aguardar carregamento sem antecipar indicadores",
+      "feature": "tests/features/dashboards-relatorios/01-1-dashboard-por-produto.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C01",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C02",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "02 Selecionar somente um Produto autorizado - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/01-1-dashboard-por-produto.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@pagina",
+        "@front",
+        "@ADR_121",
+        "@ADR_122",
+        "@LLT85_C02",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C03",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "03 Representar valores recebidos sem inventar métricas - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/01-1-dashboard-por-produto.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@componente",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C03",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C04",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "04 Apresentar ausência de dados coletados",
+      "feature": "tests/features/dashboards-relatorios/01-1-dashboard-por-produto.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C04",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C05",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "05 Ignorar métricas atrasadas de outro Produto",
+      "feature": "tests/features/dashboards-relatorios/01-1-dashboard-por-produto.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C05",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C06",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "06 Recuperar o dashboard após falha de carregamento - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/01-1-dashboard-por-produto.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@criterio_front",
+        "@LLT85_C06",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C07",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "07 Aplicar critérios suportados pelo contrato - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/02-2-filtros-de-dashboards.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_032",
+        "@USID_036",
+        "@pagina",
+        "@front",
+        "@LLT85_C07",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C08",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "08 Impedir aplicação normal de filtro inválido - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/02-2-filtros-de-dashboards.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_032",
+        "@USID_036",
+        "@componente",
+        "@front",
+        "@LLT85_C08",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C09",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "09 Alterar ou remover filtros e atualizar os dados - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/02-2-filtros-de-dashboards.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_032",
+        "@USID_036",
+        "@pagina",
+        "@front",
+        "@LLT85_C09",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C10",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "10 Distinguir resultado filtrado vazio de erro",
+      "feature": "tests/features/dashboards-relatorios/02-2-filtros-de-dashboards.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_032",
+        "@USID_036",
+        "@pagina",
+        "@front",
+        "@LLT85_C10",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C11",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "11 Manter somente a última consulta aplicada",
+      "feature": "tests/features/dashboards-relatorios/02-2-filtros-de-dashboards.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_032",
+        "@USID_036",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C11",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C12",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "12 Mostrar consolidação autorizada da Empresa - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/03-3-dashboard-empresarial.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_034",
+        "@pagina",
+        "@front",
+        "@ADR_121",
+        "@ADR_122",
+        "@LLT85_C12",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C13",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "13 Restringir a consolidação aos Produtos permitidos",
+      "feature": "tests/features/dashboards-relatorios/03-3-dashboard-empresarial.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_034",
+        "@USID_036",
+        "@pagina",
+        "@front",
+        "@ADR_122",
+        "@LLT85_C13",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C14",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "14 Tratar negação simples de acesso empresarial - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/03-3-dashboard-empresarial.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_034",
+        "@USID_035",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@ADR_126",
+        "@LLT85_C14",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C15",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "15 Abrir detalhamento do Produto selecionado",
+      "feature": "tests/features/dashboards-relatorios/03-3-dashboard-empresarial.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_034",
+        "@pagina",
+        "@front",
+        "@LLT85_C15",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C16",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "16 Selecionar vários Produtos sem ampliar a autorização - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/03-3-dashboard-empresarial.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_036",
+        "@pagina",
+        "@front",
+        "@ADR_121",
+        "@ADR_122",
+        "@LLT85_C16",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C17",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "17 Preservar filtros empresariais até alteração ou remoção",
+      "feature": "tests/features/dashboards-relatorios/03-3-dashboard-empresarial.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_036",
+        "@pagina",
+        "@front",
+        "@LLT85_C17",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C18",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "18 Filtrar Ocorrências de múltiplos Produtos - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/04-4-ocorrencias-empresariais.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_037",
+        "@pagina",
+        "@front",
+        "@ADR_121",
+        "@ADR_122",
+        "@LLT85_C18",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C19",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "19 Mostrar consulta de Ocorrências sem correspondência",
+      "feature": "tests/features/dashboards-relatorios/04-4-ocorrencias-empresariais.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_037",
+        "@pagina",
+        "@front",
+        "@LLT85_C19",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C20",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "20 Alterar e remover critérios da consulta empresarial - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/04-4-ocorrencias-empresariais.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_037",
+        "@pagina",
+        "@front",
+        "@LLT85_C20",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C21",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "21 Abrir detalhe preservando Empresa e Produto da Ocorrência",
+      "feature": "tests/features/dashboards-relatorios/04-4-ocorrencias-empresariais.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_037",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C21",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C22",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "22 Oferecer somente formatos disponibilizados para a operação - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/05-5-exportacao-de-relatorios.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@pagina",
+        "@front",
+        "@LLT85_C22",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C23",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "23 Capturar o recorte aplicado ao confirmar a exportação - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/05-5-exportacao-de-relatorios.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@pagina",
+        "@front",
+        "@LLT85_C23",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C24",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "24 Disponibilizar o arquivo concluído para download - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/05-5-exportacao-de-relatorios.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@pagina",
+        "@front",
+        "@LLT85_C24",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C25",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "25 Desistir antes de iniciar a geração - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/05-5-exportacao-de-relatorios.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C25",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C26",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "26 Cancelar geração em andamento do Produto",
+      "feature": "tests/features/dashboards-relatorios/05-5-exportacao-de-relatorios.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@LLT85_C26",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C27",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "27 Usar cancelamento empresarial somente quando suportado - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/05-5-exportacao-de-relatorios.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_035",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@criterio_front",
+        "@LLT85_C27",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C28",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "28 Recuperar a interface após falha de exportação - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/05-5-exportacao-de-relatorios.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@criterio_front",
+        "@LLT85_C28",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C29",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "29 Evitar solicitações repetidas pelo mesmo controle",
+      "feature": "tests/features/dashboards-relatorios/05-5-exportacao-de-relatorios.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C29",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C30",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "30 Rejeitar retorno de arquivo incompatível com o contrato - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/05-5-exportacao-de-relatorios.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@criterio_front",
+        "@LLT85_C30",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C31",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "31 Interromper entrega quando o acesso for recusado",
+      "feature": "tests/features/dashboards-relatorios/05-5-exportacao-de-relatorios.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@ADR_126",
+        "@LLT85_C31",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C32",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "32 Tratar sessão inválida e revogação conforme a operação - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/06-6-protecao-e-qualidade-da-interface.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@USID_034",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@ADR_032",
+        "@LLT85_C32",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C33",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "33 Tratar resposta inesperada sem fabricar indicadores - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/06-6-protecao-e-qualidade-da-interface.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@USID_034",
+        "@USID_036",
+        "@pagina",
+        "@front",
+        "@contrato",
+        "@criterio_front",
+        "@LLT85_C33",
+        "@planejado"
+      ],
+      "examples": 5,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C34",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "34 Operar ações essenciais somente pelo teclado - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/06-6-protecao-e-qualidade-da-interface.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@USID_032",
+        "@USID_033",
+        "@USID_036",
+        "@USID_037",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C34",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C35",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "35 Identificar indicadores controles e erros de forma acessível - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/06-6-protecao-e-qualidade-da-interface.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@USID_032",
+        "@USID_033",
+        "@componente",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C35",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C36",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "36 Manter dashboard e exportação operáveis com zoom - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/06-6-protecao-e-qualidade-da-interface.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@USID_033",
+        "@USID_034",
+        "@pagina",
+        "@front",
+        "@criterio_front",
+        "@LLT85_C36",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C37",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "37 Consultar dados reais de teste pelo Core - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/07-7-integracao-real.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@USID_032",
+        "@USID_034",
+        "@USID_036",
+        "@integracao",
+        "@ADR_141",
+        "@LLT85_C37",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C38",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "38 Conferir o conteúdo do relatório gerado - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/07-7-integracao-real.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@integracao",
+        "@ADR_121",
+        "@ADR_122",
+        "@LLT85_C38",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C39",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "39 Comprovar o cancelamento real da geração - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/07-7-integracao-real.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@integracao",
+        "@LLT85_C39",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C40",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "40 Recusar operações fora do escopo autorizado - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/08-anexo-verificacoes-complementares-de-backend.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_031",
+        "@USID_033",
+        "@USID_034",
+        "@USID_035",
+        "@USID_037",
+        "@api",
+        "@core",
+        "@ADR_121",
+        "@ADR_122",
+        "@ADR_126",
+        "@LLT85_C40",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C41",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "41 Validar critérios e formato sem depender do formulário - <exemplo>",
+      "feature": "tests/features/dashboards-relatorios/08-anexo-verificacoes-complementares-de-backend.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_032",
+        "@USID_033",
+        "@USID_035",
+        "@USID_036",
+        "@api",
+        "@core",
+        "@criterio_front",
+        "@LLT85_C41",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT85_C42",
+      "task": "LLT-85",
+      "module": "dashboards-relatorios",
+      "title": "42 Proteger a referência de download contra outra identidade",
+      "feature": "tests/features/dashboards-relatorios/08-anexo-verificacoes-complementares-de-backend.feature",
+      "tags": [
+        "@LLT85",
+        "@USID_033",
+        "@USID_035",
+        "@api",
+        "@core",
+        "@ADR_121",
+        "@ADR_122",
+        "@LLT85_C42",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-85-plano-testes-dashboards-relatorios.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C01",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "01 Encaminhar após a primeira etapa - <exemplo>",
+      "feature": "tests/features/login/01-1-entrada-no-login.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_023",
+        "@ADR_024",
+        "@ADR_123",
+        "@pagina",
+        "@LLT86_C01",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C02",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "02 Recusar senha incorreta no SignIn",
+      "feature": "tests/features/login/01-1-entrada-no-login.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_023",
+        "@ADR_032",
+        "@pagina",
+        "@LLT86_C02",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C03",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "03 Validar campos antes do envio normal - <exemplo>",
+      "feature": "tests/features/login/01-1-entrada-no-login.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C03",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C04",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "04 Cancelar entrada pelo Google",
+      "feature": "tests/features/login/01-1-entrada-no-login.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@google_configurado",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C04",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C05",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "05 Tratar falha da autenticação externa - <exemplo>",
+      "feature": "tests/features/login/01-1-entrada-no-login.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@google_configurado",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C05",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C06",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "06 Aceitar um fator disponível no perfil atual - <exemplo>",
+      "feature": "tests/features/login/02-2-mfa-obrigatorio-e-codigos-de-backup.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@USID_051",
+        "@front",
+        "@perfil_atual",
+        "@ADR_024",
+        "@ADR_123",
+        "@pagina",
+        "@LLT86_C06",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C07",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "07 Recusar verificação inválida - <exemplo>",
+      "feature": "tests/features/login/02-2-mfa-obrigatorio-e-codigos-de-backup.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@USID_051",
+        "@front",
+        "@perfil_atual",
+        "@ADR_023",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C07",
+        "@planejado"
+      ],
+      "examples": 6,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C08",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "08 Cancelar a verificação obrigatória",
+      "feature": "tests/features/login/03-3-processamento-e-protecao-da-sessao.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_024",
+        "@pagina",
+        "@LLT86_C08",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C09",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "09 Evitar envio repetido na interface - <exemplo>",
+      "feature": "tests/features/login/03-3-processamento-e-protecao-da-sessao.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C09",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C10",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "10 Recuperar a interface após falha de conexão - <exemplo>",
+      "feature": "tests/features/login/03-3-processamento-e-protecao-da-sessao.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C10",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C11",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "11 Bloquear navegação antes de concluir autenticação - <exemplo>",
+      "feature": "tests/features/login/03-3-processamento-e-protecao-da-sessao.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_023",
+        "@ADR_024",
+        "@pagina",
+        "@LLT86_C11",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C12",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "12 Recarregar com sessão ativa",
+      "feature": "tests/features/login/03-3-processamento-e-protecao-da-sessao.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_023",
+        "@ADR_032",
+        "@pagina",
+        "@LLT86_C12",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C13",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "13 Interromper navegação após sessão inválida - <exemplo>",
+      "feature": "tests/features/login/03-3-processamento-e-protecao-da-sessao.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_032",
+        "@pagina",
+        "@LLT86_C13",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C14",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "14 Não restaurar sessão depois de sair - <exemplo>",
+      "feature": "tests/features/login/03-3-processamento-e-protecao-da-sessao.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_023",
+        "@pagina",
+        "@LLT86_C14",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C15",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "15 Mostrar somente os recursos retornados para a conta - <exemplo>",
+      "feature": "tests/features/login/04-4-area-inicial-e-identidade.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_048",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_121",
+        "@ADR_122",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C15",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C16",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "16 Não exigir tela própria de convite no login",
+      "feature": "tests/features/login/04-4-area-inicial-e-identidade.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_048",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_114",
+        "@ADR_121",
+        "@ADR_123",
+        "@pagina",
+        "@LLT86_C16",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C17",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "17 Preservar a identidade resolvida pela Clerk",
+      "feature": "tests/features/login/04-4-area-inicial-e-identidade.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_048",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@google_configurado",
+        "@ADR_021",
+        "@pagina",
+        "@LLT86_C17",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C18",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "18 Usar a recuperação disponível no componente",
+      "feature": "tests/features/login/05-5-recuperacao-de-senha-e-de-mfa.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_021",
+        "@ADR_023",
+        "@pagina",
+        "@LLT86_C18",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C19",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "19 Recuperar senha sem remover o MFA",
+      "feature": "tests/features/login/05-5-recuperacao-de-senha-e-de-mfa.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_021",
+        "@ADR_024",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C19",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C20",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "20 Não enviar recuperação a um destino arbitrário",
+      "feature": "tests/features/login/05-5-recuperacao-de-senha-e-de-mfa.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C20",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C21",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "21 Recusar comprovação inválida na recuperação - <exemplo>",
+      "feature": "tests/features/login/05-5-recuperacao-de-senha-e-de-mfa.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@ADR_023",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C21",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C22",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "22 Exigir novo cadastro de MFA após reset autorizado",
+      "feature": "tests/features/login/05-5-recuperacao-de-senha-e-de-mfa.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@USID_051",
+        "@ADR_024",
+        "@ADR_034",
+        "@pagina",
+        "@LLT86_C22",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C23",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "23 Não oferecer reset autônomo de MFA sem fator",
+      "feature": "tests/features/login/05-5-recuperacao-de-senha-e-de-mfa.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@perfil_atual",
+        "@USID_051",
+        "@ADR_024",
+        "@ADR_034",
+        "@pagina",
+        "@LLT86_C23",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C24",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "24 Cadastrar fator exigido e disponibilizar backup",
+      "feature": "tests/features/login/06-6-configuracao-do-mfa-pela-clerk.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_051",
+        "@front",
+        "@perfil_atual",
+        "@ADR_023",
+        "@ADR_024",
+        "@ADR_123",
+        "@pagina",
+        "@LLT86_C24",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C25",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "25 Cancelar setup sem liberar acesso",
+      "feature": "tests/features/login/06-6-configuracao-do-mfa-pela-clerk.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_051",
+        "@front",
+        "@perfil_atual",
+        "@ADR_024",
+        "@pagina",
+        "@LLT86_C25",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C26",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "26 Manter fatores usando UserProfile",
+      "feature": "tests/features/login/06-6-configuracao-do-mfa-pela-clerk.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_051",
+        "@front",
+        "@perfil_atual",
+        "@ADR_023",
+        "@ADR_024",
+        "@pagina",
+        "@LLT86_C26",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C27",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "27 Não anunciar alteração de fator não concluída - <exemplo>",
+      "feature": "tests/features/login/06-6-configuracao-do-mfa-pela-clerk.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_051",
+        "@front",
+        "@perfil_atual",
+        "@ADR_023",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C27",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C28",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "28 Apresentar erro reconhecido da Clerk - <exemplo>",
+      "feature": "tests/features/login/07-7-respostas-e-protecao-do-front.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@contrato",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C28",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C29",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "29 Continuar utilizável diante de retorno inesperado - <exemplo>",
+      "feature": "tests/features/login/07-7-respostas-e-protecao-do-front.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@contrato",
+        "@criterio_do_plano",
+        "@pagina",
+        "@LLT86_C29",
+        "@planejado"
+      ],
+      "examples": 10,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C30",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "30 Tratar 401 do Core mesmo sem mensagem - <exemplo>",
+      "feature": "tests/features/login/07-7-respostas-e-protecao-do-front.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@contrato",
+        "@ADR_032",
+        "@pagina",
+        "@LLT86_C30",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C31",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "31 Tratar 403 sujeito à revogação de sessões - <exemplo>",
+      "feature": "tests/features/login/07-7-respostas-e-protecao-do-front.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@contrato",
+        "@ADR_032",
+        "@pagina",
+        "@LLT86_C31",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C32",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "32 Preservar sessão em negação simples de acesso - <exemplo>",
+      "feature": "tests/features/login/07-7-respostas-e-protecao-do-front.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@contrato",
+        "@ADR_121",
+        "@ADR_126",
+        "@pagina",
+        "@LLT86_C32",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C33",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "33 Respeitar o bloqueio de tentativas da Clerk - <exemplo>",
+      "feature": "tests/features/login/07-7-respostas-e-protecao-do-front.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@contrato",
+        "@ADR_034",
+        "@pagina",
+        "@LLT86_C33",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C34",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "34 Manter segredos de servidor fora do Front - <exemplo>",
+      "feature": "tests/features/login/07-7-respostas-e-protecao-do-front.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@contrato",
+        "@ADR_022",
+        "@ADR_026",
+        "@ADR_028",
+        "@ADR_141",
+        "@pagina",
+        "@LLT86_C34",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C35",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "35 Aguardar a resolução inicial da sessão - <exemplo>",
+      "feature": "tests/features/login/08-8-carregamento-acessibilidade-e-adaptacao-da-tela.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@pagina",
+        "@perfil_atual",
+        "@criterio_front",
+        "@LLT86_C35",
+        "@planejado"
+      ],
+      "examples": 3,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C36",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "36 Tratar falha ao inicializar a autenticação - <exemplo>",
+      "feature": "tests/features/login/08-8-carregamento-acessibilidade-e-adaptacao-da-tela.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@front",
+        "@pagina",
+        "@perfil_atual",
+        "@criterio_front",
+        "@LLT86_C36",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C37",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "37 Operar o fluxo somente pelo teclado - <exemplo>",
+      "feature": "tests/features/login/08-8-carregamento-acessibilidade-e-adaptacao-da-tela.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@USID_051",
+        "@front",
+        "@pagina",
+        "@perfil_atual",
+        "@criterio_front",
+        "@LLT86_C37",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C38",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "38 Identificar controles e erros por tecnologia assistiva - <exemplo>",
+      "feature": "tests/features/login/08-8-carregamento-acessibilidade-e-adaptacao-da-tela.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@USID_051",
+        "@front",
+        "@pagina",
+        "@componente",
+        "@perfil_atual",
+        "@criterio_front",
+        "@LLT86_C38",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C39",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "39 Manter o foco útil após mudanças de estado - <exemplo>",
+      "feature": "tests/features/login/08-8-carregamento-acessibilidade-e-adaptacao-da-tela.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@USID_051",
+        "@front",
+        "@pagina",
+        "@perfil_atual",
+        "@criterio_front",
+        "@LLT86_C39",
+        "@planejado"
+      ],
+      "examples": 4,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C40",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "40 Usar a autenticação com largura reduzida e zoom - <exemplo>",
+      "feature": "tests/features/login/08-8-carregamento-acessibilidade-e-adaptacao-da-tela.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@USID_051",
+        "@front",
+        "@pagina",
+        "@perfil_atual",
+        "@criterio_front",
+        "@LLT86_C40",
+        "@planejado"
+      ],
+      "examples": 6,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C41",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "41 Interpretar a autenticação real com MFA obrigatório - <exemplo>",
+      "feature": "tests/features/login/09-9-integracao-real-do-login-web.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@integracao",
+        "@perfil_atual",
+        "@ADR_023",
+        "@ADR_024",
+        "@ADR_123",
+        "@LLT86_C41",
+        "@planejado"
+      ],
+      "examples": 5,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C42",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "42 Renovar sessão sem criar token de usuário próprio - <exemplo>",
+      "feature": "tests/features/login/09-9-integracao-real-do-login-web.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@integracao",
+        "@ADR_022",
+        "@ADR_025",
+        "@ADR_028",
+        "@ADR_032",
+        "@LLT86_C42",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C43",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "43 Enviar sessão ao Core pelo transporte correto - <exemplo>",
+      "feature": "tests/features/login/09-9-integracao-real-do-login-web.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@integracao",
+        "@ADR_022",
+        "@ADR_023",
+        "@ADR_141",
+        "@LLT86_C43",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C44",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "44 Rejeitar entrada inválida sem passar pelo formulário - <exemplo>",
+      "feature": "tests/features/login/10-anexo-verificacoes-complementares-de-backend.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@api",
+        "@clerk",
+        "@criterio_do_plano",
+        "@LLT86_C44",
+        "@planejado"
+      ],
+      "examples": 5,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C45",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "45 Recusar sessão inválida diretamente no Core - <exemplo>",
+      "feature": "tests/features/login/10-anexo-verificacoes-complementares-de-backend.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@api",
+        "@core",
+        "@ADR_022",
+        "@ADR_024",
+        "@ADR_032",
+        "@LLT86_C45",
+        "@planejado"
+      ],
+      "examples": 6,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C46",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "46 Revogar todas as sessões no 403 aplicável",
+      "feature": "tests/features/login/10-anexo-verificacoes-complementares-de-backend.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@api",
+        "@core",
+        "@integracao",
+        "@ADR_032",
+        "@ADR_034",
+        "@LLT86_C46",
+        "@planejado"
+      ],
+      "examples": 1,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    },
+    {
+      "id": "LLT86_C47",
+      "task": "LLT-86",
+      "module": "login",
+      "title": "47 Não criar Tenant somente por autenticar identidade - <exemplo>",
+      "feature": "tests/features/login/10-anexo-verificacoes-complementares-de-backend.feature",
+      "tags": [
+        "@LLT86",
+        "@USID_049",
+        "@api",
+        "@core",
+        "@ADR_121",
+        "@ADR_122",
+        "@LLT86_C47",
+        "@planejado"
+      ],
+      "examples": 2,
+      "source": "docs/LLT-86-login-BDD-DDT-refatorado.md",
+      "status": "verificar_implementacao_no_inventario"
+    }
+  ],
+  "sourceSha256": {
+    "entrega-84/LLT-84-plano-testes-ocorrencias.md": "bfe769805340fc6d3cdc8eda1585f2a82204ec59125aa4196e693505d3da4737",
+    "entrega-85/LLT-85-plano-testes-dashboards-relatorios.md": "e2a1e90671f712bb20856cbc91e7fce38924fa70aeea44884eb14c6b1f613b82",
+    "entrega-86/LLT-86-login-BDD-DDT-refatorado.md": "07cef124e649ecb98ab788b63da4cedba395190a55b82c8e788542c3c4b4f4e5"
+  }
+}

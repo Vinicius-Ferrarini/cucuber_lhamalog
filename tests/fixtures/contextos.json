@@ -1,0 +1,17 @@
+{
+  "empresaA": {
+    "nome": "Empresa Exemplo A",
+    "produtos": [
+      "Produto Alfa",
+      "Produto Gama"
+    ]
+  },
+  "empresaB": {
+    "nome": "Empresa Exemplo B",
+    "produtos": [
+      "Produto Beta"
+    ]
+  },
+  "usuario": "ana.exemplo@example.com",
+  "observacao": "Dados fictícios, sem conta real, senha, token ou autorização concedida."
+}
